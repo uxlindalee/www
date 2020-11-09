@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/swiper.css">
+
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/swiper.js"></script>
+<script>
+	window.onload = function(){
+		var swiper = new Swiper('.swiper-container', {
+					 pagination: '.swiper-pagination',
+					 paginationType: 'progress',
+					 slidesPerView: 'auto',
+					 paginationClickable: true,
+					 spaceBetween: 0,
+					 freeMode: true,
+					 nextButton: '.next',
+					 prevButton: '.back'
+		 });
+	};
+</script>
+
+<body>
+ <section class="character">
+			<div class="inWrap">
+				<div class="fInner swiper-container">
+					<ul class="swiper-wrapper">
+						<li class="swiper-slide"><a href="#"><span>Judy Hopps</span></a></li>
+						<li class="swiper-slide"><a href="#"><span>Nick Walde</span></a></li>
+						<li class="swiper-slide"><a href="#"><span>Gazelle</span></a></li>
+						<li class="swiper-slide"><a href="#"><span>Chief Bogo</span></a></li>
+						<li class="swiper-slide"><a href="#"><span>Bonnie</span></a></li>
+						<li class="swiper-slide"><a href="#"><span>Stu</span></a></li>
+						<li class="swiper-slide"><a href="#"><span>Finnick</span></a></li>
+						<li class="swiper-slide"><a href="#"><span>Mayor Lionheart</span></a></li>
+					</ul>
+					<ul class="swiper-wrapper">
+                        <li class="swiper-slide"><a href="#"><span>Benjamin</span></a></li>
+						<li class="swiper-slide"><a href="#"><span>Dawn</span></a></li>
+						<li class="swiper-slide"><a href="#"><span>Flash</span></a></li>
+						<li class="swiper-slide"><a href="#"><span>Mr.Big</span></a></li>
+						<li class="swiper-slide"><a href="#"><span>Fru Fru</span></a></li>
+						<li class="swiper-slide"><a href="#"><span>Yak</span></a></li>
+						<li class="swiper-slide"><a href="#"><span>Duke</span></a></li>
+						<li class="swiper-slide"><a href="#"><span>Mrs.Otterton</span></a></li>
+
+					</ul>
+					<!-- Add Pagination -->
+					<div class="swiper-pagination"></div>
+				</div>
+
+				<div class="button">
+					<div class="back"><a href="#"><span class="hidden">back</span></a></div>
+					<div class="next"><a href="#"><span class="hidden">next</span></a></div>
+				</div>
+			</div>
+		</section>
+		<section class="mainGallery">
+                <h3>GALLERY</h3>
+                <div class="swiper-container">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide"><a href="#none"><div></div><span>steel Cut1</span></a></li>
+                        <li class="swiper-slide"><a href="#none"><div></div><span>steel Cut2</span></a></li>
+                        <li class="swiper-slide"><a href="#none"><div></div><span>steel Cut3</span></a></li>
+                        <li class="swiper-slide"><a href="#none"><div></div><span>steel Cut4</span></a></li>
+                        <li class="swiper-slide"><a href="#none"><div></div><span>steel Cut5</span></a></li>
+                        <li class="swiper-slide"><a href="#none"><div></div><span>steel Cut6</span></a></li>
+                        <li class="swiper-slide"><a href="#none"><div></div><span>steel Cut7</span></a></li>
+                        <li class="swiper-slide"><a href="#none"><div></div><span>steel Cut8</span></a></li>
+                    </ul>
+                    <div class="swiper-pagination"></div>
+                    <a href="sub/gallery.html" class="more">view more</a>
+                </div>
+                <span class="wave"></span>
+            </section>
+   
+</body>
+</html>

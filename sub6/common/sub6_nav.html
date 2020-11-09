@@ -1,0 +1,38 @@
+<script>
+     window.onload=function(){
+
+        var num = '<?=$_GET['num']?>';
+        var nav1= document.getElementById('nav1'); 
+        var nav2= document.getElementById('nav2');
+
+         
+         if(num==1){
+              nav1.className='current';
+          }else if(num==2){
+              nav2.className='current';
+
+          }
+
+}
+
+</script>
+
+
+
+
+
+<!-- 메인비주얼영역 -->
+        <div class="visual"></div>
+              
+<!-- 서브네비영역 -->   
+        <div class="subnav_box">    
+            <div class="subNav">
+                <ul>
+                    <li><a href="sub6_1.html">본사안내</a></li>
+                    <li><a href="sub6_2.html">서울센터</a></li>
+                    <li><a id="nav1" href="sub6_3.html">국내지사</a></li>
+                    <li><a id="nav2" href="sub6_4.html">해외지사</a></li>
+
+                </ul>
+            </div>
+        </div>

@@ -1,0 +1,46 @@
+/* 국민참여 자주묻는질문 본문 */
+
+
+#content .title_area{font-family: 'Nanum Gothic', sans-serif}
+#content .title_area .line_map{font-size: 12px; color: #999; float: right; right: 10px; top: 10px; margin: 30px 0}
+#content .title_area h2{clear: both; font-size: 50px; font-weight: 800; text-align: center ; margin: 130px 0 30px 0}
+#content .title_area p{font-size: 1.125em; text-align: center}
+
+
+.content_area{font-family: 'Nanum Gothic', sans-serif; position: relative}
+.content_area .subNav{overflow: hidden; display: block; width: 1200px; padding: 150px 0}
+.content_area .subNav li{width: 200px; height: 200px; border-radius: 100px; background-color: #fef6df; text-align: center; float: left; margin-right: 45px;transition: all .5s}
+.content_area .subNav .current{background-color: #f7aa36}
+.content_area .subNav li:last-child{margin-right: 0}
+.content_area .subNav li:hover{background-color: #f7aa36}
+.content_area .subNav li a{display: block}
+.content_area .subNav li:hover a{color: #fff}
+.content_area .subNav li i{font-size: 50px; display: block; text-align: center;margin-bottom: 15px}
+.content_area .subNav li span{display: block; font-size: 20px; font-weight: 700; text-align: center; margin-top: 50px}
+
+.content_area h3{font-size: 30px; font-weight: 700; text-align: center}
+
+
+
+.content_area .faq{width: 860px;border-top: 3px solid #f7aa36;margin:150px auto}
+.content_area .faq .hgroup{position:relative; margin:0 0 10px 0}  
+.content_area .faq .hgroup .all{position:absolute; top:-50px; right:50px; color:#333; text-decoration:none; color:#f7aa36}  
+
+.content_area .faq ul{margin:0;padding:0;list-style:none} 
+.content_area .faq ul li{border-bottom: 1px solid #f7aa36}
+.content_area .faq ul li:last-child{border-bottom: 3px solid #f7aa36}
+
+.content_area .faq ul li p:nth-child(2){overflow:hidden; padding-bottom:20px; margin-top:0px; margin-bottom:0px; height:auto; padding-top:10px}
+.content_area .faq .q{height: 51px;padding:30px 0 0 100px; font-size: 1.25em;font-family: 'Nanum Gothic', sans-serif;  background: url(../images/content2/sub_3_q.jpg) 20px 20px no-repeat}  
+
+.content_area .faq .q a.trigger{display:block; color:#333; text-align:left; text-decoration:none}  
+.content_area .faq .hide .q a.trigger{font-weight:normal;background:none}  
+.content_area .faq .q a.trigger:hover,  
+.content_area .faq .q a.trigger:active,  
+.content_area .faq .q a.trigger:focus{font-weight: 700}  
+.content_area .faq .a{display: none;text-align: justify;padding:0 65px 30px 100px;margin-top: 20px;line-height: 2em;background: url(../images/content2/sub_3_a.jpg) 20px 0 no-repeat} 
+
+.content_area .faq ul li .a{border-bottom: 1px solid #f7aa36;display: block}
+
+
+.content_area .img{width: 1200px; height: 321px; background: url(../images/content2/sub_3_family.jpg) 780px 0 no-repeat}

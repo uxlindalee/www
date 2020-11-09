@@ -1,0 +1,137 @@
+/* 알림자료 본문 */
+
+.content_area h3{float: right; margin-top: 60px; font-family: 'Nanum Myeongjo', serif; color: #1f5153; font-size: 5em}
+.content_area .pattern{display: block; width: 99px; position: relative; top: 160px; left: 100px}
+.content_area .top_area{margin-bottom: 100px}
+
+
+/*알림, 소식 부분*/
+#news {position: relative}
+#news select.scale{width: 100px; height: 25px; margin-bottom: 30px; position: absolute; top: 60px}
+input, button, select{outline: none}
+form{overflow: hidden}
+
+/* list css */
+
+
+
+#list_content {margin-top: 30px; position: relative}
+#list_search::before{content: ''; width: 10%; height: 5px; background: #ccc; position: absolute; top: 0px; left: 0%; border-radius: 5px }
+
+#list_search {padding-top:10px; position: relative}
+#list_search .list_search1 {background: #0a355c; color: #fff; padding:10px; border-radius: 3px}
+#list_search .list_search2 {float:left; font-weight: 700; font-size: 20px; margin: 20px 10px 0 880px}
+#list_search .list_search3 {float:left;	margin-left:5px;margin-top:1px}
+#list_search .list_search3 select {width:100px;height:25px;border:solid 1px #cccccc; margin-top: 20px}
+#list_search .list_search4 {float:left;	margin-left:3px}
+#list_search .list_search4 input {width:120px;height:21px;border:solid 1px #cccccc;
+    background:rgba(10,53,92,.3); margin-top: 20px}
+#list_search .list_search5 {float:left;	margin-left:5px;margin-top:1px; margin: 20px 0 0 5px}
+
+
+#list_title {padding:15px; font-weight: bold;border-top:solid 2px #000;background-color:#0a355c;margin-bottom:3px; border-radius: 5px; color: #fff}
+
+#list_title li {display:inline}
+#list_title #list_title1 {margin-left:15px}
+#list_title #list_title2 {margin-left:350px}
+#list_title #list_title3 {margin-left:400px}
+#list_title #list_title4 {margin-left:100px}
+#list_title #list_title5 {margin-left:100px}
+
+
+
+#list_item {height:350px; width: 28%; float: left; margin-top:2px;padding:15px; border: 2px solid #ccc; margin-right: 3.5%; position: relative; margin-bottom: 3%}
+#list_item:nth-of-type(3n){margin-right: 0}
+#list_item #list_item1{position: absolute; left: 15px; z-index: 10; width: 60px; color: #fff; text-shadow: 1px 1px 5px #0a355c; text-align: center}
+#list_item #list_item2{overflow: hidden; height: 300px; text-align: center; line-height: 2em}
+#list_item #list_item2 img{float:left}
+#list_item #list_item2 dl{width:auto; float: none; margin-left: 0; padding-top: 0; margin-bottom: 0; line-height: 0}
+#list_item #list_item2 dt{font-size: 18px; font-weight: 800; color: #0a355c}
+#list_item #list_item2 dd{display: block; font-family: "sans-serif"; position: absolute; left: 20px; bottom: 10px}
+#list_item #list_item2 dd span{margin-right: 20px}
+#list_item .icons{overflow: hidden}
+
+
+#list_item a{display: block; transform: scale(1); transition: 1s ease}
+#list_item a:hover{display: block; transform: scale(1.1)}
+#list_item i{margin: 10px}
+
+#page_button {padding-top:100px; clear: both}
+#page_num {margin-top:10px; margin-bottom: 30px; text-align:center}
+#page_num a{display: inline-block; width: 20px; height: 20px; padding: 9px 10px; background: #333; color: #fff; margin: 0 10px}
+#page_num b{width: 20px; height: 20px; padding: 8px 10px; background: #fff; color: #333; border: 1px solid
+#333}
+
+#button {margin-left: 900px; width: 260px; height: 30px;border-radius: 5px; font-weight: bold; text-align:center}
+#button a{display: block; float: right; color: #fff; width: 100px; padding: 10px; margin-right: 5px; border-radius: 5px; background:#0a355c }
+
+
+
+/* write_form css */
+
+#write_form_title {margin-top:20px;	width:99%;height:50px; color: #fff; font-size: 20px; font-weight: 700; text-align:center;padding-top:25px; border-radius: 50px;
+	border-top:solid 2px #000;background-color:#0a355c}
+
+#write_form {width: 80%; margin: 10px 10% 20px}
+#write_form #write_row1 {width:99%; height:50px; margin:2px 0 2px 0}
+#write_form #write_row2 {width:99%; height:50px; margin:2px 0 2px 0}
+#write_form #write_row3 {width:99%; height:251px; margin:2px 0 2px 0}
+#write_form #write_row4 {width:99%; height:50px; margin:2px 0 2px 0}
+#write_form #write_row5 {width:99%; height:50px; margin:2px 0 2px 0}
+#write_form #write_row6 {width:99%; height:50px; margin:2px 0 2px 0}
+
+.write_line {width:99%; border-bottom:solid 1px #cccccc}
+
+#write_form .col1 {float:left;width:120px;text-align:center;padding:15px;background-color:#eeeeee}
+#write_form #write_row3 .col1 {height:116px;padding-top:120px}
+#write_form .col2 {	float:left;	margin-left: 10px;	margin-top:2px}
+
+#write_form #write_row1 .col2{font-weight: 700; font-size: 20px; padding-top: 10px}
+#write_form #write_row1 .col3 {float:left;	margin-top:15px;margin-left:600px}
+#write_row2 .col2 input {width:780px;height:42px;border:solid 1px #cccccc}
+#write_row3 .col2 textarea {margin-top:1px;width: 780px; height: 240px; border:solid 1px #cccccc}
+#write_row4 .col2 input {width:300px;height:25px;margin: 10px;border:solid 1px #cccccc}
+#write_row5 .col2 input {width:300px;height:25px;margin: 10px;border:solid 1px #cccccc}
+#write_row6 .col2 input {width:300px;height:25px;margin: 10px;border:solid 1px #cccccc}
+
+#write_button {margin-top:15px;	width:260px; margin: 0 auto;text-align:center}
+#write_button a{display: block; float: right; color: #fff; width: 100px; padding: 10px; margin-right: 5px; border-radius: 5px; background:#0a355c }
+#write_button input{display: block; float: right; color: #fff; width: 120px; padding: 10px; margin-right: 5px; border-radius: 5px; background:#0a355c; border: none; outline: none; font-size: 15px; text-align: center }
+
+.delete_ok {margin:0 0 3px 140px}
+
+
+
+/* view.php css */
+
+#view_comment {	margin:10px 0 0 10px}
+
+#view_title {padding:15px; height: 25px; font-weight: bold;border-top:solid 2px #000;background-color:#0a355c;margin-bottom:3px; color: #fff; border-radius: 5px}
+#view_title1 {float:left;width:70%}
+#view_title2 {float:left;width:28%;	text-align:right}
+
+#view_content {	width:96%;	text-align: center; min-height:200px;padding:15px; margin-bottom: 30px; overflow:hidden;line-height:150%;border-bottom:solid 1px #cccccc}
+#ripple{}
+#ripple #ripple_box{width: 80%; margin: 0 10%}
+#ripple #ripple_box #ripple_box1{font-family: "arial"; font-size: 20px; color: #0a355c; font-weight: 700; padding: 29px; margin-right: 10px}
+#ripple #ripple_box #ripple_box2{float: left}
+#ripple #ripple_box #ripple_box3{float: left}
+#ripple #ripple_box #ripple_box3 a input{border: none; background: #0a355c; color: #fff; padding: 15px 20px; font-size: 18px; font-weight: 700; margin-left: 1000px; border-radius: 5px}
+
+
+#view_button {margin: 20px 120px 0; width: 530px; height: 30px;border-radius: 5px; font-weight: bold; text-align:center}
+#view_button a{display: inline; float: left; color: #fff; width: 100px; padding: 10px; margin-right: 5px; border-radius: 5px; background:#0a355c }
+
+
+#ripple{}
+#ripple #ripple_writer_title{width: 90%; margin: 0 5%; border-top: 2px solid #eee}
+#ripple #ripple_writer_title ul{margin-top: 10px}
+#ripple #ripple_writer_title ul #writer_title1{color: #0a355c; margin-left: 20px; font-size: 20px; font-weight: 700}
+#ripple #ripple_writer_title ul #writer_title2{float: right}
+#ripple #ripple_writer_title ul #writer_title3{float: right}
+#ripple #ripple_writer_title ul #writer_title3 a{display: block; margin: -10px 20px 0 30px; padding: 10px; color: red; font-weight: 700; border-radius: 3px}
+#ripple #ripple_content{width: 90%; height: 50px; margin: 0 5% 10px 7%; clear: both}
+
+
+
+

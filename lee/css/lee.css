@@ -1,0 +1,7 @@
+#services{}
+#services .container{}
+#services .container .row{}
+#services .container .row img{width: 100px}
+
+.masthead .container .mb-5{text-shadow: -1px 0 #7dad59, 0 1px #7dad59, 1px 0 #7dad59, 0 -1px #7dad59;
+

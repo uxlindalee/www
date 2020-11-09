@@ -1,0 +1,34 @@
+/*공모전 부분*/
+
+
+.content_area .tabs{position: relative; width: 1200px; margin-bottom: 100px}
+
+.content_area .tabs .tab{display:block; width:250px; height: 370px; position:absolute; margin-bottom: 50px} 
+.content_area .tabs .tab img{width: 250px; height: 370px; transform:rotateY(0deg); transition:all .5s; z-index: 1}
+.content_area .tabs .tab:hover img{transform:rotateY(360deg)}
+
+.content_area .tabs .contlist{display: none; margin-top:650px; line-height:1.5em; background:#ccf}
+.content_area .tabs .contlist dl{width: 600px; margin-right: 100px; height: 700px; float: left; margin-bottom: 200px}
+.content_area .tabs .contlist img{width: 500px; height: 700px; float: right}
+
+.content_area .tabs .contlist dl dt{display: block; font-weight: 700; font-size: 1.5em; height: 50px; margin-top: 40px}
+.content_area .tabs .contlist .localmeet dt{color: #36a7e0}
+.content_area .tabs .contlist .smart dt{color: #fcb83c}
+.content_area .tabs .contlist .venture dt{color: #1785c4}
+.content_area .tabs .contlist .travel dt{color: #128683}
+.content_area .tabs .contlist dl dd{line-height: 1.5em}
+
+.tabs .tab1{left:0; top:-450px}
+.tabs .tab2{left:315px; top:-450px}
+.tabs .tab3{left:635px; top:-450px}
+.tabs .tab4{left:950px; top:-450px}
+
+.tabs .on{box-shadow: 5px 5px 10px 1px #ccc}
+
+ 
+
+
+
+
+
+

@@ -1,0 +1,46 @@
+/* 해외지사 본문 */
+
+
+#content{width: 100%; margin: 0 auto; font-family: 'Nanum Gothic', sans-serif; overflow: hidden; margin-top: 90px}
+#content .title_area img{width: 100%}
+#content .title_area h2{text-align: center; font-size: 2.5em; padding: 50px; font-weight: 700}
+.title_area p{margin: 0 10%; text-align: center; line-height: 1.5em}
+.title_area p strong{font-family: 'Nanum Myeongjo', serif; color: #0a355c; display: block; font-size: 1.5em; line-height: 3em; text-align: center; font-weight: 700}
+
+
+
+
+.content_area{font-family: 'Nanum Gothic', sans-serif}
+.content_area .hanbando{width: 90%; height: 300px; padding: 0 5%; background: url(../images/sub4/worldmap.jpg) center no-repeat; background-size: cover; margin-bottom: 50px}
+
+
+
+.content_area .area ul{overflow: hidden; display: block; text-align: center; width: 96%; padding: 0 2%}
+.content_area .area ul li{width: 19%; height: 200px; padding: 0 .5%; border-radius: 100px; text-align: center; float: left; transition: all .5s}
+.content_area .area ul li:last-child{margin-right: 0}
+.content_area .area ul li:focus{background-color: #00abf5}
+.content_area .area ul li img{width: 100%}
+.content_area .area ul li a{display: block; color: #00abf5; transition: all .5s }
+.content_area .area ul li:focus a{color: #fff; transform: scale(1.1)}
+.content_area .area ul li span{display: block; font-size: 1.1em; font-weight: 700; text-align: center; margin-top: -40px; font-family: 'Nanum Myeongjo', serif}
+
+
+
+.content_area .country_list img{width: 110px; height: 100px; margin-right: 10px; margin-top: -20px; float: left}
+
+.content_area .country_list li{margin-bottom: 100px}
+.content_area .country_list li p{font-family: 'Nanum Myeongjo', serif; font-size: 3em; font-weight: 700; letter-spacing: 10px; text-align: center; margin: 100px 0 20px 0; border-bottom: 2px solid #ccc; padding-bottom: 50px}
+.content_area .country_list dl{border-bottom: 1px dashed #ccc; padding: 20px 10px}
+.content_area .country_list dl dt{font-size: 1.4em; font-weight: 700; overflow: hidden}
+.content_area .country_list dl dt span{display: block; margin-top: 5px; font-size: .85em; font-weight: normal}
+.content_area .country_list dl dt .rect{width: 100px; height: 60px; margin-top: 5px}
+.content_area .country_list dl dd{line-height: 2em}
+.content_area .country_list dl dd strong{margin-right: 20px; font-size: 1.1em}
+
+
+
+
+/*  Animation */
+#content{animation-name: ani; animation-duration: 1s; animation-iteration-count: 1}
+@keyframes ani{from{opacity: 0; transform: translateY(-50px)}
+               to{opacity: 1;transform: translateY(0)}}

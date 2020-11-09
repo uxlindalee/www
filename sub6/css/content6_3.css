@@ -1,0 +1,16 @@
+/*국내지사 본문*/
+
+
+.content_area{overflow: hidden; font-family: 'Nanum Gothic', sans-serif}
+
+.content_area .hanbando{width: 1200px; height: 788px; transition: all .5s ease-out; background: url(../images/content3/hanbando-grey.jpg); margin-bottom: 100px}
+.content_area .hanbando:hover{background: url(../images/content3/hanbandologo.jpg)}
+
+.content_area ul{padding: 30px}
+.content_area ul li{overflow: hidden; line-height: 2em; width: 1198px; height: 200px; outline: 1px dashed #ccc}
+.content_area ul li img{float: left; width: 200px; height: 200px; margin-right: 100px; padding-left: 20px; background: #0a355c}
+.content_area ul li strong{font-size: 1.6em; line-height: 3em; margin: 0 0 40px 50px; width: 200px; font-weight: 800}
+.content_area ul li span{margin: 10px 10px 10px 50px; font-weight: 700; width: 100px}
+
+
+

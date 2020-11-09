@@ -1,0 +1,197 @@
+/* 와이드 pc  */
+#wrap{overflow: hidden; } /* width:1600px; margin:0 auto는 살짝 간격만들기*/
+	
+.videoBox{width:100%;height:100%; overflow:hidden; position:absolute;}
+#videoBG {
+   position:absolute; /*고정=>fixed/ 스크롤처리=>absolute */
+   left:50%;
+   top:50%; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+   width:auto;
+   min-width:100%; /*동영상 너비를 꽉차게*/
+   height:auto;
+   min-height:100%; /*동영상 높이를 꽉차게*/
+  transform:translateX(-50%) translateY(-50%);
+   z-index:-100; /*다른요소보다 아래에 위치*/
+  
+}
+
+#imgBG{
+	position:absolute; /*고정=>fixed/ 스크롤처리=>absolute */
+   left:50%;
+   top:50%; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+   width:auto;
+   min-width:100%; /*동영상 너비를 꽉차게*/
+   height:auto;
+   min-height:100%; /*동영상 높이를 꽉차게*/
+  transform:translateX(-50%) translateY(-50%);
+   z-index:-100;
+   display:none
+}
+
+.down{display: block; font-size: 20px; position: absolute; 
+	 left:50%; margin-left: -90px; bottom: 3%; text-align: center;
+	animation:ani 1s infinite  alternate;}
+@keyframes ani {
+	0% { transform:scale(1); opacity:1; color:#fff;}
+	100% { transform:scale(1.2); opacity:0.8; color:#888;}
+}	
+.down i{font-size: 30px; margin-top: 5px}
+	
+#headerArea{position:fixed; z-index: 30; height: 100px; left:0; top: 0; width: 100%}	
+#headerArea	.headerInner{width: 90%; margin: 0 5%}
+#headerArea h1{ width: 400px; height: 121px; position: absolute; left: 50%; top: 0; margin-left: -200px; margin-top: 15px; background: url(../images/logo.png) center no-repeat;text-indent: -9999%; }
+#headerArea h1 a{ color: #fff; text-decoration: none}	
+#headerArea #gnb{margin-top: 25px; position: absolute; left: 50%; top: 0; margin-top: 170px; margin-left: -281px}
+#headerArea #gnb ul{overflow: hidden; font-family: "zootopia"}
+#headerArea #gnb ul li{float: left; margin-right: 15px;}
+#headerArea #gnb ul li a{font-size: 20px; text-decoration: none; color: #000; position: relative; display: inline-block;  overflow: hidden; 
+
+  background: linear-gradient(to right, #f5692e, #f5692e 50%, black 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+  text-decoration: none; 
+}
+#headerArea #gnb ul li a:hover{background-position: 0 100%}
+@import url('https://fonts.googleapis.com/css?family=Barlow:800&display=swap');
+
+
+
+/* ABOUT CSS */
+
+#content{ width:100%}
+#content .about {position: relative; height: 100%; overflow: hidden}
+#content .about>img {width: 80%; position: relative; left: 0; top: 0}
+#content .about>div {width: 40%; height: 150%; transform: rotate(20deg); background: #f5692e; position: absolute; right: -70px; top: -90px}
+#content .about .about-text{transform: rotate(-20deg); margin-top: 70%; margin-left: 20%}
+
+#content .about div .about-text h3 a{display: block }
+#content .about div .about-text h3 a img{width: 80%; height: auto}
+#content .about div>p {width: 70%; font-size: 1.2em; color: #333; margin-top: 10%}
+
+
+
+
+/* CHARACTER CSS */
+#content .character{width: 100%; height: 2817px; margin: 0 auto; background: url(../images/contentback.jpg) bottom fixed no-repeat; background-size: cover; position: relative}
+#content .character h3{font-family: "zootopia"; color: #f5692e; font-size: 50px}
+#content .character h3 a{display: block; color: #f5692e; margin: 0 0 130px 100px; padding-top: 200px}
+
+#content .swiper-container {width: 90%; height: 100%; margin: 0 5%}
+
+#content .swiper-up {overflow: hidden; width: 100%}
+#content .swiper-up:nth-child(2){margin-bottom: 200px} 
+#content .swiper-down {}
+
+#content .swiper-slide {text-align: center; font-size: 18px; background: #fff; float: left; width: 21.2%; height: calc((100% - 30px) / 2); border-radius: 15px; margin-right: 5%; margin-bottom: 5%;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+    }
+#content .swiper-slide img{height: auto}
+#content .swiper-slide:nth-child(4){margin-right: 0}
+#content .swiper-slide a {width: 100%; height: 500px; display: block; background: rgba(0,0,0,.6); border-radius: 15px;transition: .5s ease; text-align: center; font-size: 1.2em; font-family: "zootopia";  color: #fff}
+#content .swiper-slide a:hover {background: rgba(255,255,255,.7); border-radius: 15px;color: #f5692e;}
+#content .swiper-down {display: none}
+#content .swiper-slide a span{display: block; margin: 20px 0;}
+
+
+
+#content .character .big-judy{ position: absolute; left: 10% ;bottom: 20%; z-index: 5; overflow: hidden}
+#content .character .big-judy img{ background: url(../images/dot.png) center no-repeat; padding: 0 100px}
+
+#content .character .big-judy dl {float: right; width: 50%; margin:100px 20px; text-align: center}
+#content .character .big-judy dl dt{font-family: "zootopia"; color: #3682d6; font-size: 50px; line-height: 3em}
+#content .character .big-judy dl dd{width: 70%; font-size: 25px; margin: 0 auto}
+
+
+#content .world {overflow: hidden}
+#content .world h3{width: 100%; height: 400px; font-family: "zootopia"; background: #f5692e; font-size: 70px; text-align: center}
+#content .world h3 a{display: block; color: #fff; padding: 140px 0}
+#content .world ul{width: 90%; margin: 0 5%; margin-top: 5%; overflow: hidden}
+#content .world ul li{float: left}
+#content .world ul li a{}
+#content .world ul li a img{width: 100%}
+
+#content .world>ul li{margin-right: 5%; margin-bottom: 5%}
+#content .world>ul li:last-child{margin-right: 0}
+
+#content .world>ul:nth-of-type(1) li{width: 30%}
+#content .world>ul:nth-of-type(2) li{width: 47.5%}
+#content .world>ul:nth-of-type(3) li{width: 30%}
+
+
+#content .ost {width: 100%; background: url(../images/ost_back.jpg) center fixed no-repeat; background-size: cover}
+#content .ost h3{font-family: "zootopia"; font-size: 70px; text-align: center}
+#content .ost h3 a{display: block; padding: 140px 0 70px; color: #fff}
+#content .ost p{font-family: "zootopia"; font-size: 40px; margin-left: 100px; margin-bottom: 20px}
+#content .ost>img{margin-left: 100px; padding-bottom: 100px}
+#content .ost ul{float: right; margin-right: 20%}
+#content .ost ul li{width: 100px; height: 100px}
+#content .ost ul li a{display: block; margin: 20px;width: 100px; height: 100px; border-radius: 50px}
+#content .ost ul li a:hover{box-shadow: 4px 4px 8px #000000; }
+#content .ost ul li a img{width: 100px; height: 100px; border-radius: 50px}
+
+
+/* Footer Area CSS */
+
+#footerArea {width: 100%; height: 200px; background: #333 url(../images/footerlogo) center top 65px no-repeat; clear: both; padding: 10% 0 5%; background-size: 300px; text-align: center; font-size: 1em; font-weight: 700; color: #ccc; position: relative}
+#footerArea address {margin-top: 100px; word-break: break-word}
+#footerArea p {margin-top: 30px; color: #fff; word-break: break-word}
+#footerArea div.toTop {position: absolute; top: -30px; left: 50%; margin-left: -45px; background-color: #333; border-radius: 90px; z-index: 10}
+#footerArea .toTop a {display: block; width: 90px; height: 90px; color: #fff; line-height: 90px; }
+
+#footerArea div.toTopAni {animation: toTop 0.6s both}
+#footerArea .toTopAni:hover {animation: toTop 1s infinite; }
+@keyframes toTop {
+  0% { transform: scale3d(1, 1, 1); }
+  30% { transform: scale3d(0.75, 1.25, 1); }
+  40% { transform: scale3d(1.25, 0.75, 1); }
+  50% { transform: scale3d(0.85, 1.15, 1); }
+  65% { transform: scale3d(1.05, 0.95, 1); }
+  75% { transform: scale3d(0.95, 1.05, 1); }
+  100% { transform: scale3d(1, 1, 1); }
+}
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+	
+}
+
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+	
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+	
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+	#footerArea address {margin-top: 150px}
+}
+
+/* 최소 사이즈 처리 */
+@media screen and (max-width:480px) {
+	#wrap { min-width:320px; }
+}
+
+

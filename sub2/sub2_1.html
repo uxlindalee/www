@@ -1,0 +1,73 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>한국관광공사 관광교육사업</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e49f5d3028.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub2common.css">
+    <link rel="stylesheet" href="css/content21.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+            
+</head>
+<body>
+    
+ <? include "../common/sub_head.html" ?>  
+ <? $_GET['num']=1;
+      include "common/sub2_nav.html"; ?> 
+    
+
+        
+<!-- 본문콘텐츠영역 -->       
+        <article id="content">
+            <div class="title_area">
+               <div class="line_map">
+                   <span>HOME</span> &gt; <span>사업소개</span> &gt; <strong>관광교육사업</strong>
+               </div>
+               
+                <h2>관광교육사업</h2>
+            </div>
+            <div class="content_area">
+                   <div class="edu_info">
+                       <h3><a href="https://academy.visitkorea.or.kr/edu/apply/list.do">교육정보 / 신청</a></h3>
+                       <p>3년 이상 관련 경력보유자를 대상으로 VIP 서비스, 관광스토리텔링기법, 보이스코칭, 안전교육등 공통과정과 한국의 역사문화, 세계유산, 의료관광, 음식관광 등 테마별 심화과정 등 총 70시간의 교과로 구성되어 있습니다.</p>
+                       <p><a href="https://academy.visitkorea.or.kr/edu/apply/list.do">관광인 바로가기 &#43;</a></p>
+                   </div>
+                   <div class="edu_certi">
+                       <div>
+                           <h3>관광통역안내사</h3>
+                           <p>개별관광, 특수목적관광 등 관광트렌드 변화에 대응하기 위한 한국관광공사의 테마별 전문가 양성교육인 프리미엄 교육과정을 이수한 관광통역안내사입니다.</p>
+                       </div>
+                       <div>
+                           <h3>자격증 안내</h3>
+                           <p>관광통역안내사 자격증은 관광도 하나의 산업으로서 국가경제에 미치는 영향이 크다고 판단되어 문화체육관광부에서 실시하는 통역분야의 유일한 국가공인자격증입니다.</p>
+                       </div>
+                   </div>
+            </div>
+            
+            
+        </article>
+    
+ <? include "../common/sub_foot.html" ?>
+    
+        
+            
+                    
+</body>
+</html>

@@ -1,0 +1,11 @@
+/*서울센터 본문*/
+
+.content_area{overflow: hidden; font-family: 'Nanum Gothic', sans-serif}
+.content_area>div:first-child img{width: 400px; height: 600px; border-radius: 0 150px 0 0; float: left}
+.content_area>div:first-child ul{float: right; font-size: 1.3em; line-height: 2em; margin: 100px 50px}
+.content_area>div:first-child ul li{margin-bottom: 50px}
+
+.content_area ul li i{margin-right: 30px; font-size: 1.3em}
+
+.content_area #seoul_map{width: 1200px; height: 600px; margin: 100px 0}
+.content_area img:last-child{width: 400px; height: 300px; position: relative; left: 400px; bottom: 0}

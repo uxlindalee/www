@@ -1,0 +1,38 @@
+/* 한국관광공사 본사안내 페이지 CSS */
+
+
+#content{width: 100%; margin: 0 auto; font-family: 'Nanum Gothic', sans-serif; overflow: hidden; margin-top: 90px}
+#content .title_area img{width: 100%}
+#content .title_area h2{text-align: center; font-size: 2.5em; padding: 50px; font-weight: 700}
+.title_area p{margin: 0 10%; text-align: center; line-height: 1.5em}
+.title_area p strong{font-family: 'Nanum Myeongjo', serif; color: #0a355c; display: block; font-size: 1.5em; line-height: 3em; text-align: center; font-weight: 700}
+
+
+
+.content_area{font-family: 'Nanum Gothic', sans-serif}
+.content_area>div:first-child img{width: 100%; border-radius: 0 100px 0 0}
+.content_area>div:first-child ul{font-size: 1.2em; line-height: 2em; overflow: hidden}
+.content_area>div:first-child ul li{width: 40%; padding: 10% 5%; float: left}
+.content_area>div:first-child ul li i{color: #0a355c}
+
+.content_area .way{}
+.content_area .way h3{font-size: 1.7em; text-align: center; margin: 100px 0 10px 0; font-weight: 700}
+
+
+.content_area table{width: 100%; margin-bottom: 50px; line-height: 2em}
+.content_area table thead{background: #eee; text-align: center; font-size: 1.2em}
+.content_area table th,.content_area table td{border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: 10px; text-align: left}
+.content_area table .line{border-left: 1px solid #ccc; border-right: 1px solid #ccc}
+.content_area table i{margin: 0 10px; font-size: 1.5em}
+.content_area .instruction tbody tr th{width: 30%}
+
+.content_area #map{width: 100%; height: 400px; margin: 50px 0}
+
+
+
+
+
+/*  Animation */
+#content{animation-name: ani; animation-duration: 1s; animation-iteration-count: 1}
+@keyframes ani{from{opacity: 0; transform: translateY(-50px)}
+               to{opacity: 1;transform: translateY(0)}}

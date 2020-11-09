@@ -1,0 +1,37 @@
+/* 연혁 본문 */
+
+#content .title_area{font-family: 'Nanum Gothic', sans-serif}
+#content .title_area .line_map{font-size: 12px; color: #999; float: right; right: 10px; top: 10px; margin: 30px 0}
+#content .title_area h2{clear: both; font-size: 60px; font-weight: 800; text-align: center; margin:130px 0}
+#content .title_area h2 span{font-size: 30px; margin-bottom: 100px}
+
+
+#content{width: 1200px; margin: 0 auto; font-family: 'Nanum Gothic', sans-serif; overflow: hidden}
+
+
+
+#content .dabs ul{overflow: hidden; margin: 0 auto}
+#content .dabs ul li{width: 20%; float: left; text-align: center; color: #333; background: #fff}
+#content .dabs ul li a{display: block; background: #f7f7f7; padding: 15px 0; font-size: 1.25em; margin: 0 auto; transition: all .2s}
+#content .dabs ul li a:hover, #content .dabs ul li a:focus{display: block;  background: #333; color: #fff; letter-spacing: 1px; transition: all 0.3s ease; font-weight: 800}
+
+
+
+#content .history .list{overflow: hidden}
+#content .history .list .year{float: left; width: 500px; margin-top: 80px; position: relative}
+#content .history .list .year h3{font-size: 30px; font-weight: 700; left: 50%; text-align: right; margin-top: 100px}
+#content .history .list .year p{font-family: 'Roboto', sans-serif; font-size: 250px; font-weight: 900; color: #f7f7f7; margin-top: 180px; line-height: 1; text-align: left; right: 123px; letter-spacing: -1px}
+#content .history .list .year img{position: absolute; left: 42%; top: 200px}
+#content .history .list .yearright{float: left}
+#content .history .list .yearright ul{margin-top: 200px}
+#content .history .list .yearright ul::before{content: ""; display: block; width: 1px; height: 4033px; background: #e0e0e0; position: absolute; left: 50%; top: 998px; z-index: 1; margin-left: -1px}
+#content .history .list .yearright ul li{font-size: 16px; color: #666; margin-bottom: 35px; margin-left: 170px}
+#content .history .list .yearright ul li::before{content: ""; display: block; width: 60px; height: 1px; background: #e0e0e0; position: absolute; left: 50%}
+#content .history .list .yearright ul li strong{font-size: 20px; font-weight: 800; color: #333; position: relative}
+#content .history .list .yearright ul li:hover strong::before {
+    content: '';width: 10px;height: 10px;border-radius: 5px;background: red;position: absolute;left: -75px;top: -5px;z-index: 10}
+#content .history .list:last-child{margin-bottom: 200px}
+
+#content .dabs.navOn{position: fixed; width: 100%; z-index:100; left:0; top: 0}
+#content .dabs ul li a.spy{background: #333; color: #fff; font-weight: 800; letter-spacing: 1px}
+

@@ -1,0 +1,146 @@
+@charset "utf-8";
+
+/* CSS Reset */
+
+html, body, div , span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{margin: 0; padding: 0; border: 0; font-size: 100%}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section{display: block}
+body{font-family: "돋움", Dotum,"굴림",Gulim, sans-serif; font-size: 16px;
+  color: #333}
+ol, ul{list-style: none}
+table{border-collapse: collapse; border-spacing: 0}
+address{font-style: normal}
+a{color: #333; text-decoration: none}
+img{border: 0; vertical-align: top}
+
+
+
+.hidden{display: block; position: absolute;
+ left: -1000%; width: 1px; height: 1px;
+  overflow: hidden; color: #fff}
+
+#skipNav{position:relative; z-index: 30; width:100%;overflow:hidden}
+#skipNav a{display:block; height:1px; margin-bottom:-1px; overflow:hidden; text-align:center; font-size:1em}
+#skipNav a:hover,#skipNav a:focus,#skipNav a:active{height:auto;padding:10px 0; background: #f2f2f2}
+
+
+/* 
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+
+
+/* 해더공통영역 */
+#wrap{width: 100%; overflow: hidden; position: relative}
+
+#headerArea{width: 100%; position: fixed; left:0; top:0; background: rgba(0, 0, 0, .7); z-index: 20}
+
+#headerArea .header_inner{width: 1200px;  margin: 0 auto}
+#headerArea .logo{}
+#headerArea .logo a{display: block; float: left; width: 257px; height: 87px; background: url(../images/logo.png); text-indent: -999px; overflow: hidden; margin: 11px 14px 16px 29px}
+
+
+#headerArea .topright{width: 900px; float: right}
+#headerArea .top_menu{overflow: hidden;font-family: 'Nanum Gothic', sans-serif; font-weight: 400; font-size: 14px; color: #fff; overflow: hidden}
+#headerArea .top_menu ul{ overflow: hidden; float: right; margin-right: 30px; margin-top: 11px}
+#headerArea .top_menu ul li{float: left; margin-right: 20px}
+#headerArea .top_menu ul li:first-child{position: relative}
+#headerArea .top_menu ul li:nth-of-type(2)::after{content: '|'; position: absolute; right:-10px; top:0}
+#headerArea .top_menu ul li:last-child{margin-right: 0}
+#headerArea .top_menu ul li a{color: #fff}
+#headerArea .top_menu ul .searchBox #search{border: 0; color: #fff; background: none; outline: 0;width: 80px}
+#headerArea .top_menu ul .searchBox button{ border: 0; background: none; cursor: pointer}
+#headerArea .top_menu ul .searchBox i{font-size: 14px; color: #fff}
+
+
+
+
+
+/* 공통 gnb 영역 */
+#headerArea #gnb{clear: both; width: 900px;padding-top: 5px; height: 80px; font-family: 'Nanum Gothic', sans-serif}
+
+#gnb .dropdownmenu{float:left;color: #fff; padding-top: 30px}
+#gnb .dropdownmenu .menu{position:relative;text-align:center;float:left;width:145px;height:35px}
+#gnb .dropdownmenu .menu h3{position:relative;width:150px;height:20px;font-size: 1.25em}
+
+#gnb .dropdownmenu li .depth1{display:block;width:145px; color: #fff}
+#gnb .dropdownmenu .m1 .depth1:hover{color: red}
+#gnb .dropdownmenu .m2 .depth1:hover{color: orange}
+#gnb .dropdownmenu .m3 .depth1:hover{color: yellow}
+#gnb .dropdownmenu .m4 .depth1:hover{color: hotpink}
+#gnb .dropdownmenu .m5 .depth1:hover{color: aqua}
+#gnb .dropdownmenu .m6 .depth1:hover{color: lawngreen}
+
+#gnb .dropdownmenu .menu ul{width:145px;float: left; padding:15px 0; height: 300px; display: none}
+
+#gnb .dropdownmenu .menu ul li{text-align:center;font-size: 1em; font-weight:400;float: left; width: 150px;line-height: 1.7em}
+#gnb .dropdownmenu .menu ul li:first-child{padding-top: 30px}
+#gnb .dropdownmenu .menu ul li a{display: block; padding: 5px 0; text-decoration:none; transition: all .2s; color: #fff; font-weight: 400}
+#gnb .dropdownmenu .m1 ul li a:hover{display: block;color:#f00;text-decoration:none;font-weight: 700}
+#gnb .dropdownmenu .m2 ul li a:hover{display: block;color:orange;text-decoration:none}
+#gnb .dropdownmenu .m3 ul li a:hover{display: block;color:yellow;text-decoration:none}
+#gnb .dropdownmenu .m4 ul li a:hover{display: block;color:hotpink;text-decoration:none}
+#gnb .dropdownmenu .m5 ul li a:hover{display: block;color:aqua;text-decoration:none}
+#gnb .dropdownmenu .m6 ul li a:hover{display: block;color:lawngreen;text-decoration:none}
+#gnb .dropdownmenu .m6 ul li::before a:hover{content:'';width: 10px;height: 10px;border-radius: 5px;background: red;position: absolute;left: 100px;top: 100px;z-index: 11}
+
+
+/* 상단 탑메뉴 공통 */
+
+.topMove{display:block; width: 50px; height: 50px; background: #0a355c; border-radius: 25px; position: fixed; left:50%; margin-left: 650px; bottom:250px} 
+.topMove span{font-family: 'Nanum Gothic', sans-serif; font-size: 25px; color: #fff; font-weight: 700; display: block; text-align: center; margin-top: 9px}
+
+
+
+/* 푸터공통영역 */
+
+#footerArea{overflow: hidden; clear: both; height: 203px; background: #0a355c; font-family: 'Nanum Gothic', sans-serif}
+#footerArea .footer_inner{width: 1200px; margin: 0 auto}
+#footerArea .footer_top{overflow: hidden; color: #fff}
+#footerArea .footer_top ul{width: 1200px}
+#footerArea .footer_top ul li{font-size: 16px; margin-top: 17px; margin-right: 60px; float: left; text-align: center}
+#footerArea .footer_top ul li:first-child{margin-left: 40px}
+#footerArea .footer_top ul li:last-child{margin-right: 0}
+#footerArea .footer_top ul li a{color: #fff}
+
+#footerArea .footer_bottom{overflow: hidden; margin-top: 60px}
+#footerArea .footer_bottom .footer_logo{margin-right: 30px; float: left}
+#footerArea .footer_bottom .footer_mid{width: 700px; font-family: 'Nanum Gothic', sans-serif; font-size: 14px; line-height: 25px; color: #999; float: left}
+#footerArea .footer_bottom .sns_logo{width: 170px; float: right}
+#footerArea .footer_bottom .sns_logo ul li i{font-size: 20px; margin-top: 30px; margin-right: 15px; color: white; float: left}
+
+
+
+#footerArea .footer_bottom .select{width:160px; height:25px; background:#fff; border:1px solid #ccc; position:relative; margin:0 40px; float: right}
+#footerArea .footer_bottom .select .arrow{display:block; font-size:1em;padding:3px 0 0 20px}
+#footerArea .footer_bottom .select .arrow:hover{color:#666}
+#footerArea .footer_bottom .select .aList{position:absolute; top:25px; left:-1px; width:160px; border:1px solid #ccc; display:none}
+#footerArea .footer_bottom .select .aList li{line-height:1.5em; border-bottom:1px solid #ccc; background: #fff}
+#footerArea .footer_bottom .select .aList li a{display:block;padding-left:15px}
+#footerArea .footer_bottom .select .aList li a:hover{ background:#F0F0F0; color:#666; transform: scale(1.1)}
+
+
+
+
+
+
+
+
+
+
+
+

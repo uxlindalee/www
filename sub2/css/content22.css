@@ -1,0 +1,21 @@
+/* 마케팅지원 본문 */
+
+#content .title_area{font-family: 'Nanum Gothic', sans-serif}
+#content .title_area .line_map{font-size: 12px; color: #999; float: right; right: 10px; top: 10px; margin: 30px 0}
+#content .title_area h2{clear: both; font-size: 50px; font-weight: 700; text-align: center; margin:130px 0}
+.subnav_box .subNav ul li{width: 20%; float: left; text-align: center; color: #999}
+
+
+#content .content_area p{font-size: 1.125em}
+#content .content_area .mice{margin-bottom: 100px; text-align: center}
+#content .content_area .mice p{line-height: 2em}
+#content .content_area .mice h3{font-size: 40px; font-weight: 700; margin: 60px 0}
+
+
+#content .content_area ul{overflow: hidden}
+#content .content_area ul li{float: left; background-color: #f7f7f7; margin-right: 20px; width: 370px; height: 400px}
+#content .content_area ul li p{margin: 40px 30px; line-height: 2em; font-size: 1em; text-align: justify}
+#content .content_area ul li p strong{line-height: 3em; font-size: 1.3em}
+
+#content .content_area .giffile{width: 800px; height: 300px; background: url(../images/content2/sub_12_fun.gif) center no-repeat; position: relative; left: 200px; margin: 50px 0}
+

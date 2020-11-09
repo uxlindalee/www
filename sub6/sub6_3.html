@@ -1,0 +1,74 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>한국관광공사 국내지사</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/e49f5d3028.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub6common.css">
+    <link rel="stylesheet" href="css/content6_3.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+            
+</head>
+<body>
+    
+ 
+ <? include "../common/sub_head.html" ?>
+ <? $_GET['num']=1;
+      include "common/sub6_nav.html";  ?>   
+    
+
+        
+        
+        
+<!-- 본문콘텐츠영역 -->       
+        <article id="content">
+            <div class="title_area">
+               <div class="line_map">
+                   <span>HOME</span> &gt; <span>시설안내</span> &gt; <strong>국내지사</strong>
+               </div>
+               
+                <h2>국내지사</h2>
+            </div>
+            
+            
+            <div class="content_area">
+               <div class="hanbando">
+                
+                <div class="overlay"></div>
+                </div>
+                
+            <section id="contacts"></section>    
+                
+                
+                
+            </div>
+            
+            
+        </article>
+        
+        
+ <? include "../common/sub_foot.html" ?>            
+            
+ <script src="js/data-json.js"></script>                       
+                           
+                                 
+                         
+</body>
+</html>

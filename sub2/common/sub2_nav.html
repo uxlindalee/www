@@ -1,0 +1,44 @@
+<script>
+     window.onload=function(){
+
+        var num = '<?=$_GET['num']?>';
+        var nav1= document.getElementById('nav1'); 
+        var nav2= document.getElementById('nav2');
+        var nav3= document.getElementById('nav3');
+        var nav4= document.getElementById('nav4');
+        var nav5= document.getElementById('nav5');
+         
+         if(num==1){
+              nav1.className='current';
+          }else if(num==2){
+              nav2.className='current';
+          }else if(num==3){
+              nav3.className='current';
+          }else if(num==4){
+              nav4.className='current';
+          }else if(num==5){
+              nav5.className='current';
+          }
+
+}
+
+</script>
+
+
+
+
+<!-- 메인비주얼영역 -->
+        <div class="visual"></div>
+              
+<!-- 서브네비영역 -->   
+        <div class="subnav_box">    
+            <div class="subNav">
+                <ul>
+                    <li><a id="nav1" href="sub2_1.html">관광교육사업</a></li>
+                    <li><a id="nav2" href="sub2_2.html">관광마케팅지원</a></li>
+                    <li><a id="nav3" href="sub2_3.html">관광홍보지원</a></li>
+                    <li><a id="nav4" href="sub2_4.html">관광투자지원</a></li>
+                    <li><a id="nav5" href="sub2_5.html">관광컨설팅지원</a></li>
+                </ul>
+            </div>
+        </div>

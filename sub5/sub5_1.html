@@ -1,0 +1,94 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>한국관광공사 정보공개</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e49f5d3028.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub5common.css">
+    <link rel="stylesheet" href="css/content5_1.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+            
+</head>
+<body>
+    
+ 
+ <? include "../common/sub_head.html" ?>
+ <? $_GET['num']=1;
+      include "common/sub5_nav.html";  ?>   
+    
+
+        
+        
+<!-- 본문콘텐츠영역 -->       
+        <article id="content">
+            <div class="title_area">
+               <div class="line_map">
+                   <span>HOME</span> &gt; <span>정보공개</span> &gt; <strong>이용안내</strong>
+               </div>
+               
+                <h2>이용안내</h2>
+            </div>
+            
+            
+            
+            <div class="content_area">
+                   <div class="what">
+                      <div class="image"></div>
+                      <div>
+                           <h3>정보공개제도란</h3>
+                           <p>공공기관이 직무상 작성 또는 취득하여 관리하고 있는 정보를 수요자인 국민의 청구에 의하여 열람·사본·복제 등의 형태로 청구인에게 공개하거나 공공기관이 자발적으로 또는 법령등의 규정에 의하여 의무적으로 보유하고 있는 정보를 배포 또는 공표등의 형태로 제공하는 제도를 말합니다. 전자를 「청구 공개」라 한다면, 후자는「정보제공」이라 할 수 있습니다. </p>
+                      </div>
+                      <div class="shape"></div>
+                   </div>
+                    
+                    <div class="who">
+                        <h3>정보공개의 청구권자</h3>
+                        <img src="images/content1/sub5_graph.jpg" alt="정보공개 청구권자">
+                        <ul>
+                            <li><strong><i class="fas fa-user-friends"></i>모든 국민</strong><br>
+                            모든 국민은 청구인 본인 또는 그 대리인을 통하여 공공기관에 정보공개를 청구할 권리를 가지고 있습니다.</li>
+                            <li><strong><i class="fas fa-gavel"></i>법인·단체</strong><br>
+                            법인과 단체의 경우는 대표자의 명의로 공공기관에 정보공개를 청구할 권리를 가지고 있습니다.</li>
+                            <li><strong><i class="fas fa-globe-asia"></i>외국인</strong><br>
+                            청구권이 인정되는 외국인의 범위는 다음과 같습니다.<br>
+
+                            - 국내에 일정한 주소를 두고 거주하는 자<br>
+                            - 학술ㆍ연구를 위하여 일시적으로 체류하는 자<br>
+                            - 국내에 사무소를 두고 있는 법인 또는 단체</li>
+                        </ul>
+                            
+                    </div>
+                    
+                    <div class="about">
+                        <h3>대상정보</h3>
+                        <img src="images/content1/file.jpg" alt="">
+                        <p>모든 국민공공기관이 직무상 작성 또는 취득하여 관리하고 있는 <br> 문서· 도면·사진·필름·테이프·슬라이드 및 <br> 컴퓨터에 의하여 처리되는 매체 등에 기록된 사항</p>
+                    </div>
+                    
+            </div>
+            
+            
+        </article>
+        
+        
+ <? include "../common/sub_foot.html" ?>            
+               
+                         
+</body>
+</html>

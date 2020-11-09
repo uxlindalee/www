@@ -1,0 +1,25 @@
+/* 홍보지원 본문 */
+
+#content .title_area{font-family: 'Nanum Gothic', sans-serif}
+#content .title_area .line_map{font-size: 12px; color: #999; float: right; right: 10px; top: 10px; margin: 30px 0}
+#content .title_area h2{clear: both; font-size: 50px; font-weight: 700; text-align: center; margin:130px 0}
+.subnav_box .subNav ul li{width: 20%; float: left; text-align: center; color: #999}
+
+#content .content_area{font-family: 'Nanum Gothic', sans-serif; overflow: hidden}
+#content .content_area ul{line-height: 2em;margin:70px 100px; width: 1000px}
+#content .content_area ul li{height: 335px; margin-bottom: 100px;overflow: hidden; margin-left: 50px}
+
+#content .content_area ul::before{content: ""; display: block; width: 1px; height: 1200px; background: #e0e0e0; position: absolute; left: 50%; top: 788px; z-index: 1; margin-left: -1px}
+
+#content .content_area ul li p{width: 400px; height: 333px;text-align: justify}
+#content .content_area ul li:nth-child(1) p{margin-left: 500px}
+#content .content_area ul li:nth-child(3) p{margin-left: 500px}
+#content .content_area ul li .move{float: left; margin-right: 100px}
+#content .content_area ul li strong{display: block; font-size: 2em; line-height: 2em; border: 1px solid #ccc; padding: 15px 0 15px 50px}
+#content .content_area ul li img{width: 392px; height: 333px; overflow: hidden; display: block}
+#content .content_area ul li img:nth-child(1){float: left}
+#content .content_area ul li img:nth-child(2){}
+#content .content_area ul li img:nth-child(3){float: left}
+
+
+

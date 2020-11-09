@@ -1,0 +1,201 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>한국관광공사 갤러리</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="Stylesheet" href="fancybox/jquery.fancybox-1.3.4.css"/>
+    <script src="https://kit.fontawesome.com/e49f5d3028.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub4common.css">
+    <link rel="stylesheet" href="css/content4_3.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+            
+</head>
+<body>
+    
+ <? include "../common/sub_head.html" ?>
+<? $_GET['num']=3;
+      include "common/sub4_nav.html";  ?>           
+  
+            
+                                
+<!-- 본문콘텐츠영역 -->      
+           <article id="content">
+            <div class="title_area">
+               <div class="line_map">
+                   <span>HOME</span> &gt; <span>알림/자료</span> &gt; <strong>갤러리</strong>
+               </div>
+                  
+                   <h2>갤러리</h2>
+                   
+                   <p><strong>아름다운 우리나라 사진, 활용 가능!</strong>
+
+                    한국관광공사는 전국 관광지 및 관광자원 사진을 무료로 제공하고 있습니다. 이용방법은 ‘대한민국 구석구석’ 사이트(http://visitkorea.or.kr)에 <br>
+                    회원 가입한 후, ‘온라인 사진갤러리’ 에서 원하는 사진을 검색, 다운로드 받으면, 한국관광 홍보자료로 자유롭게 이용할 수 있습니다.</p>
+            </div>
+                       
+            <div class="content_area">
+                  
+                
+
+<!--갤러리영역 -->                                 
+                <section id="gallery">
+                    
+                    <div class="box">
+                    <ul>
+                        <li><a rel="fancybox" href="images/content3/tower.jpg"><img src="images/content3/tower.jpg" alt="namsan tower">
+                        <div class="overlay">남산타워</div></a></li>
+                        <li><a rel="fancybox" href="images/content3/sub_4_palacesky.jpg"><img src="images/content3/sub_4_palacesky.jpg" alt="palace with blue sky">
+                        <div class="overlay">한국정자</div></a></li>
+                    </ul>
+                    <ul>
+                        <li><a rel="fancybox" href="images/content3/jindo.jpg"><img src="images/content3/jindo.jpg" alt="korean jindo dog">
+                        <div class="overlay">진돗개</div></a></li>
+                        <li><a rel="fancybox" href="images/content3/mugunghwa.jpg"><img src="images/content3/mugunghwa.jpg" alt="korean national flower, mugunghwa">
+                        <div class="overlay">무궁화</div></a></li>
+                        <li><a rel="fancybox" href="images/content3/bibimbap.jpg"><img src="images/content3/bibimbap.jpg" alt="korean traditional dish:bibimbap">
+                        <div class="overlay">비빔밥</div></a></li>
+                    </ul>
+                    <ul>
+                        <li><a rel="fancybox" href="images/content3/sub_4_galdae.jpg"><img src="images/content3/sub_4_galdae.jpg" alt="fall reed">
+                        <div class="overlay">한국 갈대숲</div></a></li>
+                        <li><a rel="fancybox" href="images/content3/hanbok.jpg"><img src="images/content3/hanbok.jpg" alt="korean traditional costume, hanbok">
+                        <div class="overlay">한국 전통한복</div></a></li>
+                    </ul>
+                    <ul>
+                        <li><a rel="fancybox" href="images/content3/sub_4_lee.jpg"><img src="images/content3/sub_4_lee.jpg" alt="lee sun sin jangun">
+                        <div class="overlay">이순신장군</div></a></li>
+                        <li><a rel="fancybox" href="images/content3/sub4_twilight.jpg"><img src="images/content3/sub4_twilight.jpg" alt="twilight view of Seoul">
+                        <div class="overlay">서울전경</div></a></li>
+                        <li><a rel="fancybox" href="images/content3/palaceroof.jpg"><img src="images/content3/palaceroof.jpg" alt="palace roof">
+                        <div class="overlay">경복궁</div></a></li>
+                    </ul>
+                    <ul>
+                        <li><a rel="fancybox" href="images/content3/korea1.jpg"><img src="images/content3/korea1.jpg" alt="">
+                        <div class="overlay">궁 야간배경</div></a></li>
+                    </ul>
+                    <ul class="mini">
+                        <li><a rel="fancybox" href="images/content3/mini1.jpg"><img src="images/content3/mini1.jpg" alt="">
+                        <div class="overlay">광안리 불꽃축제</div></a></li>
+                        <li><a rel="fancybox" href="images/content3/mini2.jpg"><img src="images/content3/mini2.jpg" alt="">
+                        <div class="overlay">경복궁 수문장교</div></a></li>
+                        <li><a rel="fancybox" href="images/content3/mini3.jpg"><img src="images/content3/mini3.jpg" alt="">
+                        <div class="overlay">광화문</div></a></li>
+                        <li><a rel="fancybox" href="images/content3/mini4.jpg"><img src="images/content3/mini4.jpg" alt="">
+                        <div class="overlay">경복궁 내부</div></a></li>
+                        
+                    </ul>
+                    <ul class="mini">
+                        <li><a rel="fancybox" href="images/content3/mini6.jpg"><img src="images/content3/mini6.jpg" alt="">
+                        <div class="overlay">소원이 두둥실</div></a></li>
+                        <li><a rel="fancybox" href="images/content3/mini7.jpg"><img src="images/content3/mini7.jpg" alt="">
+                        <div class="overlay">덕수궁</div></a></li>
+                        <li><a rel="fancybox" href="images/content3/mini8.jpg"><img src="images/content3/mini8.jpg" alt="">
+                        <div class="overlay">성곽위의 도시</div></a></li>
+                        <li><a rel="fancybox" href="images/content3/mini9.jpg"><img src="images/content3/mini9.jpg" alt="">
+                        <div class="overlay">잠실월드타워</div></a></li>
+                        
+                    </ul>
+                    <ul class="mini">
+                        <li><a rel="fancybox" href="images/content3/mini11.jpg"><img src="images/content3/mini11.jpg" alt="">
+                        <div class="overlay">아름다운 비행</div></a></li>
+                        <li><a rel="fancybox" href="images/content3/mini12.jpg"><img src="images/content3/mini12.jpg" alt="">
+                        <div class="overlay">동궁</div></a></li>
+                        <li><a rel="fancybox" href="images/content3/mini13.jpg"><img src="images/content3/mini13.jpg" alt="">
+                        <div class="overlay">북촌한옥마을</div></a></li>
+                        <li><a rel="fancybox" href="images/content3/mini14.jpg"><img src="images/content3/mini14.jpg" alt="">
+                        <div class="overlay">공존</div></a></li>
+                        
+                    </ul>
+                    <ul class="mini">
+                        <li><a rel="fancybox" href="images/content3/mini25.jpg"><img src="images/content3/mini25.jpg" alt="">
+                        <div class="overlay">설악산</div></a></li>
+                        <li><a rel="fancybox" href="images/content3/mini17.jpg"><img src="images/content3/mini17.jpg" alt="">
+                        <div class="overlay">대왕암의 일출</div></a></li>
+                        <li><a rel="fancybox" href="images/content3/mini18.jpg"><img src="images/content3/mini18.jpg" alt="">
+                        <div class="overlay">낙안읍성신록</div></a></li>
+                        <li><a rel="fancybox" href="images/content3/mini19.jpg"><img src="images/content3/mini19.jpg" alt="">
+                        <div class="overlay">센트럴 파크</div></a></li>
+                        
+                    </ul>
+                    <ul class="mini">
+                        <li><a rel="fancybox" href="images/content3/mini21.jpg"><img src="images/content3/mini21.jpg" alt="">
+                        <div class="overlay">가을의 화성</div></a></li>
+                        <li><a rel="fancybox" href="images/content3/mini22.jpg"><img src="images/content3/mini22.jpg" alt="">
+                        <div class="overlay">수원화성의 겨울</div></a></li>
+                        <li><a rel="fancybox" href="images/content3/mini23.jpg"><img src="images/content3/mini23.jpg" alt="">
+                        <div class="overlay">궁의 가을빛</div></a></li>
+                        <li><a rel="fancybox" href="images/content3/mini24.jpg"><img src="images/content3/mini24.jpg" alt="">
+                        <div class="overlay">가야산의 여름</div></a></li>
+                    
+                    </ul>
+                    <ul class="mini">
+                        <li><a rel="fancybox" href="images/content3/mini5.jpg"><img src="images/content3/mini5.jpg" alt="">
+                        <div class="overlay">롯데타워야경</div></a></li>
+                        <li><a rel="fancybox" href="images/content3/mini10.jpg"><img src="images/content3/mini10.jpg" alt="">
+                        <div class="overlay">북촌한옥마을</div></a></li>
+                        <li><a rel="fancybox" href="images/content3/mini15.jpg"><img src="images/content3/mini15.jpg" alt="">
+                        <div class="overlay">보성녹차밭</div></a></li>
+                        <li><a rel="fancybox" href="images/content3/mini20.jpg"><img src="images/content3/mini20.jpg" alt="">
+                        <div class="overlay">죽림숲</div></a></li>
+                    </ul>
+                    </div>
+
+                   <div class="poster">
+                        <h3>포스터</h3>
+                        <ul>
+                            <li><img src="images/content3/poster1.jpg" alt="한복 포스터"></li>
+                            <li><img src="images/content3/poster2.jpg" alt="전통한복 포스터"></li>
+                            <li><img src="images/content3/poster_03.jpg" alt="한식 포스터"></li>
+                        </ul>
+                        
+                        <ul>
+                            <li><img src="images/content3/poster5.jpg" alt="한국단풍 포스터"></li>
+                            <li><img src="images/content3/poster4.jpg" alt="남산타워 포스터"></li>
+                            <li><img src="images/content3/poster6.jpg" alt="태권도 포스터"></li>
+                        </ul>
+                   
+                   
+                   </div>
+                    
+                    
+                </section>
+    
+        
+            </div>
+
+            
+            
+        </article>
+    
+ 
+  
+<? include "../common/sub_foot.html" ?>
+
+<script src="fancybox/jquery.fancybox-1.3.4.pack.js"></script> 
+<script src="fancybox/jquery.easing-1.3.pack.js"></script>
+<script src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<script src="js/fancybox.js"></script>
+  
+  
+   
+        
+            
+                    
+</body>
+</html>

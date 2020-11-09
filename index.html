@@ -1,0 +1,360 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name='keywords' content='웹퍼블리셔, 프론트엔드, 개발자, 포트폴리오, 한국관광공사'>
+    <meta name='description' content='한국관광공사에 오신 걸 환영합니다. 이 웹사이트는 포트폴리오의 목적으로 제작되었습니다.'> 
+    
+    <title>한국관광공사</title>
+    
+    <link rel="shortcut icon" type="image/x-icon"  href="favicon.ico">
+    
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e49f5d3028.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="common/css/common.css">
+    <link rel="stylesheet" href="maincss/main.css">
+    
+    <script src="mainjs/mainpopup.js"></script>
+    <script src="common/js/prefixfree.min.js"></script>
+
+
+    
+    
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+</head>
+<body>
+  
+        <? include "common/main_head.html" ?> 
+       
+       
+<!-- 비주얼영역 -->    
+      <div class="main">         
+       <div class="gallery">
+          <ul>
+              <li class="link1"><img src="images/main3.jpg" alt="메인이미지1"></li>
+              <li class="link2"><img src="images/main6.jpg" alt="메인이미지2"></li>
+              <li class="link3"><img src="images/maing.jpg" alt="메인이미지3"></li>
+              <li class="link4"><img src="images/main4.jpg" alt="메인이미지4"></li>
+              <li class="link5"><img src="images/mainlast.jpg" alt="메인이미지5"></li>
+              <li class="link6"><img src="images/main5.jpg" alt="메인이미지6"></li>
+          </ul>
+        </div>
+
+         
+         <div class="dock">
+            <span class="mbutton  btn1" ></span>
+            <span class="mbutton  btn2" ></span>
+            <span class="mbutton  btn3" ></span>
+            <span class="mbutton  btn4" ></span>
+            <span class="mbutton  btn5" ></span>
+            <span class="mbutton  btn6" ></span>
+            <span class="ps"></span>
+        </div>
+        
+        <span class="btn btnLeft">left</span>
+        <span class="btn btnRight">right</span>
+            
+       </div>
+       
+
+       
+<!-- 본문컨텐츠영역 -->              
+       <article id="content">
+          <h2 class="hidden">본문콘텐츠영역</h2>
+           <div class="tourism">
+              <div class="tourism_move">
+                   <h3>TOURISM</h3>
+                   <p class="slogan"><span>관광</span>을 <span>미래 성장동력</span>으로 이끌고 국민의 <span>삶의 질 향상</span>에 기여한다</p>
+                   <ul>
+                       <li>
+                          <a href="sub2/sub2_1.html">
+                               <img src="images/tour01.jpg" alt="교육사업">
+                               <div class="overlay">
+                                   <div class="text">
+                                   <h4>교육사업</h4>
+                                   <p>한국관광산업은 외래관광객 2,000만 시대를 준비하며 21세기 국가 전략산업으로서의 새로운 도약을 맞이하고 있습니다.</p>
+                                   </div>
+                               </div>
+                           </a>
+
+                       </li>
+                       <li>
+                          <a href="sub2/sub2_2.html">
+                               <img src="images/tour02.jpg" alt="마케팅">
+                               <div class="overlay">
+                                   <div class="text">
+                                   <h4>마케팅</h4>
+                                   <p>MICE는 Meeting (회의), Incentive Travel (포상여행), Convention, Exhibition (전시) / Events (이벤트) 의 약자입니다. K-MICE는 국내외 다양한 MICE 정보를 제공하는 포털사이트입니다.</p>
+                                   </div>
+                               </div>
+                           </a>
+                       </li>
+                       <li>
+                           <a href="sub2/sub2_3.html">
+                               <img src="images/tour03.jpg" alt="홍보사업">
+                               <div class="overlay">
+                                   <div class="text">
+                                   <h4>홍보</h4>
+                                   <p>관광관련 비영리 목적의 게시물을 게제해 드립니다. 단, 대국민 대상의 일반적인 축제 / 이벤트 / 전시 등의 행사는 대한민국 구석구석 홈페이지를 통해 홍보해 드리고 있습니다.</p>
+                                   </div>
+                               </div>
+                           </a>
+                       </li>
+                   </ul>
+               </div>
+           </div>
+           
+           
+           
+           
+<!-- 바로가기영역 -->          
+           <div class="shortcut">
+
+              <ul>
+                  <li>
+                      <div class="shortleft">
+                       <h3>대한민국 <br> 구석구석</h3>
+                       <p>국내 여행숙박, 관광명소, 맛집정보 등을 안내합니다.</p>
+                       <div class="more">
+                       <a href="https://korean.visitkorea.or.kr/main/main.do">More<i class="fas fa-chevron-right"></i></a>
+                       </div>
+                       </div>
+                       <div class="container">
+                           <img src="images/shortcut.jpg" alt="대한민국구석구석바로가기">
+                       </div>
+                  </li>
+
+                  <li>
+                      <div class="shortleft">
+                       <h3>Visit <br> Korea</h3>
+                       <p>Introducing you to Korea's attraction and travel tips</p>
+                       <div class="more">
+                       <a href="http://english.visitkorea.or.kr/enu/index.kto">More</a>
+                       <a href="http://english.visitkorea.or.kr/enu/index.kto"><i class="fas fa-chevron-right"></i></a>
+                       </div>
+                       </div>
+                       <div class="container">
+                           <img src="images/shortcut2.jpg" alt="Visit Korea 바로가기">
+                       </div>
+                  </li>
+                   
+                  <li>
+                      <div class="shortleft">
+                       <h3>K-MICE</h3>
+                       <p>MICE는 Meetings(회의), Incentives Travel(포상여행), Conventions(컨벤션), Exhibitions/Events(전시/이벤트)의 약자입니다.</p>
+                       <div class="more">
+                       <a href="http://k-mice.visitkorea.or.kr/main.kto?func_name=mainStart">More</a>
+                       <a href="http://k-mice.visitkorea.or.kr/main.kto?func_name=mainStart"><i class="fas fa-chevron-right"></i></a>
+                       </div>
+                       </div>
+                       <div class="container">
+                           <img src="images/shortcut3.jpg" alt="K-MICE 바로가기">
+                       </div>
+                  </li>
+                   
+                  <li>
+                      <div class="shortleft">
+                       <h3>걷기여행<br> 두루누비</h3>
+                       <p>두루누비는 걷기, 자전거 여행지 정보를 중심으로 교통 ·숙박·음식·행사·문화유적지 등 주변 관광정보를 종합 제공하는 통합 여행정보 서비스입니다.</p>
+                       <div class="more">
+                       <a href="http://www.durunubi.kr/">More</a>
+                       <a href="http://www.durunubi.kr/"><i class="fas fa-chevron-right"></i></a>
+                       </div>
+                       </div>
+                       <div class="container">
+                           <img src="images/shortcut4.jpg" alt="두루누비 바로가기">
+                       </div>
+                  </li>
+                   
+                  <li>
+                      <div class="shortleft">
+                       <h3>Go Camping</h3>
+                       <p>고캠핑에서는 대한민국 구석구석 위치하고 있는 캠핑장 정보를 안내합니다.</p>
+                       <div class="more">
+                       <a href="http://k-mice.visitkorea.or.kr/main.kto?func_name=mainStart">More</a>
+                       <a href="http://k-mice.visitkorea.or.kr/main.kto?func_name=mainStart"><i class="fas fa-chevron-right"></i></a>
+                       </div>
+                       </div>
+                       <div class="container">
+                           <img src="images/shortcut5.jpg" alt="K-MICE 바로가기">
+                       </div>
+                  </li>   
+                    
+                </ul>
+               
+               <span>
+                   <a class="left" href="#1"><i class="fas fa-angle-left"></i></a>
+                   <a class="right" href="#2"><i class="fas fa-angle-right"></i></a>
+               </span>
+           </div>
+           
+
+          
+<!-- 공지사항영역 -->        
+<? include "./lib/func1.php"; ?>             
+           <div class="notice">
+               <div class="news">
+                   <a href="news/list.php"><h3>NEWS</h3></a>
+                       
+                       <!-- 최근게시물 삽입 -->
+                       <? latest_article("news", 5, 25); ?>
+                       
+                       <a href="news/list.php"><span class="hidden">더보기</span><i class="fas fa-ellipsis-v"></i></a>
+
+               </div>
+               <div class="announcement">
+                   <a href="free/list.php"><h3>ANNOUNCEMENTS</h3></a>
+                       
+                       <!-- 최근게시물 삽입 -->
+                       <? latest_article("free", 5, 25); ?>
+                       
+                       <a href="free/list.php"><span class="hidden">더보기</span><i class="fas fa-ellipsis-v"></i></a>
+               </div>
+           </div>
+
+          
+          
+<!-- 광고영역 -->                    
+           <div class="ad">
+               <a href="sub4/sub4_4.html">
+               <p>한국관광공사 서울센터 <br> 증축 및 리모델링 설계제안 공모
+               <span>참가등록 2020.06.02 ~ 2020.06.19 17:00</span></p>
+               </a>
+           </div>
+           
+           
+           
+           
+<!-- 인스타영역 -->          
+           <div class="instagram">
+               <h4><a href="#">INSTAGRAM</a></h4>
+               <ul>
+                   <li>
+                       <img src="images/insta01.jpg" alt="흰여울문화마을">
+                       <a href="https://www.instagram.com/p/CDQxjEbjio3/">
+                           <i class="fab fa-instagram"></i><span>#영도 <br> #흰여울문화마을</span></a>
+                   </li>
+                   <li>
+                       <img src="images/insta002.jpg" alt="인천대교">
+                       <a href="https://www.instagram.com/p/CDOOIAPDVTn/">
+                           <i class="fab fa-instagram"></i><span>#인천 <br> #인천대교</span></a>
+                   </li>
+                   <li>
+                       <img src="images/insta003.jpg" alt="삽교호놀이공원">
+                       <a href="https://www.instagram.com/p/CDLkgSkjESu/">
+                           <i class="fab fa-instagram"></i><span>#충남 #당진 <br> #삽교호놀이공원 🎡</span></a>
+                   </li>
+                   <li>
+                       <img src="images/insta004.jpg" alt="스카이브릿지">
+                       <a href="https://www.instagram.com/p/CDI_rmrDCg3/">
+                           <i class="fab fa-instagram"></i><span>#서울 #잠실<br>#스카이브릿지</span></a>
+                   </li>
+                   <li>
+                       <img src="images/insta005.jpg" alt="돈내코원앙폭포">
+                       <a href="https://www.instagram.com/p/CDBRT2mjch4/">
+                           <i class="fab fa-instagram"></i><span>#제주 #서귀포 <br> #돈내코원앙폭포</span></a>
+                   </li>
+                   <li>
+                       <img src="images/insta006.jpg" alt="대둔산">
+                       <a href="https://www.instagram.com/p/CC-wfltjt2s/">
+                           <i class="fab fa-instagram"></i><span>#전북 #완주 <br> #대둔산</span></a>
+                   </li>
+                   <li>
+                       <img src="images/insta007.jpg" alt="추암촛대바위">
+                       <a href="https://www.instagram.com/p/CC8JAkaDEgQ/">
+                           <i class="fab fa-instagram"></i><span>#강원 #동해 <br> #추암촛대바위</span></a>
+                   </li>
+                   <li>
+                       <img src="images/insta008.jpg" alt="여수하이스윙">
+                       <a href="https://www.instagram.com/p/CC5i9C7jVoa/">
+                           <i class="fab fa-instagram"></i><span>#여수 <br> #하이스윙</span></a>
+                   </li>
+                   <li>
+                       <img src="images/insta009.jpg" alt="칠곡양떼목장">
+                       <a href="https://www.instagram.com/p/CC298cWDGHY/">
+                           <i class="fab fa-instagram"></i><span>#경북 #칠곡 <br> #양떼목장</span></a>
+                   </li>
+                   <li>
+                       <img src="images/insta010.jpg" alt="알리움꽃밭">
+                       <a href="https://www.instagram.com/p/CAcbARqDijF/">
+                           <i class="fab fa-instagram"></i><span>#알리움 <br> #멀어지는 마음</span></a>
+                   </li>
+               </ul>
+            </div>
+           
+           <div class="partner">
+              <div class="partnerBox">
+                  <ul>
+                       <li><a target="_blank" title="ALIO 공공기관 경영정보 공개시스템 바로가기" href="http://www.alio.go.kr/home.do"><img src="images/partner1.gif" alt="ALIO 공공기관 경영정보 공개시스템 바로가기"></a></li>
+                       <li><a target="_blank" title="대한민국 정보포털 바로가기" href="https://www.gov.kr/portal/main"><img src="images/partner2.gif" alt="대한민국 정보포털 바로가기"></a></li>
+                       <li><a target="_blank" title="문화포털 바로가기" href="https://www.culture.go.kr/index.do"><img src="images/partner3.gif" alt="문화포털 바로가기"></a></li>
+                       <li><a target="_blank" title="매달 마지막 수요일 문화가 있는 날" href="https://www.culture.go.kr/wday/index.do"><img src="images/partner4.gif" alt="매달 마지막 수요일 문화가 있는 날"></a></li>
+                       <li><a target="_blank" title="청년희망펀드 홈페이지 바로가기" href="http://yhf.kr/fund/index.do"><img src="images/partner5.gif" alt="청년희망펀드 바로가기"></a></li>
+                       <li><a target="_blank" title="이산가족정보통합시스템 홈페이지 바로가기" href="https://reunion.unikorea.go.kr/reuni/home/cms/page/reunion/view.do?mid=REUNION"><img src="images/partner6.gif" alt="이산가족정보통합시스템"></a></li>
+                       <li><a target="_blank" title="찾기쉬운 생활법령정보 홈페이지 바로가기" href="http://www.easylaw.go.kr/CSP/Main.laf"><img src="images/partner7.gif" alt="찾기쉬운 생활법령정보"></a></li>
+                       <li><a target="_blank" title="국민신문고 홈페이지 바로가기" href="https://www.epeople.go.kr/nep/bdgtWst/selectBdgtWstStmntCntr.npaid"><img src="images/partner8.gif" alt="예산낭비신고하세요!"></a></li>
+                       <li><a target="_blank" title="공익신고 홈페이지 바로가기" href="https://www.clean.go.kr/index.do"><img src="images/partner9.gif" alt="공익신고"></a></li>
+                       <li><a target="_blank" title="고용노동부 홈페이지 바로가기" href="http://www.moel.go.kr/policy/policydata/view.do?bbs_seq=20180500487"><img src="images/partner10.jpg" alt="노동시간 단축 가이드"></a></li>
+                       <li><a target="_blank" title="상생누리 홈페이지 바로가기" href="https://www.winwinnuri.or.kr/cm/mainView.do"><img src="images/partner11.gif" alt="상생누리"></a></li>
+                       <li><a target="_blank" title="스마트워크센터" href="https://www.smartwork.go.kr/swc/SwcHome.do"><img src="images/partner12.gif" alt="스마트워크 센터에서"></a></li>
+                       <li><a target="_blank" title="국민안전방송 바로가기"  href="http://www.safetv.go.kr/web/main/main.do"><img src="images/partner13.gif" alt="국민안전방송"></a></li>
+                       <li><a target="_blank" title="문화체육관광부 홈페이지 바로가기"  href="https://www.mcst.go.kr/kor/main.jsp"><img src="images/partner14.gif" alt="문화체육관광부"></a></li>
+                       <li><a target="_blank" title="지역문화 홈페이지 바로가기"  href="https://www.nculture.org/man/main.do"><img src="images/partner15.gif" alt="지역문화"></a></li>
+                       <li><a target="_blank" title="알리오플러스 홈페이지 바로가기" href="http://alioplus.go.kr/"><img src="images/partner16.gif" alt="알리오플러스"></a></li>
+                       <li><a target="_blank" title="복지 보조금 부정 신고센터 페이지 바로가기" href="https://www.clean.go.kr/index.do"><img src="images/partner17.gif" alt="복지 보조금 부정 신고센터"></a></li>
+                       <li><a target="_blank" title="안전신문고 홈페이지 바로가기" href="https://www.safetyreport.go.kr/api?apiKey=B5510118E6A15HN6VJ6V6O2EC8O"><img src="images/partner18.gif" alt="안전신문고"></a></li>
+                       <li><a target="_blank" title="청탁금지법 통합검색 홈페이지 바로가기" href="http://1398.acrc.go.kr/case/ISGAcase?menuId=050212"><img src="images/partner19.jpg" alt="청탁금지법 통합검색"></a></li>
+                       <li><a target="_blank" title="채용비리 통합신고센터 홈페이지 바로가기" href="https://www.clean.go.kr/index.do"><img src="images/partner20.jpg" alt="채용비리 통합신고센터"></a></li>
+                   </ul>
+               </div>
+           </div>
+       </article>
+       
+       
+       
+ <? include "common/main_foot.html" ?>
+ 
+        
+<!--추가 스크립트-->
+<script src="mainjs/arrow.js"></script>
+<script src="mainjs/move.js"></script> 
+<script src="mainjs/movebanner.js"></script>    
+
+    
+    
+<!-- 팝업공지영역 -->
+    <div id="showimage" style="z-index:10; position:absolute; width:322px; left:100px; top:180px">
+      <script>
+        function closeWin(){
+           var chk = document.getElementById('Notice')
+           if ( chk.checked ) {
+                 setCookie( "Notice", "done" , 1); //1이란 숫자는 1일간 안보임을 뜻합니다. 날짜는 자신에 맞게 수정하세요
+            }
+        }
+       if ( getCookie( "Notice" ) == "done" ) {
+           hidebox();
+       }
+     </script>
+        <div>
+              <img src="popup/pop.png" alt="본 사이트는 상업적 목적이 아닌 개인 포트폴리오 용도로 만들어졌습니다. 홈페이지의 일부 내용과 기타 이미지 등은 그 출처가 따로 있음을 밝힙니다.">
+        </div>
+         <div style="font-size:12px;text-align:center;color:#fff">
+           <input type="checkbox" name="Notice" id="Notice" value="" title=" 오늘은 이창을 열지 않음 선택상자"><label for="Notice"> 오늘은 이창을 열지 않음.</label>
+         <a href="#" onclick="closeWin();hidebox();return false"> [close] </a>
+      </div>
+    </div>       
+    
+</body>
+</html>

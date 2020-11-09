@@ -1,0 +1,41 @@
+/*공모전 부분*/
+
+#content{width: 100%; margin: 0 auto; font-family: 'Nanum Gothic', sans-serif; overflow: hidden; margin-top: 90px}
+#content .title_area img{width: 100%}
+#content .title_area h2{text-align: center; font-size: 2.5em; padding: 50px; font-weight: 700}
+.title_area p{margin: 0 10%; text-align: center; line-height: 1.5em}
+.title_area p strong{font-family: 'Nanum Myeongjo', serif; color: #0a355c; display: block; font-size: 1.5em; line-height: 3em; text-align: center; font-weight: 700}
+
+
+
+
+.content_area .tabs{position: relative; width: 90%; padding: 0 5%}
+
+.content_area .tabs .tab{display:block; width:24%;padding: 0 .5%; position:absolute} 
+.content_area .tabs .tab img{width:100%; transform:rotateY(0deg); transition:all .3s; z-index: 1}
+.content_area .tabs .tab:hover img{transform:rotateY(360deg)}
+
+.content_area .tabs .contlist{display: none; margin-top:450px; background:#ccf}
+.content_area .tabs .contlist dl{width: 100%;float: left; margin-bottom: 100px; margin-top: -200px}
+.content_area .tabs .contlist img{width: 100%;float: right; margin-bottom: 100px}
+
+.content_area .tabs .contlist dl dt{display: block; font-weight: 700; font-size: 1.5em; height: 40px; margin-top: 40px}
+.content_area .tabs .contlist .localmeet dt{color: #36a7e0}
+.content_area .tabs .contlist .smart dt{color: #fcb83c}
+.content_area .tabs .contlist .venture dt{color: #1785c4}
+.content_area .tabs .contlist .travel dt{color: #128683}
+.content_area .tabs .contlist dl dd{line-height: 1.5em}
+
+.tabs .tab1{left:0; top:-450px}
+.tabs .tab2{left:25%; top:-450px}
+.tabs .tab3{left:50%; top:-450px}
+.tabs .tab4{left:75%; top:-450px}
+
+.tabs .on{box-shadow: 5px 5px 10px 1px #ccc}
+
+
+
+/*  Animation */
+#content{animation-name: ani; animation-duration: 1s; animation-iteration-count: 1}
+@keyframes ani{from{opacity: 0; transform: translateY(-50px)}
+               to{opacity: 1;transform: translateY(0)}}

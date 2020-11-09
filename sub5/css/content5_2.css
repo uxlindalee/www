@@ -1,0 +1,30 @@
+/* 공공데이터개방 본문 */
+
+.content_area{font-family: 'Nanum Gothic', sans-serif}
+.content_area h3{font-size: 2.5em; line-height: 4em; font-weight: 800}
+.content_area h3 span{color: #0c7faf}
+
+.content_area .shortcut{overflow: hidden}
+.content_area .shortcut p strong{font-size: 1.2em; line-height: 3em}
+.content_area .shortcut p{font-size: 2em; float: left}
+.content_area .shortcut p span{font-weight: 700; color: #0c7faf}
+.content_area .shortcut img{width: 500px; float: right}
+
+
+.content_area .use h3, .content_area .instruct h3{text-align: center}
+
+.content_area .use{margin-top: 150px; overflow: hidden; padding-top: 50px}
+.content_area .use dl{width: 300px; height: 300px; border-radius: 50px; background-color:#badbee;float: left; text-align: center; margin:50px; transition: .5s ease}
+.content_area .use dl:hover{background: rgba(12,127,175,.8); color: #fff}
+.content_area .use dt{}
+.content_area .use dt i{font-size: 100px; color: #666; margin: 50px 0 }
+.content_area .use dl dd{line-height: 2em; font-weight: 700; font-size: 1.2em}
+
+
+
+.content_area .instruct{margin: 150px 0; clear: both; padding-top: 50px}
+.content_area .instruct dl{overflow: hidden}
+.content_area .instruct dt{float: left; background: rgba(186,219,238,1); width: 200px; height: 200px; border-radius: 100px; text-align: center; margin-top: 20px; margin-left: 100px}
+.content_area .instruct dt i{font-size: 80px; color: #fff; margin-top: 60px}
+.content_area .instruct dd{font-size: 1.2em; float: right; width: 800px; margin-top: 40px;line-height:2em }
+.content_area .instruct dd strong{font-weight: 700; font-size: 1.5em; line-height: 3em}

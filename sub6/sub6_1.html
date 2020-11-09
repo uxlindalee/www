@@ -1,0 +1,139 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>한국관광공사 본사안내</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e49f5d3028.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub6common.css">
+    <link rel="stylesheet" href="css/content6_1.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=a3175fa766780f4b004adcdb7cf7cb97"></script>
+    <script src="js/map.js"></script>
+
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+            
+</head>
+<body>
+    
+ 
+ <? include "../common/sub_head.html" ?>
+
+<!-- 메인비주얼영역 -->
+        <div class="visual"></div>
+              
+<!-- 서브네비영역 -->   
+        <div class="subnav_box">    
+            <div class="subNav">
+                <ul>
+                    <li><a class="current" href="sub6_1.html">본사안내</a></li>
+                    <li><a href="sub6_2.html">서울센터</a></li>
+                    <li><a href="sub6_3.html">국내지사</a></li>
+                    <li><a href="sub6_4.html">해외지사</a></li>
+
+                </ul>
+            </div>
+        </div>   
+    
+
+        
+        
+<!-- 본문콘텐츠영역 -->       
+        <article id="content">
+            <div class="title_area">
+               <div class="line_map">
+                   <span>HOME</span> &gt; <span>시설안내</span> &gt; <strong>본사안내</strong>
+               </div>
+               
+                <h2>본사안내</h2>
+            </div>
+            
+            
+            <div class="content_area">
+                <div>
+                    <img src="images/content1/sub6_kto_building.jpg" alt="한국관광공사 건물사진">
+                    <ul>
+                        <li><strong>주소</strong><br>강원도 원주시 세계로 10 &#40;우&#41; 26464</li>
+                        <li><strong>대표전화</strong><br>033&#41; 378-3000</li>
+                    </ul>
+                </div> 
+                
+                <div class="way">
+                 <h3>찾아오시는 길</h3>
+                 <div id="map"></div>
+                 
+                 <table>
+                     <thead>
+                         <tr>
+                             <th colspan="2">대중교통안내</th>
+                         </tr>
+                     </thead>
+                     <tbody>
+                         <tr>
+                             <th rowspan="2" scope="row">원주 시외 &#8226; 고속버스 <br>터미널 건너편 </th>
+                             <td class="line"><i class="fas fa-bus"></i>16번, 86번 버스 승차 → 한국관광공사 하차 &#40;도보 1분&#41;</td>
+                             
+                         </tr>
+                         <tr>
+                             <td class="line"><i class="fas fa-bus"></i>100번 버스 승차 → 국민건강보험공단 하차 &#40;도보 1분&#41;</td>
+                         </tr>
+                         <tr>
+                             <th scope="row">원주역</th>
+                             <td class="line"><i class="fas fa-bus"></i>86번 버스 승차 → 한국관광공사 하차</td>
+                         </tr>
+                         <tr>
+                             <th scope="row">반곡역</th>
+                             <td class="line"><i class="fas fa-walking"></i> 도보 5분 &#40;1일 상행, 하행 기차 각 4회 운행&#41;</td>
+                         </tr>
+                     </tbody>
+                 </table>
+                 
+                 <table class="instruction">
+                     <thead>
+                         <tr>
+                             <th colspan="2">자동차 이용 안내</th>
+                         </tr>
+                     </thead>
+                     <tbody>
+                         <tr>
+                             <th scope="row">중부고속도로</th>
+                             <td class="line"><i class="fas fa-car-side"></i>
+                             중부고속도로 → 호법JC → 영동고속도로 → 문막TG → 건동사거리 우회전 → 반곡교차로 혁신도시 방면 좌회전 → 삼생사거리 반곡역 방면 우회전1.2KM</td>
+                         </tr>
+                         <tr>
+                             <th scope="row">경부고속도로</th>
+                             <td class="line"><i class="fas fa-car-side"></i>
+                             경부고속도로 → 신갈JC → 영동고속도로 → 문막TG → 건동사거리 우회전 → 반곡교차로 혁신도시 방면 좌회전 → 삼생사거리 반곡역 방면 우회전1.2KM</td>
+                         </tr>
+                     </tbody>
+                 </table>
+                </div>  
+                
+                
+                
+                
+                
+            </div>
+            
+            
+        </article>
+        
+        
+ <? include "../common/sub_foot.html" ?>            
+               
+                         
+</body>
+</html>

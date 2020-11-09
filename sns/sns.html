@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sns API 가져오기</title>
+    
+    <style>
+        *{margin: 0; padding: 0}
+        h3{font-size: 100px; margin: 30px 0}
+        .sns{overflow: hidden}
+        .sns>div{float: left; width: 500px; margin-right: 15px}
+        .sns>div:nth-child(2){height: 600px; overflow: auto}
+    </style>
+    
+</head>
+<body>
+    
+    <h3>sns 가져오기</h3>
+    <div class="sns">
+        <div>
+            <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v7.0" nonce="LFVe9BNQ"></script>
+       
+       <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-width="500" data-height="600" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div>
+        </div>
+        <div>
+            <div class="snsContent">
+
+ <a class="twitter-timeline" data-lang="ko" data-theme="light" href="https://twitter.com/UNHCRKorea?ref_src=twsrc%5Etfw">Tweets by UNHCRKorea</a>
+
+ <script async src="https://platform.twitter.com/widgets.js"></script>
+
+</div>
+        </div>
+        
+    </div>
+    
+</body>
+</html>

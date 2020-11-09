@@ -1,0 +1,11 @@
+.content_area iframe{width: 1200px; height: 600px; margin-top: 50px}
+
+
+.content_area .thumbnail{margin-bottom: 500px}
+.content_area .thumbnail li a{display: block; float: left; margin-right: 5px}
+/*.content_area .thumbnail li img.on{outline: 7px inset red}*/
+.content_area .thumbnail li img{margin-top: 50px; margin-right: 15px; width: 220px; height: 120px; transition: .2s}
+.content_area .thumbnail li a:focus img, .content_area .thumbnail li a:hover img{outline: 7px outset red}
+
+
+.content_area .thumbnail li img:nth-child(5){margin-right: 0}

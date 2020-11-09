@@ -1,0 +1,219 @@
+/* feature film 영역 */
+.character .inWrap {
+	position: relative;
+}
+
+.character .fInner {
+	margin: 0 auto;	width: 85%; overflow: hidden;
+	padding-bottom: 1%;
+}
+
+.character li {
+	float: left; width: 300px; height: 500px; border-radius: 15px; 	margin-bottom: 5em; list-style: none
+}
+
+.character li a {
+	position: relative;
+	display: block; background: #333; height: 100%;  border-radius: 15px; margin: 0 3%;
+	box-shadow: 2px 2px 5px gray;
+	text-align: center;
+    transition: .5s ease;
+}
+
+
+.character li span {
+	display: block;
+	position: absolute;
+	bottom: -1.5em;
+	width: 100%;
+    color:#333;
+	font-size: 2em;
+	font-weight: 400;
+}
+
+.character ul:nth-child(1) li:nth-child(1) a{
+	background: rgba(0,0,0,.7) url(../images/chjudy.png) center center no-repeat;
+	background-size: cover;
+}
+.character ul:nth-child(1) li:nth-child(3) a{
+	background: rgba(0,0,0,.7) url(../images/chnick.png) center center no-repeat;
+	background-size: cover;
+}
+.character ul:nth-child(1) li:nth-child(2) a{
+	background: rgba(0,0,0,.7) url(../images/chgazelle.png) center center no-repeat;
+	background-size: cover;
+}
+.character ul:nth-child(1) li:nth-child(4) a{
+	background: rgba(0,0,0,.7) url(../images/chchiefbogo.png) center center no-repeat;
+	background-size: cover;
+}
+.character ul:nth-child(1) li:nth-child(5) a{
+	background: rgba(0,0,0,.7) url(../images/bonnie.png) center center no-repeat;
+	background-size: cover;
+}
+.character ul:nth-child(1) li:nth-child(6) a{
+	background: rgba(0,0,0,.7) url(../images/stu.png) center center no-repeat;
+	background-size: cover;
+}
+.character ul:nth-child(1) li:nth-child(7) a{
+	background: rgba(0,0,0,.7) url(../images/finnick.png) center center no-repeat;
+	background-size: cover;
+}
+.character ul:nth-child(1) li:nth-child(8) a{
+	background: rgba(0,0,0,.7) url(../images/chmayorl.png) center center no-repeat;
+	background-size: cover;
+}
+.character ul:nth-child(2) li:nth-child(1) a{
+	background: rgba(0,0,0,.7) url(../images/chbenjamin.png) center center no-repeat;
+	background-size: cover;
+}
+.character ul:nth-child(2) li:nth-child(2) a{
+	background: rgba(0,0,0,.7) url(../images/chdawn.png) center center no-repeat;
+	background-size: cover;
+}
+.character ul:nth-child(2) li:nth-child(3) a{
+	background: rgba(0,0,0,.7) url(../images/chflash.png) center center no-repeat;
+	background-size: cover;
+}
+.character ul:nth-child(2) li:nth-child(4) a{
+	background: rgba(0,0,0,.7) url(../images/chmr.big.png) center center no-repeat;
+	background-size: cover;
+}
+.character ul:nth-child(2) li:nth-child(5) a{
+	background: rgba(0,0,0,.7) url(../images/frufru.png) center center no-repeat;
+	background-size: cover;
+}
+.character ul:nth-child(2) li:nth-child(6) a{
+	background: rgba(0,0,0,.7) url(../images/yax.png) center center no-repeat;
+	background-size: cover;
+}
+.character ul:nth-child(2) li:nth-child(7) a{
+	background: rgba(0,0,0,.7) url(../images/duke.png) center center no-repeat;
+	background-size: cover;
+}
+.character ul:nth-child(2) li:nth-child(8) a{
+	background: rgba(0,0,0,.7) url(../images/mrotterton.png) center center no-repeat;
+	background-size: cover;
+}
+
+.character ul:nth-child(1) li:nth-child(1) a:hover {display: block; background: #fff  url(../images/chjudy.png) center center no-repeat}
+.character ul:nth-child(1) li:nth-child(3) a:hover {display: block; background: #fff  url(../images/chnick.png) center center no-repeat}
+.character ul:nth-child(1) li:nth-child(2) a:hover {display: block; background: #fff  url(../images/chgazelle.png) center center no-repeat}
+.character ul:nth-child(1) li:nth-child(4) a:hover {display: block; background: #fff  url(../images/chchiefbogo.png) center center no-repeat}
+.character ul:nth-child(1) li:nth-child(5) a:hover {display: block; background: #fff  url(../images/bonnie.png) center center no-repeat}
+.character ul:nth-child(1) li:nth-child(6) a:hover {display: block; background: #fff  url(../images/stu.png) center center no-repeat}
+.character ul:nth-child(1) li:nth-child(7) a:hover {display: block; background: #fff  url(../images/finnick.png) center center no-repeat}
+.character ul:nth-child(1) li:nth-child(8) a:hover {display: block; background: #fff  url(../images/chmayorl.png) center center no-repeat}
+
+.character ul:nth-child(2) li:nth-child(1) a:hover {display: block; background: #fff  url(../images/chbenjamin.png) center center no-repeat}
+.character ul:nth-child(2) li:nth-child(2) a:hover {display: block; background: #fff  url(../images/chdawn.png) center center no-repeat}
+.character ul:nth-child(2) li:nth-child(3) a:hover {display: block; background: #fff  url(../images/chflash.png) center center no-repeat}
+.character ul:nth-child(2) li:nth-child(4) a:hover {display: block; background: #fff  url(../images/chmr.big.png) center center no-repeat}
+.character ul:nth-child(2) li:nth-child(5) a:hover {display: block; background: #fff  url(../images/frufru.png) center center no-repeat}
+.character ul:nth-child(2) li:nth-child(6) a:hover {display: block; background: #fff  url(../images/yax.png) center center no-repeat}
+.character ul:nth-child(2) li:nth-child(7) a:hover {display: block; background: #fff  url(../images/duke.png) center center no-repeat}
+.character ul:nth-child(2) li:nth-child(8) a:hover {display: block; background: #fff  url(../images/mrotterton.png) center center no-repeat}
+
+
+.character .swiper-pagination {
+	position: relative;
+	margin-top: 30px;
+}
+.character .swiper-pagination-progress .swiper-pagination-progressbar{
+	background: #f5692e;
+}
+
+.character .button div {
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	background: #f5692e;
+	color: #fff;
+	border-radius: 50%;
+	text-align: center;
+	top: 40%;
+	box-shadow: 2px 2px 5px gray;
+	transition: all 0.2s
+}
+.character .button div:active {
+	transform: translate(2px,2px);
+}
+.character .button a {
+	display: block;
+	height: 100%;
+}
+
+.character .back a {
+	background: url(../images/back.svg) center center no-repeat;
+	background-size: 30px 30px;
+    text-indent: -999px; overflow: hidden;
+}
+
+.character .next a {
+	background: url(../images/next.svg) center center no-repeat;
+	background-size: 30px 30px;
+    text-indent: -999px; overflow: hidden;
+}
+
+.character .back {
+	left: 1%;
+}
+.character .next {
+	right: 1%;
+}
+
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+
+}
+
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+
+	.character .button div{
+		width: 40px;
+		height: 40px;
+	}
+	.character .button div a {
+		background-size: 20px 20px;
+	}
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+
+
+}
+
+/* 소형 모바일 */
+@media screen and (max-width:480px) {
+
+	.character .fInner {
+		width: 95%;
+	}
+	.character li {
+		width: 140px; height: 210px;
+	}
+	.character li span {
+		font-size: 1.1667em;
+	}
+	.character .button {
+		display: none;
+	}
+	
+}
+
+
+
+/* 최소 사이즈 처리 */
+@media screen and (max-width:480px) {
+	
+}

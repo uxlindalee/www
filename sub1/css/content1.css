@@ -1,0 +1,13 @@
+/* 인사말 본문 */
+
+#content .title_area{font-family: 'Nanum Gothic', sans-serif}
+#content .title_area .line_map{font-size: 12px; color: #999; float: right; right: 10px; top: 10px; margin: 30px 0}
+#content .title_area h2{clear: both; font-size: 60px; font-weight: 800; text-align: center; margin:130px 0}
+
+#content .content_area .slogan{font-family: 'Nanum Myeongjo', serif; font-size: 30px; color: #666; line-height: 1.5em; margin-bottom: 60px}
+#content .content_area p{width: 700px; font-size: 18px; line-height: 36px; text-align: justify; color: #333; margin-bottom: 50px}
+#content .content_area{overflow: hidden}
+#content .content_area .left{width: 864px; float: left}
+#content .content_area .right{width: 237px; float: right}
+#content .content_area .right p{font-family: 'Nanum Gothic', sans-serif; font-size: 18px; margin-top: 40px}
+

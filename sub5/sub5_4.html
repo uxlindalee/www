@@ -1,0 +1,63 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>한국관광공사 정보목록</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e49f5d3028.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub5common.css">
+    <link rel="stylesheet" href="css/content5_4.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+            
+</head>
+<body>
+    
+ 
+ <? include "../common/sub_head.html" ?>
+<? $_GET['num']=4;
+      include "common/sub5_nav.html";  ?>  
+    
+
+       
+        
+        
+<!-- 본문콘텐츠영역 -->       
+        <article id="content">
+            <div class="title_area">
+               <div class="line_map">
+                   <span>HOME</span> &gt; <span>정보공개</span> &gt; <strong>정보목록</strong>
+               </div>
+               
+                <h2>정보목록</h2>
+                <p>보유 관리되는 정보에 대하여 국민이 쉽게 알 수 있도록 정보 목록을 작성 비치하고 있습니다.</p>
+            </div>
+            
+            
+            <div class="content_area">
+                yo~~ 여기 게시판 들어올 자리       
+            </div>
+            
+            
+        </article>
+        
+        
+ <? include "../common/sub_foot.html" ?>            
+               
+                         
+</body>
+</html>

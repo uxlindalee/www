@@ -1,0 +1,38 @@
+#wrap{width: 100%; height: 100%; position: absolute; z-index: -999; background: url(../images/join.jpg) center no-repeat; font-family: 'Noto Sans KR'}
+#content{width: 90%; padding: 10px; margin: 0 auto; background:rgba(255,255,255,.8); margin-top: 250px; border-radius: 10px}
+#content h2{text-align: center; font-size: 4em; margin-bottom: 20px; padding-top: 50px; letter-spacing: -2px}
+#content p{margin-bottom: 20px; font-size: 16px; color: #fe4365}
+#content tr td{position: relative; box-sizing: border-box; margin-bottom: 18px}
+#content tr td #loadtext {position: absolute; top:5px; right:10px; font-size:12px}
+#content tr td #loadtext2 {position: absolute; top:5px; right:10px; font-size:12px}
+
+table{margin-bottom: 20px; border-collapse: separate; border-spacing: 2px}
+table tr{margin:5px 0; height: 70px}
+table tr th{width: 250px; padding: 10px; text-align: center; font-size: 15px; letter-spacing: -.1em; background: #333; border: 1px solid #fff; color: #fff; font-weight: 400;  border-radius: 10px 0 0 0; font-size: 2em }
+table tr td{width: 300px; padding-left: 25px; background: #fff;}
+table tr td input{width: 300px; height: 50px; padding: 0 10px; border-style: none; outline: none}
+table tr td input.hp{width: 100px; height: 25px; border-style: none}
+table tr .hp{text-align: center; outline: none; border: none}
+
+table .email td #email1{width: 120px}
+table .email td #email2{width: 120px}
+
+table .email_area td input{width: 100px}
+
+
+
+
+.cancel{margin: 20px; width: 30%; height: 50px }
+.cancel a{color: #fff; background: #ccc; padding: 20px; width: 200px; text-align: right}
+.cancel a:first-child{margin-left: 600px; color: #333; font-weight: 700}   
+.cancel a:last-child{background: red}   
+
+
+
+
+
+
+
+
+
+

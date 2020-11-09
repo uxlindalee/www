@@ -1,0 +1,162 @@
+/*비주얼 영역*/
+
+
+*{margin:0; padding:0}
+.main{position:relative;width:100%;height:900px;overflow: hidden;background:#000}
+.gallery{position:relative;width:2000px;height: 900px;overflow: hidden;margin: 0 auto}
+.gallery img{width:100%;height:900px; animation-name: imgAnime;animation-duration: 10s; animation-iteration-count: 1; animation-timing-function: linear}
+/*
+@keyframes imgAnime{
+    from{
+        transform: scale(1);
+        opacity: .8
+    }
+    50%{
+        opacity: 1
+    }    
+    to{
+        transform: scale(1.1);
+        opacity: .8
+    }
+}*/
+.gallery ul li{list-style:none}
+.gallery .link1,.gallery .link2,.gallery .link3,.gallery .link4,.gallery .link5,.gallery .link6{display: none}
+
+
+.dock{width:400px; position:absolute; left:870px; bottom: 50px}
+.dock .mbutton{margin-right:15px; cursor:pointer; display:block; float:left; width:16px; height:16px; background: #fff; border: 1px solid #ccc; border-radius:8px; transition: all .5s}
+.dock .ps{margin-right:20px; cursor:pointer; display:block; float:left; width:16px; height:16px; background:url(../images/pause.png)}
+
+.main .gallery img{border:0; vertical-align:top}
+.main .btn{display: block; width: 50px; height: 100px;position:absolute; top:450px;cursor:pointer; text-indent: -9990px; overflow: hidden}
+.main .btnLeft{left:30px; width: 50px; height: 50px;background: url(../images/left.png)}
+.main .btnRight{right:30px;width: 50px; height: 50px; background: url(../images/right.png)}
+
+
+
+#content{width: 1200px; margin: 0 auto}
+#content h2{height: 50px; text-indent: -999px; overflow: hidden; margin: 20px 0 17px 20px }
+
+
+
+/* 움직이는 영역 */
+#content .shortcut{position: relative; left: -100px; top: 0px; transition: all 1s; opacity: 0}
+#content .shortcut.shortcut_on{left: 0; top: 0; opacity: 1}
+
+#content .notice{position: relative; right: -100px; top: 0; transition: all 1s; opacity: 0}
+#content .notice.notice_on{right: 0; top: 0;opacity: 1}
+
+
+
+
+
+
+
+/*투어산업 영역*/
+
+#content .tourism{overflow: hidden; display: block; margin-top: 150px}
+#content .tourism h3{font-family: 'Nanum Myeongjo', serif; font-size: 50px; font-weight: 800; text-align: center; color: #333; margin-bottom: 30px}
+#content .tourism .slogan{font-family: 'Nanum Myeongjo', serif; font-size: 22px; text-align: center; color: #666; margin-bottom: 55px}
+#content .tourism .slogan span{font-weight: 700}
+
+#content .tourism ul{line-height: 1.5em; ; color: #fff; margin-bottom: 200px}
+#content .tourism ul li{overflow: hidden; width: 357px; height: 357px; float: left; margin-left: 30px; position: relative; margin-bottom: 300px; box-shadow: 5px 5px 10px 1px #ccc}
+#content .tourism ul li img{position: absolute; z-index: -1; transition: all 0.2s ease-out}
+#content .tourism ul li .overlay{position: relative; left: 0; bottom: 0; width: 100%;  overflow: hidden; height: 373px; background: rgba(0,0,0,.6); transition: all .5s; transform: scale(0)}
+#content .tourism ul li:hover .overlay{color: #fff; transition-delay: .2s; opacity: 1; overflow: hidden; transform: scale(1)}
+#content .tourism ul li .overlay .text{position: absolute}
+#content .tourism h4{font-family: 'Nanum Myeongjo', serif; font-size: 30px; text-align: center; margin-bottom: 40px; margin-top: 90px}
+#content .tourism p{font-family: 'Nanum Gothic', sans-serif; margin: 0 30px; line-height: 1.5em; text-align: justify}
+
+
+
+
+
+/*바로가기 영역*/
+
+#content .shortcut{margin-bottom: 235px; position: relative; width: 1200px; height: 379px; transition: .5s ease}
+#content .shortcut ul{width: 1040px; height: 379px; overflow: hidden}
+#content .shortcut img{width: 700px; height: 379px; transition: all 0.3s ease-in; overflow: hidden}
+#content .shortcut .container{overflow: hidden; border-radius: 0 100px}
+#content .shortcut .container:hover img{transform: scale(1.2); opacity: .7; width: 700px; height: 379px}
+#content .shortcut ul li:nth-child(2){clear: both}
+
+#content .shortcut h3{font-family: 'Nanum Myeongjo', serif; font-size: 40px; font-weight: 800; margin-bottom: 90px;}
+#content .shortcut p{text-align: justify; margin: 0; line-height: 1.5em}
+#content .shortcut .shortleft{width: 190px; float: left; margin: 10px 50px 0 150px; position: relative}
+
+#content .shortcut .shortleft .more{overflow: hidden; width: 80px; height: auto; margin-top: 30px}
+#content .shortcut .shortleft .more i{margin-left: 10px}
+#content .shortcut .left{font-size: 80px; color: #ccc; position: absolute; left: 0; top: 35%}
+#content .shortcut .right{font-size: 80px; color: #ccc; position: absolute; right: 0; top: 35%}
+#content .shortcut .left:hover{color: #333}
+#content .shortcut .right:hover{color: #333}
+
+
+
+
+/*공지사항 영역*/
+
+#content .notice{overflow: hidden; clear: both}
+#content .notice .news{width: 580px; height: 480px; border: 1px solid #ccc; float: left; position: relative}
+#content .notice .news h3{font-family: 'Nanum Myeongjo', serif; font-size: 40px; font-weight: 800; margin: 50px 0 50px 30px; position: relative}
+#content .notice .news h3:hover{color: navy}
+#content .notice .news a i{font-size: 20px; color: #666; float: right; position: absolute; right: 50px; top: 70px}
+#content .notice .news h3::after, #content .notice .announcement h3::after{content:''; display: block; width: 490px; height: 1px; background: #ccc; position: absolute; left:0; top:65px}
+
+#content .notice .news .col1{font-family: 'Nanum Gothic', sans-serif; font-weight: 700; color: #666; font-size: 1.125em; margin-bottom: 40px; margin-left: 40px; position: relative}
+#content .notice .news .col1 a:hover{display: block; text-decoration: underline}
+#content .notice .news .col2{float: right; margin-top: -60px; margin-right: 40px}
+
+
+#content .notice .announcement{width: 580px; height: 480px; border: 1px solid #ccc; margin-left: 30px; float: right; margin-bottom: 235px; position: relative}
+#content .notice .announcement h3{font-family: 'Nanum Myeongjo', serif; font-size: 40px; font-weight: 800; margin: 50px 0 50px 30px; position: relative}
+#content .notice .announcement h3:hover{color: navy}
+#content .notice .announcement a i{font-size: 20px; color: #666; float: right; position: absolute; right: 50px; top: 65px}
+
+#content .notice .announcement .col1{font-family: 'Nanum Gothic', sans-serif; font-weight: 700; color: #666; font-size: 1.125em; margin-bottom: 40px; margin-left: 40px; position: relative}
+#content .notice .announcement .col1 a:hover{display: block; text-decoration: underline}
+#content .notice .announcement .col2{float: right; margin-top: -60px; margin-right: 40px}
+
+
+#content .notice .announcement .col1 a::before, #content .notice .news .col1 a::before{content: ''; width: 10px; height: 10px; background: #0a355c; position: absolute; left: -20px; top: 5px}
+
+
+
+/*공고 영역*/
+
+#content .ad a{display: block; width: 1400px; height: 403px; background: url(../images/ad01.jpg) center no-repeat; background-size: cover; background-attachment: fixed; font-family: 'Nanum Gothic', sans-serif; text-align: center; margin-bottom: 235px; margin-left: -90px; position: relative}
+#content .ad p{font-size: 40px; color: #fff; font-weight: 700; padding-top: 130px}
+#content .ad span{display: block; font-size: 25px; font-weight: 400; padding-top: 60px}
+
+
+
+
+/*인스타그램 영역*/
+
+#content .instagram{overflow: hidden}
+#content .instagram h4{font-family: 'Nanum Myeongjo', serif; font-size: 50px; font-weight: 800; margin-bottom: 40px; text-align: center}
+#content .instagram ul{overflow: hidden}
+#content .instagram ul li{overflow: hidden;position: relative;float: left; width: 235px; height: 235px; margin-right: 5px; margin-bottom: 5px}
+#content .instagram ul li a{position: absolute;width: 100%;height: 100%;left: 0;top: 0;display: block;background: rgba(0,0,0,.75);color: #fff;text-align: center;opacity: 0;transition: all .5s ease}
+#content .instagram ul li:hover a{position: absolute; left: 1; top: 0; opacity: 1}
+#content .instagram li img{width: 235px; height: 235px; transform: scale(1); transition:all .6s}
+#content .instagram li:hover img{transform: scale(1.2)}
+#content .instagram ul li i{display: block;font-size: 4em;margin: 40px}
+
+#content .instagram ul li span{font-family: 'Nanum Gothic', sans-serif; font-size: 1em;line-height: 1.5em;font-weight: 400; padding-top: 100px}
+#content .instagram .down{margin-right: 0}
+
+
+
+
+/*배너 영역*/
+
+#content .partner{overflow: hidden; width: 1200px; height: 48px; margin:150px 0 100px 0}
+#content .partner .partnerBox{position:relative; left:0; top:0; width:4680px; overflow:hidden}
+
+#content .partner ul{overflow:hidden; float:left}
+#content .partner li{float:left; width:170px; height:48px; margin-left: 40px}
+
+
+

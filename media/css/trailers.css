@@ -1,0 +1,10 @@
+/* subTrailer */
+.subContent { background: #000; }
+
+.subImg #imgBG{width: 100%}
+.subImg h2 { position: absolute; top: 50%; left: 50%; width: 772px; margin-top: -120px; margin-left: -386px; font-size: 70px; font-weight: normal; text-align: center; font-family: 'Zootopia'; line-height: 120px; color: #f5692e; text-shadow: 5px 3px 0px rgba(255,255,255,1); }
+.subImg h2 span { display: block; font-size: 150px; }
+
+.trailer { padding: 5% 13%; }
+.trailer .title { text-transform: uppercase; position: relative; padding: 7% 0 2%; }
+.trailer .title::before { content: ""; display: block; height: 45px; width: 150px; background: url(../images/main_about_bg.png) center no-repeat; position: absolute; top: 10%; left: 50%; margin-left: -75px; }

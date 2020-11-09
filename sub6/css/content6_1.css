@@ -1,0 +1,20 @@
+#content p{text-align: center; font-size: 1.2em; margin-bottom: 200px}
+
+
+.content_area{overflow: hidden; font-family: 'Nanum Gothic', sans-serif}
+.content_area>div:first-child img{width: 584px; height: 391px; border-radius: 0 150px 0 0; float: left}
+.content_area>div:first-child ul{float: right; font-size: 1.5em; line-height: 2em; margin: 100px 50px}
+.content_area>div:first-child ul li{margin-bottom: 50px}
+
+.content_area .way{clear: both}
+.content_area .way h3{font-size: 1.5em}
+
+
+.content_area table{width: 100%; margin: 40px 0; line-height: 2em}
+.content_area table thead{background: #eee; text-align: center}
+.content_area table th,.content_area table td{border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: 15px 30px; text-align: left}
+.content_area table .line{border-left: 1px solid #ccc; border-right: 1px solid #ccc}
+.content_area table i{margin: 0 10px; font-size: 1.5em}
+.content_area .instruction tbody tr th{width: 200px}
+
+.content_area #map{width: 1200px; height: 600px; margin: 100px 0}

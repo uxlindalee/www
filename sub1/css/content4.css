@@ -1,0 +1,28 @@
+/* 조직안내 본문 */
+
+#content .title_area{font-family: 'Nanum Gothic', sans-serif}
+#content .title_area .line_map{font-size: 12px; color: #999; float: right; right: 10px; top: 10px; margin: 30px 0}
+#content .title_area h2{clear: both; font-size: 60px; font-weight: 800; text-align: center; margin-top: 130px}
+#content .title_area h2 span{font-size: 30px; margin-bottom: 100px}
+#content .title_area p{font-size: 20px; text-align: center; margin-top: 20px; margin-bottom: 160px; font-weight: 700}
+
+#content{width: 1200px; margin: 0 auto; font-family: 'Nanum Gothic', sans-serif}
+#content .dabs ul{overflow: hidden; width: 1200px; margin: 0 auto; border-bottom: 1px solid #ccc}
+#content .dabs ul li{width: 20%; float: left; text-align: center; color: #999}
+#content .dabs ul li a{display: block; border: 1px solid #ccc; padding: 15px 0; font-size: 20px; margin: 0 auto; transition: all .2s}
+#content .dabs ul li a:hover, #content .dabs ul li a:focus{display: block; background: #ccc; font-weight: 800; letter-spacing: -1px; transition: all 0.5s ease}
+
+
+#content .content_area{position: relative}
+#content .content_area .boss{width: 74px; position: relative;left: 560px; margin-bottom: 50px}
+#content .content_area .boss p{text-align: center; font-size: 30px; font-weight: 700}
+#content .content_area .assistant{font-size: 16px; text-align: center; margin-bottom: 50px}
+#content .content_area .group{}
+#content .content_area .group dl{width: 268px; height: 1000px; text-align: center; float: left; margin-bottom: 200px; margin-right: 10px; border: 1px solid #ccc}
+#content .content_area .group dl:first-child{margin-left: 45px}
+#content .content_area .group dl:nth-child(4){margin-right: 45px}
+#content .content_area .group dt img{display: block; margin: 35px 100px}
+#content .content_area .group dt{display: block; font-size: 25px; font-weight: 700; text-align: center; margin-bottom: 50px;}
+#content .content_area .group dl dd strong{line-height: 3em; border-bottom: 2px solid #ccc; padding: 3px }
+#content .content_area .group dl dd{line-height: 1.5em}
+

@@ -1,0 +1,13 @@
+/* 정보공개청구 본문 */
+
+.title_area p{margin: 0 100px 200px 100px; line-height: 2em; font-size: 1.2em; text-align: center}
+
+
+.content_area{}
+.content_area .no{position: relative}
+.content_area dl{overflow: hidden;height: 250px; position: relative; margin-bottom: 50px; border-bottom: 1px dashed #ccc}
+.content_area dl:nth-child(3){border-bottom: 0}
+.content_area dl dt span{margin-left: 50px; font-weight: 700; font-size: 2em; color: #006bb9; }
+.content_area dl dt strong{font-family: 'Roboto', sans-serif;font-size: 12.5em; color: #ccc;float: left}
+.content_area dl dd{float: left; margin-left: 50px; width: 800px; line-height: 2em; text-align: justify}
+.content_area .no img{position: absolute; right: 0px; top: 10px}

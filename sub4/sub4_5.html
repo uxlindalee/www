@@ -1,0 +1,89 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>한국관광공사 홍보영상</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e49f5d3028.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub4common.css">
+    <link rel="stylesheet" href="css/content4_5.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+            
+</head>
+<body>
+    
+<? include "../common/sub_head.html" ?>
+<? $_GET['num']=5;
+      include "common/sub4_nav.html";  ?>            
+  
+            
+                                
+<!-- 본문콘텐츠영역 -->      
+           <article id="content">
+            <div class="title_area">
+               <div class="line_map">
+                   <span>HOME</span> &gt; <span>알림/자료</span> &gt; <strong>홍보영상</strong>
+               </div>
+                  
+                   <h2>홍보영상</h2>
+                   
+                   
+            </div>
+                       
+            <div class="content_area">
+               
+                <div>
+                     <iframe name="video" width="560" height="315" src="https://www.youtube.com/embed/ZVcJVmyjhyw"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>    
+                 
+                  </div>
+                   
+                   <ul class="thumbnail">
+                      <li><a href="https://www.youtube.com/embed/ZVcJVmyjhyw" target="video"><img src="images/content5/thumb2.jpg" alt="Seoul video"></a></li>
+                      <li><a href="https://player.vimeo.com/video/407482529" target="video"><img src="images/content5/thumb1.jpg" alt="One day in Seoul"></a></li>
+                      <li><a href="https://player.vimeo.com/video/222158356" target="video"><img src="images/content5/thumb3.jpg" alt="Korea traditional clothes"></a></li>
+                      <li><a href="https://www.youtube.com/embed/WOJ6dWxPiLs" target="video"><img src="images/content5/thumb4.jpg" alt="Korea places to go"></a></li>
+                      <li><a href="https://www.youtube.com/embed/jSfN0DP1IOc" target="video"><img src="images/content5/thumb5.jpg" alt="Korea View"></a></li>
+                      <li><a href="https://www.youtube.com/embed/z1w2t7E-ep0" target="video"><img src="images/content5/thumb6.jpg" alt="Korea Tour points"></a></li>
+                      <li><a href="https://player.vimeo.com/video/79540021" target="video"> <img src="images/content5/thumb7.jpg" alt=""></a></li>
+                      <li><a href="https://player.vimeo.com/video/270581178" target="video"> <img src="images/content5/thumb8.jpg" alt=""></a></li>
+                      <li><a href="https://player.vimeo.com/video/100881809" target="video" ><img src="images/content5/thumb9.jpg" alt=""></a></li>
+                      <li><a href="https://player.vimeo.com/video/153751184" target="video"> <img src="images/content5/thumb10.jpg" alt=""></a></li>
+                      
+
+                       
+                   </ul>
+                    
+                
+                          
+                
+            
+
+           </div>
+            
+            
+        </article>
+    
+ 
+  
+<? include "../common/sub_foot.html" ?> 
+  
+        
+            
+                    
+</body>
+</html>

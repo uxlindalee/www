@@ -1,0 +1,32 @@
+/* CI 본문 */
+
+#content .title_area{font-family: 'Nanum Gothic', sans-serif}
+#content .title_area .line_map{font-size: 12px; color: #999; float: right; right: 10px; top: 10px; margin: 30px 0}
+#content .title_area h2{clear: both; font-size: 60px; font-weight: 800; text-align: center; margin-top: 130px}
+#content .title_area h2 span{font-size: 30px; margin-bottom: 100px}
+#content .title_area p{font-size: 20px; text-align: center; margin-top: 20px; margin-bottom: 160px; font-weight: 700}
+
+#content{width: 1200px; margin: 0 auto; font-family: 'Nanum Gothic', sans-serif}
+#content .dabs ul{overflow: hidden; width: 1200px; margin: 0 auto; border-bottom: 1px solid #ccc}
+#content .dabs ul li{width: 20%; float: left; text-align: center; color: #999}
+#content .dabs ul li a{display: block; border: 1px solid #ccc; padding: 15px 0; font-size: 20px; margin: 0 auto; transition: all .2s}
+#content .dabs ul li a:hover, #content .dabs ul li a:focus{display: block; background: #ccc; font-weight: 800; letter-spacing: -1px; transition: all 0.5s ease}
+
+#content .content_area .define{width: 1200px; height: 400px}
+#content .content_area .define p{text-indent: -9999px}
+#content .content_area .define img{position: relative; left: 230px; margin-bottom: 85px}
+#content .content_area>p{text-align: center; margin-bottom: 130px}
+
+
+#content .content_area .color{overflow: hidden}
+#content .content_area .color div{width: 600px; float: left}
+#content .content_area .color div dl dt{font-family: 'Nanum Gothic', sans-serif; font-size: 20px; font-weight: 700; text-align: center; margin: 30px 0}
+#content .content_area .color div dl dd{margin: 0 150px}
+#content .content_area .color div dl .top{margin-bottom: 50px}
+#content .content_area .color div dl dd{margin-bottom: 10px}
+#content .content_area .color p{clear: both; display: block; width: 900px; text-align: justify; padding: 100px 150px; line-height: 2em}
+
+#content .content_area .color .limit img{position: relative; left: 250px; margin-bottom: 50px}
+#content .content_area .color .limit{margin-bottom: 100px}
+
+

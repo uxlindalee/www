@@ -1,0 +1,113 @@
+/* Reset CSS  */
+* { margin:0; padding:0; border:0; outline:0; vertical-align:top;
+-webkit-text-size-adjust:none;  }
+body {font-family:'돋움', 'Lato', Dotum; font-size:16px; color:#333;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display:block; }
+ul, ol, dl { list-style:none; }
+img, video {border:0; vertical-align:top; }
+a, a:link {color:#333;text-decoration:none; }
+a:visited { color:#333; }
+a:hover, a:active {color:#333;text-decoration:none; }
+table { border-collapse:collapse; border-spacing:0; }
+input, select { vertical-align:middle; }
+label { cursor:pointer; }
+.blind,legend,hr,caption { display:block; overflow:hidden; position:absolute; top:0; left:-1000em; }
+i,em,address { font-style:normal; font-weight:normal; }
+p,li,dd{ line-height:1.5em}
+.hidden, #skipNav{display: block;position: absolute; left: -1000%; top: 0; width: 1px; height: 1px; overflow: hidden; color: #fff}
+
+@font-face{font-family:"zootopia"; src:url("../fonts/zootopia_font.ttf")format("truetype"); font-style:normal; font-weight:normal;}
+@font-face{font-family:"lato"; src:url("../fonts/Lato-Regular.ttf")format("truetype"); font-style:normal; font-weight:normal;}
+
+
+
+/* Header 공통영역 */
+
+#headerArea{position:fixed; z-index: 30; height: 150px; left:0; top: -150px; width: 100%; background: rgba(0,0,0,.9)}	
+.subHeader { top: 0 !important; }
+#headerArea	.headerInner{width: 90%; margin: 0 5%; }
+#headerArea h1{float: left; width: 400px; height: 121px; margin-top: 15px; background: url(../images/logo.png) center no-repeat;text-indent: -9999%; }
+#headerArea h1 a{display: block;  width: 400px; height: 121px;color: #fff; text-decoration: none}	
+#headerArea #gnb{float: right; margin-top: 2%}
+#headerArea #gnb ul{overflow: hidden; font-family: "zootopia"; margin-top:7%}
+#headerArea #gnb ul li{float: left}
+#headerArea #gnb ul li a{font-size: 20px; text-decoration: none; color: #fff; position: relative; display: inline-block;  overflow: hidden; padding: 20px;
+
+  background: linear-gradient(to right, #f5692e, #f5692e 50%, #fff 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+  text-decoration: none; 
+}
+#headerArea #gnb ul li a:hover{background-position: 0 100%}
+@import url('https://fonts.googleapis.com/css?family=Barlow:800&display=swap');
+#headerArea .menuOpen { position: absolute; right: 0px; top: 0px; display: none}
+
+
+
+
+/* Footer 공통영역 */
+
+#footerArea {width: 100%; height: 20%; background: #333 url(../images/footerlogo) center top 65px no-repeat; clear: both; padding: 10% 0 5%; background-size: 300px; text-align: center; font-size: 1em; font-weight: 700; color: #ccc; position: relative}
+#footerArea address {margin-top: 100px; word-break: break-word}
+#footerArea p {margin-top: 30px; color: #fff; word-break: break-word}
+#footerArea div.toTop {position: absolute; top: -30px; left: 50%; margin-left: -45px; background-color: #333; border-radius: 90px; z-index: 10}
+#footerArea .toTop a {display: block; width: 90px; height: 90px; color: #fff; line-height: 90px; }
+
+#footerArea div.toTopAni {animation: toTop 0.6s both}
+#footerArea .toTopAni:hover {animation: toTop 1s infinite; }
+@keyframes toTop {
+  0% { transform: scale3d(1, 1, 1); }
+  30% { transform: scale3d(0.75, 1.25, 1); }
+  40% { transform: scale3d(1.25, 0.75, 1); }
+  50% { transform: scale3d(0.85, 1.15, 1); }
+  65% { transform: scale3d(1.05, 0.95, 1); }
+  75% { transform: scale3d(0.95, 1.05, 1); }
+  100% { transform: scale3d(1, 1, 1); }
+}
+
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+    #headerArea h1{float: left; width: 300px; height: 91px; margin-top: 22px; background: url(../images/logot.png) center no-repeat}
+    #headerArea #gnb ul li a{padding: 12px}
+}
+
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+	
+    #headerArea{height: 100px; box-shadow: 0px 10px 10px rgba(43,69,75,0.4);}	
+    #headerArea h1{width: 300px; height: 91px; margin-top: 5px; background: url(../images/logot.png) center no-repeat}	
+    #headerArea #gnb{width: 100%; background: rgba(0,0,0,.9); display: none; position: absolute; top: 100px; left: 0; margin-top: 0}
+    #headerArea #gnb ul{margin-top: 0}
+    #headerArea #gnb ul li{float: none; width: auto; margin: 0; text-align: center}
+    #headerArea #gnb ul li a{padding: 20px 0}
+	#headerArea .menuOpen { font-size: 40px; color: #fff; display: block; padding: 29px 7%; }
+
+    
+    
+    
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+    #headerArea h1{width: 90%; height: 91px; margin: 0 5%; background: url(../images/logot.png) center no-repeat}
+
+    
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+	#headerArea h1{width: 60%; height: 91px; margin: 0 20%; background: url(../images/logott.png) center no-repeat}
+}
+
+/* 최소 사이즈 처리 */
+@media screen and (max-width:480px) {
+	#wrap { min-width:320px; }
+}
+

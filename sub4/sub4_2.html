@@ -1,0 +1,104 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>한국관광공사 소식</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e49f5d3028.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub4common.css">
+    <link rel="stylesheet" href="css/content4_2.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+            
+</head>
+<body>
+    
+ <? include "../common/sub_head.html" ?>
+<? $_GET['num']=2;
+      include "common/sub4_nav.html";  ?>           
+  
+            
+                                
+<!-- 본문콘텐츠영역 -->      
+           <article id="content">
+            <div class="title_area">
+               <div class="line_map">
+                   <span>HOME</span> &gt; <span>알림/자료</span> &gt; <strong>소식</strong>
+               </div>
+                  
+                   <h2>소식</h2>
+                   
+                   
+            </div>
+                       
+            <div class="content_area">             
+     
+                                      
+<!--소식영역 -->  
+                <section id="news">
+                    
+                        <ul>
+                            <li><a class="current" href="#">JUNE</a></li>
+                            <li><a href="#">MAY</a></li>
+                            <li><a href="#">APRIL</a></li>
+                            <li><a href="#">MARCH</a></li>
+                            <li><a href="#">FEBRUARY</a></li>
+                            <li><a href="#">JANUARY</a></li>
+                            <li><a href="#">2020</a></li>
+                        </ul>
+                        
+                        <div class="month">
+                        <h3>6월</h3>
+                        <img class="pattern" src="images/content1/sub_4_news.jpg" alt="">
+                        </div>
+                       
+                        <dl>
+                            <dt>2020.06.30</dt>
+                            <dd>2020년 영주시 단체관광객 유치 인센티브 지원 변경 알림         <span>관광진흥과</span></dd>
+                            <dt>2020.06.24</dt>
+                            <dd>한국관광공사 개인정보 처리방침 개정 알림                     <span>스마트관광사업과</span></dd>
+                            <dt>2020.06.22</dt>
+                            <dd>2020년 광주광역시 국내관광객 유치 지원 인센티브 변경 알림       <span>관광진흥과</span></dd>
+                            <dt>2020.06.19</dt>
+                            <dd>고양 관광 스토리텔링 공모전 개최                             <span>고양시청 문화유산관광과</span></dd>
+                            <dt>2020.06.18</dt>
+                            <dd>2020년 창원시 단체관광객 유치 여행사 인센테브 변경 알림         <span>창원시청 관광과</span></dd>
+                            <dt>2020.06.18</dt>
+                            <dd>2020년 성주군 단체관광객 유치 인센티브 지원 변경 알림         <span>성주군청 문화관광과</span></dd>
+                        </dl>
+                
+                </section>                
+                
+
+
+        
+            </div>
+
+            
+            
+        </article>
+    
+ 
+  
+<? include "../common/sub_foot.html" ?>
+   
+  
+        
+            
+                    
+</body>
+</html>

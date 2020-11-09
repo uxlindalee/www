@@ -1,0 +1,170 @@
+/* Common style */
+.grid {
+	margin: 5% ;
+    padding-bottom: 5%;
+	width: 90%;
+}
+
+.grid a {
+	float: left;
+	width: 33.33%;
+	color: #333;
+}
+
+.grid a:nth-child(4), .grid a:nth-child(5)  {
+	float: left;
+	width: 50%;
+	color: #333;
+}
+
+
+.grid figure {
+	position: relative;
+	overflow: hidden;
+	margin: 10px;
+	background: #333;
+}
+
+.grid figure img {
+	position: relative;
+	display: block;
+	width: 100%;
+	opacity: 0.7;
+	transition: opacity 0.3s;
+}
+
+.grid figcaption {
+	position: absolute;
+	top: 0;
+	z-index: 11;
+	padding: 10px;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.grid figcaption h4 {
+	margin: 0 0 30px 0;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	font-size: 2em;
+	transition: transform 0.3s;
+}
+
+.grid figcaption h4,
+.grid figcaption p {
+	transform: translateY(50px);
+}
+
+.grid figure button {
+	position: absolute;
+	padding: 4px 20px;
+	border: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+}
+
+.grid figcaption,
+.grid figcaption h4,
+.grid figure button {
+	backface-visibility: hidden;
+}
+
+/* Style for SVG */
+.grid svg {
+	position: absolute;
+	top: -1px; /* fixes rendering issue in FF */
+	z-index: 10;
+	width: 100%;
+	height: 60%;
+}
+
+.grid svg path {
+	fill: #fff;
+}
+
+/* Hover effects */
+.grid a:hover figure img {
+	opacity: 1;
+}
+
+.grid a:hover figcaption h4,
+.grid a:hover figcaption p {transform: translateY(0)}
+
+
+
+/* Individual styles */
+.container {width: 100%; background: #f5692e}
+
+.container .grid figcaption h4 {color: #f5692e}
+
+.container .grid figure button {
+	bottom: 0;
+	left: 0;
+	padding: 20px;
+	width: 100%;
+	background: #fff;
+	color: #333;
+	font-weight: 300;
+	transform: translateY(100%);
+}
+
+.container .grid a:hover figure button {transition-timing-function: ease-out; transform: translateY(0)}
+
+.container .grid figcaption h4{
+transition-timing-function: cubic-bezier(0.250, 0.250, 0.115, 1);
+
+}
+
+
+
+/* Media Queries */
+/* Let's redefine the width of each anchor and the margins */
+
+@media screen and (max-width:1024px) {
+	.grid a {width: 50%}
+    .grid a:nth-child(3){display: none}
+    .grid a:nth-child(4){display: none}
+    .grid a:nth-child(5){display: none}
+    .grid a:last-child{display: none}
+
+}
+
+@media screen and (max-width:768px) {
+	.grid {
+		
+        margin: 30px auto
+	}
+
+	.grid a {width: 50%}
+    
+
+
+	.grid figcaption h4 {
+		margin-bottom: 0px;
+		transform: translateY(30px);
+	}
+
+	.grid figcaption p {
+		margin: 0;
+		padding: 0 10px;
+	}
+}
+
+@media screen and (max-width:640px) {
+	.grid {max-width: 475px}
+
+	.grid a {width: 100%}
+    .grid a:nth-child(6){display: none}
+
+}
+
+
+/* 최소 사이즈 처리 */
+@media screen and (max-width:480px) {
+	#wrap { min-width:320px; }
+}

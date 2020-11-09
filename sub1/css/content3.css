@@ -1,0 +1,30 @@
+/* 연혁 본문 */
+
+#content .title_area{font-family: 'Nanum Gothic', sans-serif}
+#content .title_area .line_map{font-size: 12px; color: #999; float: right; right: 10px; top: 10px; margin: 30px 0}
+#content .title_area h2{clear: both; font-size: 60px; font-weight: 800; text-align: center; margin-top: 130px}
+#content .title_area h2 span{font-size: 30px; margin-bottom: 100px}
+#content .title_area p{font-size: 20px; text-align: center; margin-top: 20px; margin-bottom: 160px; font-weight: 700}
+
+#content{width: 1200px; margin: 0 auto; font-family: 'Nanum Gothic', sans-serif}
+#content .dabs ul{overflow: hidden; width: 1200px; margin: 0 auto; border-bottom: 1px solid #ccc}
+#content .dabs ul li{width: 20%; float: left; text-align: center; color: #999}
+#content .dabs ul li a{display: block; border: 1px solid #ccc; padding: 15px 0; font-size: 20px; margin: 0 auto; transition: all .2s}
+#content .dabs ul li a:hover, #content .dabs ul li a:focus{display: block; background: #ccc; font-weight: 800; letter-spacing: -1px; transition: all 0.5s ease}
+#content .dabs ul li .current{background: #ccc; font-weight: 800; letter-spacing: -1px}
+
+
+#content .content_area .hexa{width: 1200px; height: 563px; background: url(../images/content3/sub_3.jpg) center no-repeat; text-indent: -999px; overflow: hidden}
+
+
+#content .value{margin-top: 150px; display: block}
+#content h3{font-size: 50px; font-weight: 800; text-align: center; margin: 150px 0; margin-top: 150px; color: #333}
+#content .value dl{width: 400px; float: left; margin-bottom: 180px}
+#content .value dl dt{font-size: 25px; font-weight: 700; text-align: center; padding-bottom: 50px; border-bottom: 2px solid #ccc}
+#content .value dl dt img{display: block; width: 100px; height: 100px; margin-left: 150px; margin-bottom: 55px}
+#content .value dl dt img:hover{transform: scale(1.1)}
+#content .value dl dd{width: 400px; height: 80px; text-align: center; line-height: 30px; padding: 20px 0; border-bottom: 1px dashed #ccc}
+#content .value dl dd:last-child{border-bottom: 2px solid #ccc}
+
+
+

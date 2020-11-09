@@ -1,0 +1,31 @@
+/* 경영 본문 */
+
+
+#content .title_area{font-family: 'Nanum Gothic', sans-serif}
+#content .title_area .line_map{font-size: 12px; color: #999; float: right; right: 10px; top: 10px; margin: 30px 0}
+#content .title_area h2{clear: both; font-size: 60px; font-weight: 800; text-align: center; margin-top: 130px}
+#content .title_area h2 span{font-size: 30px; margin-bottom: 100px}
+#content .title_area p{font-size: 20px; text-align: center; margin-top: 20px; margin-bottom: 250px; font-weight: 700}
+#content .title_area .slogan{margin-bottom: 100px}
+
+#content{width: 1200px; margin: 0 auto; margin-bottom: 200px; font-family: 'Nanum Gothic', sans-serif; position: relative}
+#content .dabs ul{overflow: hidden; width: 1200px; margin: 0 auto; border-bottom: 1px solid #ccc}
+#content .dabs ul li{width: 20%; float: left; text-align: center; color: #999}
+#content .dabs ul li a{display: block; border: 1px solid #ccc; padding: 15px 0; font-size: 20px; margin: 0 auto; transition: all .2s}
+#content .dabs ul li a:hover, #content .dabs ul li a:focus{display: block; background: #ccc; font-weight: 800; letter-spacing: -1px; transition: all 0.5s ease}
+
+
+
+#content .content_area{font-family: 'Nanum Gothic', sans-serif; overflow: hidden}
+#content .content_area ul{margin: 0 300px; padding-top: 10px; border-top: 1px solid #ccc}
+#content .content_area li strong{font-size: 30px; font-weight: 700; width: 150px; float: left; margin: 0 85px 120px 0}
+#content .content_area li:nth-child(4) strong{margin-bottom: 300px}
+#content .content_area li:nth-child(1):hover strong{color: red}
+#content .content_area li:nth-child(2):hover strong{color: orange}
+#content .content_area li:nth-child(3):hover strong{color: #faed62}
+#content .content_area li:nth-child(4):hover strong{color: hotpink}
+#content .content_area li{width: 600px; float: right; line-height: 2em; border-bottom: 1px dashed #ccc; padding-top: 20px}
+
+#content img{margin: 0 auto; position: absolute; left: 200px; z-index: -5; top: -20px}
+
+

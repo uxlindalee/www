@@ -1,0 +1,29 @@
+/*갤러리 부분*/
+
+
+.title_area p{width: 1000px; margin: 50px 100px 100px 100px; text-align: center; line-height: 1.5em}
+.title_area p strong{font-family: 'Nanum Myeongjo', serif; color: #0a355c; display: block; font-size: 1.5em; line-height: 3em; text-align: center; font-weight: 700}
+
+.content_area #gallery{}
+.content_area #gallery .box{overflow: hidden; clear: both}
+.content_area #gallery .box ul{float: left; margin-right: 30px}
+.content_area #gallery .box ul:nth-child(4){float: left; margin-right: 0}
+.content_area #gallery .box ul li{margin-bottom: 30px; overflow: hidden; background: rgba(0,0,0,1); position: relative}
+.content_area #gallery .box ul li img{transform: scale(1); transition: all .2s; width: 271px}
+.content_area #gallery .box ul li a:hover img{transform: scale(1.1); transition: all .3s; opacity: .3}
+
+.content_area #gallery .box ul li .overlay{position: absolute; left: 0; bottom: 0; width: 100%;height: 50px; overflow: hidden; font-family: 'Nanum Myeongjo', serif; font-size: 1.1em; opacity: 0; text-align: center}
+.content_area #gallery .box ul li:hover .overlay{color: #fff; text-align: center; opacity: 1; overflow: hidden; transform: scale(1)}
+
+.content_area #gallery .box ul:nth-child(5){margin: 100px 0}
+.content_area #gallery .box ul:nth-child(5) li img{ width: 100%; height: 463px}
+.content_area #gallery .box .mini{margin-right: 42px; width: 165px}
+.content_area #gallery .box .mini:last-child{margin-right: 0}
+.content_area #gallery .box .mini li img{width: 165px; height: 110px}
+
+.poster{margin-bottom: 200px}
+.poster h3{font-size: 2.5em; font-weight: 700; text-align: center; margin: 200px 0 100px 0}
+.poster ul{overflow: hidden; margin-bottom: 50px}
+.poster ul li{float: left; margin-right: 20px}
+.poster ul li:nth-child(3){margin-right: 0}
+.poster ul li img{height: 400px}

@@ -1,0 +1,121 @@
+/* subCharacter */
+.subContent .characterSub { padding: 5% 7%; font-family: "zootopia"  }
+.subContent .characterSub>div, .characterSub .gazelle, .characterSub .flash { position: relative; }
+.subContent .characterSub > div > img, .characterSub > div > div > img { position: absolute; z-index: 19; }
+.subContent .characterSub > div > div > img { bottom: 0; }
+.subContent .characterSub > div > img { opacity: 0; transition-duration: 0.5s; }
+.subContent .characterSub .judy > img { top: 100px; right: 5%; width: auto}
+.subContent .characterUp { top: -30px !important; opacity: 1 !important; }
+.subContent .characterSub .nick, .characterSub .etc { margin-top: 5%; }
+.subContent .characterSub .nick > img { top: 100px; left: 0; width: auto}
+.subContent .characterSub .etc { overflow: hidden; }
+.characterSub .etc .gazelle{width: 50%; float: right}
+.characterSub .etc .flash{ width: 50%; float: left; }
+
+.subContent .characterSub .flash > img { right: 0; bottom: 0; position: absolute; height: 100%}
+.subContent .characterSub .gazelle > img { right: 0; bottom: 0; position: absolute; height: 100%}
+.subContent .characterSub .etc .grid { margin-top: 5%; }
+.subContent .characterSub .grid { overflow: hidden; }
+.subContent .characterSub dl { width: 54%; margin-bottom: 3%; }
+.subContent .characterSub .nick dl{ float: right; text-align: right; }
+.subContent .clear { clear: both; }
+.subContent .characterSub .etc dl { width: 45%; float: left}
+.subContent .characterSub dt { font-size: 60px; text-transform: uppercase; color: #f5692e; margin-bottom: 5%; }
+.subContent .characterSub dd {font-family: 'Lato'; margin-bottom: 1.5%; font-size: 20px; color: #fff; letter-spacing: -0.025em; }
+.subContent .characterSub figure { float: left; position: relative; overflow: hidden; margin-bottom: 3%; width: 31.3%; height: auto; background: #f5692e; margin-right: 3%; }
+.subContent .characterSub figure:last-child { margin-right: 0%; }
+.subContent .characterSub figure img { position: relative; display: block; width: 100%; opacity: 0.95; transition: transform 0.35s; transform-origin: 50% 50%; }
+.subContent .characterSub figure:hover img { transform: scale3d(0.95,0.93,1); }
+.subContent .characterSub .more{overflow: hidden}
+.subContent .characterSub .more>div{width: 30%; float: left}
+
+
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+    .characterSub .nick > img { width: 46%; }
+    .characterSub .flash > img { right: -8%;}
+    .characterSub .gazelle > img { width: 45%; }
+    .characterSub dt { font-size: 70px; }
+    .characterSub dd  { font-size: 23px; }
+    .characterSub .etc dl { width: 65%; }
+    .characterSub .judy dd:nth-of-type(3), .characterSub .judy dd:nth-of-type(4), .characterSub .nick dd:nth-of-type(3), .characterSub .nick dd:nth-of-type(4) { display: none; }
+    
+    .movie { padding: 5% 7%; }
+}
+
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+    .subContent .characterSub dt { font-size: 60px; margin-bottom: 5%; }
+    .subContent .characterSub .judy dl{ float: none; text-align: left}
+    .subContent .characterSub .nick dl{ text-align: right}
+    .characterSub .judy > img { right: -15%; width: 58%; }
+    .characterSub .nick > img { width: 55%; left: -10%; }
+    
+    .characterSub .etc .gazelle{width: auto; float: none; overflow: hidden; margin-bottom: 5%}
+    .characterSub .etc .flash{width: auto;  float: none; overflow: hidden; margin-bottom: 5%}
+    
+    .subContent .characterSub .flash dl{width: 70%; margin-right: 5%; text-align: left; float: left}
+    .subContent .characterSub .gazelle dl{width: 70%; text-align: left; float: left}
+
+    .subContent .characterSub .flash > img, .subContent .characterSub .gazelle > img {position: relative; background: rgba(255,255,255,.1); border-top-left-radius: 100px; border-bottom-right-radius: 100px; float: right; width: 25%}
+
+    .characterUp { top: 0px !important; }
+    .characterSub dt { font-size: 50px; }
+    .characterSub dd  { font-size: 20px; }
+    .characterSub .etc dl { width:auto }
+    .characterSub .judy dd:nth-of-type(3), .characterSub .judy dd:nth-of-type(4), .characterSub .nick dd:nth-of-type(3), .characterSub .nick dd:nth-of-type(4) { display: none; }
+    
+    .movie .imgPart .playBnt { width: 100px; height: 100px; border-radius: 100px; margin-left: -50px; margin-top: -50px; }
+    .movie .imgPart .playBnt span { border-left: 50px solid #0b9abd; border-top: 25px solid transparent; border-bottom: 25px solid transparent; margin: 25px 31px; }
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+    .subContent .characterSub dt { font-size: 30px}
+
+
+    
+    .subContent .characterSub .judy dl{ float: none; text-align: left; width: auto}
+    .characterSub .judy > img, .characterSub .nick > img{ display: none }
+    .subContent .characterSub figure:nth-of-type(2) {width: 48.5%; height: auto }
+    .subContent .characterSub figure:nth-of-type(3) {width: 48.5%; height: auto }
+    .characterSub dl {width: 100% }
+    .characterSub .nick dl, .characterSub .gazelle dl { float: none; text-align: left; width: auto}
+    .characterSub .judy dd:nth-of-type(3), .characterSub .judy dd:nth-of-type(4), .characterSub .nick dd:nth-of-type(3), .characterSub .nick dd:nth-of-type(4) { display: block; } 
+    .characterSub .etc dl { width: 100%; }   .characterSub .etc .gazelle{width: auto; float: none}
+    .characterSub .etc .flash{ width: auto; float: none}
+
+
+    
+    .characterSub figure { width: 48.5% }
+    .characterSub figure:nth-of-type(1) { width: 100%; margin-right: 0; }
+    
+    .subContent .friends .characterSub .flash > img,.friends .characterSub .gazelle > img  {}
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+    .characterSub dt { font-size: 30px; }
+    .characterSub dd  { font-size: 19px; }
+
+}
+
+/* 소형 모바일 */
+@media screen and (max-width:480px) {
+
+
+	
+}
+
+
+
+/* 최소 사이즈 처리 */
+@media screen and (max-width:480px) {
+    .characterSub figure { width: auto; margin-right: 0; }
+    .characterSub .etc .heihei, .characterSub .etc .pua { width: auto; float: none; }
+    
+    .movie .contentArea { width: auto; float: none; margin-left: 0 !important; }
+}

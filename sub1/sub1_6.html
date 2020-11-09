@@ -1,0 +1,83 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>한국관광공사 경영</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e49f5d3028.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub1common.css">
+    <link rel="stylesheet" href="css/content6.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+            
+</head>
+<body>
+    
+<? include "../common/sub_head.html" ?>  
+<? $_GET['num']=6;
+      include "common/sub1_nav.html"; 
+ ?> 
+    
+            
+
+        
+<!-- 본문콘텐츠영역 -->       
+        <article id="content">
+            <div class="title_area">
+               <div class="line_map">
+                   <span>HOME</span> &gt; <span>공사안내</span> &gt; <strong>경영</strong>
+               </div>
+               
+                <h2>BUSINESS</h2>
+                <p>경영</p>
+                <p class="slogan">B.E.S.T 혁신의 중단 없는 추진을 통하여 한국관광의 새로운 성장을 구현하고 있습니다.</p>
+            </div>
+            
+           <div class="content_area">
+               <ul>
+                   <li><strong>혁신슬로건</strong>벽을 눞히면 다리가 된다!</li>
+                   <li><strong>혁신방향</strong>차근차근 한 단계 한 단계 성장하는 '도담도담 혁신'</li>
+                   <li><strong>혁신전략</strong>
+                   변화 : 실무중심의 일하는 방식 개선으로 효율성 강화<br>
+                   소통 : 수평적 소통 기반의 열린 문화 조성<br>
+                   협업 : 협력을 통한 더 나은 성과 창출<br>
+                   참여 : 국민들의 적극적인 참여와 공감 확대</li>
+                   <li><strong>주요과제</strong>
+                   워크스마트 강화<br>
+                   일하는 방식 체계화, 효율화 강화<br>
+                   워라벨 리딩<br>
+                   공감, 소통 조직문화 강화<br>
+                   수평적 커뮤니케이션 강화<br>
+                   아이디어 미닝아웃 문화 정착<br>
+                   정부, 공공기관과의 협업 강화<br>
+                   지역사회 상생을 위한 협업체계 구축<br>
+                   민간과의 협업 활성화<br>
+                   고객 중심 사업관리 강화</li>
+               </ul>
+
+               <img src="images/content6/sub_6.gif" alt="">
+            </div>
+         </article>
+    
+ <? include "../common/sub_foot.html" ?>
+    
+        
+            
+                    
+</body>
+</html>

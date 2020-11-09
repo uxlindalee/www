@@ -1,0 +1,20 @@
+/* 교육사업 본문 */
+
+#content .title_area{font-family: 'Nanum Gothic', sans-serif}
+#content .title_area .line_map{font-size: 12px; color: #999; float: right; right: 10px; top: 10px; margin: 30px 0}
+#content .title_area h2{clear: both; font-size: 50px; font-weight: 700; text-align: center; margin:130px 0}
+.subnav_box .subNav ul li{width: 20%; float: left; text-align: center; color: #999}
+
+#content .content_area{overflow: hidden; color: #fff}
+#content .content_area p{font-size: 1.125em}
+#content .content_area .edu_info{width: 800px; height: 600px; background: url(../images/content1/sub_2_eduinfo.jpg) no-repeat; float: left}
+#content .content_area .edu_info h3{font-size: 30px; font-weight: 700; margin: 80px 0 350px 80px}
+#content .content_area .edu_info h3 a{color: #fff}
+#content .content_area .edu_info h3:hover{text-decoration-style: dotted}
+#content .content_area .edu_info p{width: 650px; height: 85px; text-align: justify; margin: 0 auto; line-height: 1.5em}
+#content .content_area .edu_info p:last-child{text-align: right; color: #666; font-size: 0.8em}
+#content .content_area .edu_certi{width: 400px; float: right}
+#content .content_area .edu_certi div:first-child{width: 400px; height: 300px; background: url(../images/content1/sub_2_tourguide.jpg) no-repeat}
+#content .content_area .edu_certi div:nth-child(2){width: 400px; height: 300px; background: url(../images/content1/sub_2tourcerti.jpg) no-repeat}
+#content .content_area .edu_certi h3{font-size: 25px; padding: 50px 45px}
+#content .content_area .edu_certi p{padding:0 45px; line-height: 1.5em; text-align: justify}

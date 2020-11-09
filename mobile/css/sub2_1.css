@@ -1,0 +1,40 @@
+/* sub2_1의 내용 콘텐츠 */
+
+
+#content{width: 100%; margin: 0 auto; font-family: 'Nanum Gothic', sans-serif; overflow: hidden; margin-top: 90px}
+#content .title_area img{width: 100%}
+#content .title_area h2{text-align: center; font-size: 2.5em; padding: 50px; font-weight: 700}
+
+#content .main img{width: 80%; padding: 20px 10%}
+#content .main p{width: 80%; padding-right: 15%; font-size: 1.2em; line-height: 1.5em; text-align: right}
+#content .content_area{margin-bottom: 100px}
+#content .content_area h2{font-family:Arial, Helvetica, sans-serif; font-size:1.6em; margin-bottom:10px}
+
+
+
+
+/*  Animation */
+#content{animation-name: ani; animation-duration: 1s; animation-iteration-count: 1}
+@keyframes ani{from{opacity: 0; transform: translateY(-50px)}
+               to{opacity: 1;transform: translateY(0)}}
+
+
+
+
+/* 교육사업 본문 */
+
+
+
+#content .content_area p{font-size: 1.125em}
+#content .content_area .edu_info{background:url(../images/sub2/sub_2_eduinfo.jpg) center no-repeat; background-size:cover}
+#content .content_area .edu_info h3{font-size: 1.5em; font-weight: 700; padding: 50px 0 100px 20px; width: 60%; }
+#content .content_area .edu_info h3 a{color: #fff; padding: 20px}
+#content .content_area .edu_info h3:hover{text-decoration-style: dotted}
+#content .content_area .edu_info p{width:90%; text-align: justify; padding: 20px 5% 10px; line-height: 1.5em; margin-top: 150px}
+#content .content_area .edu_info p a{display: block; padding: 0 20px 20px 50px}
+#content .content_area .edu_info p:last-child{text-align: right; color: #666; font-size: 0.8em; padding-bottom: 20px; margin-top: 0}
+#content .content_area .edu_certi{width: 100%}
+#content .content_area .edu_certi div:first-child{background: url(../images/sub2/sub_2_tourguide.jpg) no-repeat; background-size:cover}
+#content .content_area .edu_certi div:nth-child(2){background: url(../images/sub2/sub_2tourcerti.jpg) no-repeat; ; background-size:cover; color: #fff}
+#content .content_area .edu_certi h3{font-size: 1.5em; padding: 50px 20px}
+#content .content_area .edu_certi p{padding:5%; line-height: 1.5em; text-align: justify}

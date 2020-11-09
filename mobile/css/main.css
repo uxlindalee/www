@@ -1,0 +1,79 @@
+/* CSS Document */
+
+
+
+#content{}
+#content h3{text-align: center; font-family: 'Nanum Myeongjo', serif; font-size: 3em; font-weight: 700; margin: 100px 0 50px}
+
+#content .tourism{overflow: hidden; margin-top: 150px; opacity: 0; transition: all 1s}
+#content .tourism.On{overflow: hidden; margin-top: 0; opacity: 1}
+#content .tourism .swiper-container {width: 100%;}
+#content .tourism .swiper-wrapper{font-family: 'Nanum Gothic', sans-serif;}
+#content .tourism .swiper-wrapper .swiper-slide{}
+#content .tourism .swiper-wrapper .swiper-slide img{width: 94%; margin: 0 3%}
+#content .tourism .swiper-wrapper .swiper-slide p strong{display: block; text-align: center; font-size: 1.5em; margin-bottom: 10px}
+#content .tourism .swiper-wrapper .swiper-slide p{text-align: justify; margin: 10px 3%;width: 94%; line-height: 1.5em}
+
+
+#content .shortcut{margin-top: 100px; opacity: 0; transition: all 1s}
+#content .shortcut.On{overflow: hidden; margin-top: 0; opacity: 1}
+#content .shortcut ul{overflow: hidden}
+#content .shortcut ul li{position: relative}
+#content .shortcut ul li:nth-child(1){width: 50%; margin-left: 5%}
+#content .shortcut ul li:nth-child(2){width: 70%; float: right; margin-right: 5% }
+#content .shortcut ul li:nth-child(3){width: 45%; clear: both; margin-left: 5%}
+#content .shortcut ul li:nth-child(4){width: 40%; float: right; top: -50px; margin-right: 5%}
+#content .shortcut ul li a{display: block}
+#content .shortcut ul li img{width: 100%}
+
+#content .shortcut ul li p{font-family: 'Nanum Gothic', sans-serif; color: #fff; line-height: 1.5em; font-size: 1.3em}
+#content .shortcut ul li p strong{font-size: 1.3em}
+#content .shortcut ul li span{font-size: 1em; line-height: 1.5em}
+#content .shortcut ul li:nth-child(1) p{position: absolute; top: 40%; left: 15%}
+#content .shortcut ul li:nth-child(2) p{position: absolute; top: 40%; right: 10%}
+#content .shortcut ul li:nth-child(3) p{position: absolute; top: 40%; left: 17%}
+
+
+
+#content .news{font-family: 'Nanum Gothic', sans-serif; height: 600px; margin-top: 100px;  opacity: 0; transition: all 1s; margin-bottom: 100px}
+#content .news.On{overflow: hidden; margin-top: 0; opacity: 1}
+#content .news ul{font-size: 1.1em; width: 84%; padding: 0 8%; text-align: justify; }
+#content .news ul li{height: 93%; padding: 3% 0; border-top: 1px solid #ccc}
+#content .news ul li:last-child{border-bottom: 1px solid #ccc}
+#content .news ul li p{line-height: 1.5em; overflow: hidden; padding: 0 1%}
+#content .news>a{display: block; text-align: center; padding: 40px}
+
+
+
+#content .video_box{width: 100%; background: url(../images/videobackx2.jpg) left top no-repeat; background-size: cover; overflow: hidden; opacity: 0; transition: all 1s; margin-top: 100px; }
+#content .video_box.On{overflow: hidden; margin-top: 0; opacity: 1}
+/*
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+.video_box { background: url("../images/videobackx2.jpg");
+-webkit-background-size:cover}
+*/
+    
+#content .video_box video{padding: 20% 10%}
+#content .video_box p{width: 60%; font-family: 'Nanum Myeongjo', serif; font-size: 1.5em; color: #fff; float: right; padding: 100px 10% 100px 0; line-height: 1.7em; text-align: right}
+#content .video_box p strong{font-weight: bold; font-size: 1.6em}
+
+
+
+
+#content .instagram{ margin: 100px 0}
+#content .instagram.On{overflow: hidden; margin-top: 0; opacity: 1}
+
+#content .instagram ul{overflow: hidden; margin: 15px}
+#content .instagram ul li{margin-bottom:6px; width: 33.33%; float: left; text-align: center}
+#content .instagram ul li a{display: block; padding: 0 3px}
+#content .instagram ul li a img{width: 100%}
+
+
+
+
+
+
+
+
+
+

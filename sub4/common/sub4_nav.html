@@ -1,0 +1,44 @@
+<script>
+     window.onload=function(){
+
+        var num = '<?=$_GET['num']?>';
+        var nav1= document.getElementById('nav1'); 
+        var nav2= document.getElementById('nav2');
+        var nav3= document.getElementById('nav3');
+        var nav4= document.getElementById('nav4');
+        var nav5= document.getElementById('nav5');
+         
+         if(num==1){
+              nav1.className='current';
+          }else if(num==2){
+              nav2.className='current';
+          }else if(num==3){
+              nav3.className='current';
+          }else if(num==4){
+              nav4.className='current';
+          }else if(num==5){
+              nav5.className='current';
+          }
+
+}
+
+</script>
+       
+
+       
+<!-- 메인비주얼영역 -->
+        <div class="visual"></div>
+              
+      
+<!-- 서브네비영역 -->   
+        <div class="subnav_box">    
+            <div class="subNav">
+                <ul>
+                    <li><a id="nav1" href="../../free/list.php">공지사항</a></li>
+                    <li><a id="nav2" href="../news/list.php">소식</a></li>
+                    <li><a id="nav3" href="sub4_3.html">갤러리</a></li>
+                    <li><a id="nav4" href="sub4_4.html">공모전</a></li>
+                    <li><a id="nav5" href="sub4_5.html">홍보영상</a></li>
+                </ul>
+            </div>
+        </div> 

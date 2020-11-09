@@ -1,0 +1,11 @@
+/* 3depth의 공통 */
+
+.visual{width: 2000px; height: 400px; background:url(../../images/content1/sub_3_vis2.jpg) center no-repeat; position: relative; left: 50%; margin-left: -1000px}
+
+
+#content{width: 1200px; margin: 0 auto; margin-bottom: 150px}
+
+
+#content{animation-name: ani; animation-duration: 1s; animation-iteration-count: 1}
+@keyframes ani{from{opacity: 0; transform: translateY(-50px)}
+                to{opacity: 1;transform: translateY(0)}}

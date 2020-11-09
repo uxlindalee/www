@@ -1,0 +1,305 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+
+
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta name = "format-detection" content = "telephone=no">
+
+<title>한국관광공사</title>
+
+<link rel="apple-touch-icon-precomposed" href="app_icon.png">
+<link rel="apple-touch-startup-image" href="loading.gif">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/e49f5d3028.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/swiper.min.css">
+<link rel="stylesheet" href="css/flexslider.css">
+
+
+<script>
+  // <![CDATA[
+  try {
+   window.addEventListener('load', function(){
+    setTimeout(scrollTo, 0, 0, 1); 
+   }, false);
+  } 
+  catch(e) {}
+  // ]]>
+ </script>
+ <!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+
+
+
+
+<body>
+
+
+<!--<? include "common/main_head.html" ?> -->
+ <div id="skipNav">
+     <a href="#content">본문 바로가기</a>
+     <a href="#gnb">네비게이션 바로가기</a>
+ </div>
+ 
+ 
+ 
+<!-- 해더공통영역 -->   
+  <div id="wrap">
+     <div class="box"></div>
+<!-- 헤더 영역 -->     
+      <header id="headerArea">
+         <div class="header_top">
+          <h1 class="logo">
+             <a href="index.html">
+                  <img src="images/logox2.png" alt="한국관광공사 로고">
+             </a>
+          </h1>
+          <a href="#" class="menu_btn">
+              <i class="fas fa-bars"></i>
+          </a>
+         
+             
+          <nav id="gnb">
+              <h2 class="hidden">글로벌네비게이션영역</h2>
+              <div class="gnb_header">
+                  <a href="#nav" class="mclose"><i class="fas fa-times"></i></a>
+                  <div class="login">
+                      <i class="fas fa-user"></i>
+                      <a href="login/login_form.php">로그인 &nbsp; |</a>
+                      <a href="member/join.html">회원가입</a>
+                  </div>
+              </div>
+              <div class="gnb_body">
+                  <ul>
+                      <li class="depth1">
+                          <h3><a href="#">공사안내 <span><i class="fas fa-chevron-right"></i></span></a></h3>
+                          <ul>
+                              <li><a href="sub1/sub1_1.html">CEO</a></li>
+                              <li><a href="sub1/sub1_2.html">연혁</a></li>
+                              <li><a href="sub1/sub1_3.html">CI</a></li>
+                          </ul>
+                      </li>
+                      <li class="depth1">
+                          <h3><a href="#">사업소개 <span><i class="fas fa-chevron-right"></i></span></a></h3>
+                          <ul>
+                              <li><a href="sub2/sub2_1.html">관광교육사업</a></li>
+                              <li><a href="sub2/sub2_2.html">관광마케팅사업</a></li>
+                              <li><a href="sub2/sub2_3.html">관광홍보지원</a></li>
+                          </ul>
+                      </li>
+                      <li class="depth1">
+                          <h3><a href="#">자료실 <span><i class="fas fa-chevron-right"></i></span></a></h3>
+                          <ul>
+                              <li><a href="sub3/sub3_1.html">FAQ</a></li>
+                              <li><a href="sub3/sub3_2.html">갤러리</a></li>
+                              <li><a href="sub3/sub3_3.html">공모전</a></li>
+                          </ul>
+                      </li>
+                      <li class="depth1">
+                          <h3><a href="#">시설안내 <span><i class="fas fa-chevron-right"></i></span></a></h3>
+                          <ul>
+                              <li><a href="sub4/sub4_1.html">본사안내</a></li>
+                              <li><a href="sub4/sub4_2.html">국내지사</a></li>
+                              <li><a href="sub4/sub4_3.html">해외지사</a></li>
+                          </ul>
+                      </li>
+                  </ul>
+              </div>
+              
+              <div class="gnb_sns">
+                  <ul>
+                      <li><a href="https://ko-kr.facebook.com/hangukgwangwang/"><i class="fab fa-facebook"></i></a></li>
+                      <li><a href="https://www.instagram.com/kto9suk9suk/?hl=ko"><i class="fab fa-instagram"></i></a></li>
+                      <li><a href="https://www.youtube.com/channel/UC2MDW7cjUSt7_Q2F7Cg2Iaw/featured?view_as=subscriber"><i class="fab fa-youtube"></i></a></li>
+                      <li><a href="https://twitter.com/Kor_Visitkorea?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fab fa-twitter"></i></a></li>
+                  </ul>
+              </div>
+          </nav>
+          </div>
+      </header>
+
+ 
+
+
+<!-- 비주얼 영역 -->            
+      <div class="flexslider">
+          <ul class="slides">
+              <li><img src="images/main1x2.jpg" alt=""></li>
+              <li><img src="images/main2x2.jpg" alt=""></li>
+              <li><img src="images/main3x2.jpg" alt=""></li>
+              <li><img src="images/main4x2.jpg" alt=""></li>
+          </ul>
+          
+      </div>
+ 
+ 
+<!-- 본문 영역 -->           
+      <article id="content">
+         <h2 class="hidden">본문콘텐츠영역</h2>
+         
+         <section class="tourism">
+             <h3>TOURISM</h3>
+            <div class="swiper-container">  
+             <div class="swiper-wrapper">
+                 <div class="swiper-slide"><a href="http://lindalee.cafe24.com/mobile/sub2/sub2_1.html">
+                         <img src="images/tourism4x2.jpg" alt="">
+                         <p><strong>관광교육사업</strong>
+                         한국관광산업은 외래관광객 2,000만 시대를 준비하며 21세기 국가 전략산업으로서의 새로운 도약을 맞이하고 있습니다.</p>
+                     </a></div>
+                 <div class="swiper-slide"><a href="http://lindalee.cafe24.com/mobile/sub2/sub2_2.html">
+                         <img src="images/tourism5x2.jpg" alt="">
+                         <p><strong>관광마케팅사업</strong>MICE는 Meeting (회의), Incentive Travel (포상여행), Convention, Exhibition (전시) / Events (이벤트) 의 약자입니다. K-MICE는 국내외 다양한 MICE 정보를 제공하는 포털사이트입니다.</p>
+                     </a></div>
+                 <div class="swiper-slide"><a href="http://lindalee.cafe24.com/mobile/sub2/sub2_3.html">
+                         <img src="images/tourism2x2.jpg" alt="">
+                         <p><strong>관광홍보사업</strong>관광관련 비영리 목적의 게시물을 게제해 드립니다. 단, 대국민 대상의 일반적인 축제 / 이벤트 / 전시 등의 행사는 대한민국 구석구석 홈페이지를 통해 홍보해 드리고 있습니다.</p>
+                     </a></div>
+                 <div class="swiper-slide"><a href="http://lindalee.cafe24.com/sub2/sub2_4.html">
+                         <img src="images/tourism3x2.jpg" alt="">
+                         <p><strong>관광투자지원</strong>지역 관광자원개발 사업의 매력성 및 상품성 향상으로 관광투자가치를 중대하고 공공부문 관광자원개발 투자유치 담당자의 전문역량 강화 등 지원사업을 통해 지역관광 활성화에 기여코자 합니다.</p>
+                     </a></div>
+                 <div class="swiper-slide"><a href="http://lindalee.cafe24.com/sub2/sub2_5.html">
+                         <img src="images/tourismx2.jpg" alt="">
+                         <p><strong>관광컨설팅지원</strong>지방자치단체&#40;이하 ‘지자체’&#41; 대상 관광컨설팅 사업은 지자체의 요청이나 공사의 컨설팅 제안을 통해 이루어지게 되며 공사는 사업수행자 및 관리자(PM)로서 참여한다.</p>
+                     </a></div>
+             </div>
+             <div class="swiper-pagination"></div>
+          </div>
+
+         </section>
+
+         
+                  
+<!-- shortcut area -->                                     
+         <section class="shortcut">
+                 <ul>
+                     <li><a href="http://english.visitkorea.or.kr/enu/index.kto"><img src="images/shortx2.jpg" alt="Visit Korea 바로가기">
+                             <p><strong>Visit<br>Korea</strong><br><span>바로가기</span></p></a></li>
+                     <li><a href="https://korean.visitkorea.or.kr/main/main.do"><img src="images/shortcutx2%20.jpg" alt="대한민국 구석구석 바로가기">
+                             <p><strong>대한민국<br>구석구석</strong><br><span>바로가기</span></p></a></li>
+                     <li><a href="http://k-mice.visitkorea.or.kr/main.kto?func_name=mainStart"><img src="images/shortcutlastx2.jpg" alt="Go Camping 바로가기">
+                             <p><strong>Go<br>Camping</strong><br><span>바로가기</span></p></a></li>
+                     <li><img src="images/seoultxtx2.jpg" alt="Seoul 텍스트"></li>
+                 </ul>
+            
+         </section>
+
+        
+         
+<!-- news area -->                            
+         <section class="news">
+             <h3>FAQ</h3>
+             <ul>
+                 <li><p> Q. 신입사원의 급여 수준이 궁금합니다.</p></li>
+                 <li><p> Q. 영문 한국홍보간행물을 구하고 싶습니다.</p></li>
+                 <li><p> Q. 경쟁률은 어느 정도인가요?</p></li>
+                 <li><p> Q. 공사에 입사하면 어떤 업무를 하게 되나요?</p></li>
+                 <li><p> Q. 관광특구란 무엇이며 우리나라 관광특구 지정 현황을 알고 싶습니다.</p></li>
+                 
+             </ul>
+             <a href="http://lindalee.cafe24.com/mobile/sub3/sub3_1.html">VIEW ALL FAQ</a>
+         </section>
+
+         
+<!-- video area -->                            
+         <div class="video_box">
+             <video src="images/seoulplay.mp4" controls width="80%"></video>
+             <p><strong>관광</strong>을 <br> <strong>미래 성장동력</strong>으로 <br>  이끌고 <br>국민의 <strong>삶의 질<br> 향상</strong>에 기여한다</p>
+         </div>
+
+         
+<!-- instagram area -->                            
+         <section class="instagram">
+             <h3>INSTAGRAM</h3>
+             <ul>
+                 <li><a href="https://www.instagram.com/p/CDQxjEbjio3/"><img src="images/insta1x2.jpg" alt=""></a></li>
+                 <li><a href="https://www.instagram.com/p/CDLkgSkjESu/"><img src="images/insta2x2.jpg" alt=""></a></li>
+                 <li><a href="https://www.instagram.com/p/CDOOIAPDVTn/"><img src="images/insta3x2.jpg" alt=""></a></li>
+                 <li><a href="https://www.instagram.com/p/CDI_rmrDCg3/"><img src="images/insta4x2.jpg" alt=""></a></li>
+                 <li><a href="https://www.instagram.com/p/CDBRT2mjch4/"><img src="images/insta5x2.jpg" alt=""></a></li>
+                 <li><a href="https://www.instagram.com/p/CC8JAkaDEgQ/"><img src="images/insta6x2.jpg" alt=""></a></li>
+                 <li><a href="https://www.instagram.com/p/CC5i9C7jVoa/"><img src="images/insta7x2.jpg" alt=""></a></li>
+                 <li><a href="https://www.instagram.com/p/CC298cWDGHY/"><img src="images/insta8x2.jpg" alt=""></a></li>
+                 <li><a href="https://www.instagram.com/p/CAcbARqDijF/"><img src="images/insta9x2.jpg" alt=""></a></li>
+             </ul>
+         </section>
+          
+      </article>
+      
+      
+<!-- top button -->      
+      <a class="topMove" href="javascript:void(0);"><span>↑</span></a>
+ 
+      
+ <!--<? include "common/main_foot.html" ?>  -->
+     <!-- footer area -->       
+      <footer id="footerArea">
+          <div class="footer_header">
+              <a href="http://kto.visitkorea.or.kr/kor/helpDesk/siteGuide/useGuide.kto">HELP DESK</a>
+              <a href="http://lindalee.cafe24.com/index.html">PC VERSION</a>
+              <a href="http://www.visitkorea.or.kr/intro.html">FAMILY SITE</a>
+          </div>
+          <img src="images/footerlogox2.png" alt="">
+          <div class="footer_bottom">
+              <p>26464 강원도 원주시 세계로 10 <br> 
+              TEL : &#40;033&#41;738-3000 <br> 
+              사업자등록번호 : 202-81-50707<br>
+              통신판매업신고 : 제 2009-서울중구-1234호<br>
+              Copyright © KTO. ALL RIGHT RESERVED</p>
+          </div>
+      </footer>
+      
+  </div>              
+      
+
+  
+<script src="js/jquery-1.12.4.min.js"></script>  
+<script src="js/jquery-migrate-1.4.1.min.js"></script>  
+<script src="js/nav.js"></script>
+<script src="js/smooth_down.js"></script>
+
+<!-- Swiper JS -->
+  <script src="js/swiper.min.js"></script>
+
+<!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+ 
+<!-- 플랙스슬라이더 호출코드 -->
+  <script defer src="js/jquery.flexslider.js"></script>
+<script>
+ 
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide"
+      });
+    });
+</script>
+ 
+<!-- TopMove JS -->
+  <script src="js/slide_move.js"></script>
+
+  
+  
+</body>
+</html>

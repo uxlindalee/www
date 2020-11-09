@@ -1,0 +1,91 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>한국관광공사 서울센터</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e49f5d3028.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub6common.css">
+    <link rel="stylesheet" href="css/content6_2.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=a3175fa766780f4b004adcdb7cf7cb97"></script>
+    <script src="js/seoul_map.js"></script>
+
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+            
+</head>
+<body>
+    
+ 
+ <? include "../common/sub_head.html" ?>
+
+<!-- 메인비주얼영역 -->
+        <div class="visual"></div>
+              
+<!-- 서브네비영역 -->   
+        <div class="subnav_box">    
+            <div class="subNav">
+                <ul>
+                    <li><a href="sub6_1.html">본사안내</a></li>
+                    <li><a class="current" href="sub6_2.html">서울센터</a></li>
+                    <li><a href="sub6_3.html">국내지사</a></li>
+                    <li><a href="sub6_4.html">해외지사</a></li>
+
+                </ul>
+            </div>
+        </div>  
+    
+
+        
+<!-- 본문콘텐츠영역 -->       
+        <article id="content">
+            <div class="title_area">
+               <div class="line_map">
+                   <span>HOME</span> &gt; <span>시설안내</span> &gt; <strong>서울센터</strong>
+               </div>
+               
+                <h2>서울센터</h2>
+            </div>
+            
+            
+            <div class="content_area">
+                <div>
+                    <img src="images/content2/history.jpg" alt="건물사진">
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i><strong>주소</strong><br>서울특별시 중구 청계천로 40 2층, 6층 &#40;우&#41; 04521</li>
+                        <li><i class="fas fa-phone-alt"></i><strong>대표전화</strong><br>033&#41; 738-3000</li>
+                        <li><i class="fas fa-subway"></i><strong>찾아오시는 길</strong><br>
+                        1호선 : 종각역하차 5번출구, 영풍문고 길건너 한국관광공사빌딩<br>
+                        2호선 : 을지로입구역 2번출구 청계천방향 한국관광공사빌딩<br>
+                        5호선 : 광화문역 5번출구 동아일보방면 한국관광공사빌딩</li>
+                    </ul>
+                </div> 
+                     
+                <div id="seoul_map"></div>
+                    
+                <img src="images/content2/seoulmap.gif" alt="">    
+                      
+            </div>
+            
+            
+        </article>
+        
+        
+ <? include "../common/sub_foot.html" ?>            
+               
+                         
+</body>
+</html>

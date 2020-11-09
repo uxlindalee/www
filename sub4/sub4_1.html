@@ -1,0 +1,104 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>한국관광공사 공지사항</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e49f5d3028.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub4common.css">
+    <link rel="stylesheet" href="css/content4_1.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+            
+</head>
+<body>
+    
+<? include "../common/sub_head.html" ?>
+<? $_GET['num']=1;
+      include "common/sub4_nav.html";  ?>    
+    
+           
+  
+            
+                                
+<!-- 본문콘텐츠영역 -->      
+           <article id="content">
+            <div class="title_area">
+               <div class="line_map">
+                   <span>HOME</span> &gt; <span>알림/자료</span> &gt; <strong>공지사항</strong>
+               </div>
+                  
+                   <h2>공지사항</h2>
+                   
+                   
+            </div>
+                       
+            <div class="content_area">
+                           
+                           
+<!--공지사항영역 -->  
+                <section id="announce">
+                
+                        <ul>
+                            <li><a class="current" href="#">JUNE</a></li>
+                            <li><a href="#">MAY</a></li>
+                            <li><a href="#">APRIL</a></li>
+                            <li><a href="#">MARCH</a></li>
+                            <li><a href="#">FEBRUARY</a></li>
+                            <li><a href="#">JANUARY</a></li>
+                            <li><a href="#">2020</a></li>
+                        </ul>
+                        
+                        <div class="month">
+                        <h3>6월</h3>
+                        <img class="pattern" src="images/content1/sub_4_announce.jpg" alt="">
+                        </div>
+                        
+                        <dl>
+                            <dt>2020.06.30</dt>
+                            <dd>한국관광공사, 中 씨트립과 한국 여행상품 라이브 커머스 실시       <span>홍보팀</span></dd>
+                            <dt>2020.06.29</dt>
+                            <dd>한국관광공사, 7개 지역관광공사와‘언택트관광지 100선’ 발표       <span>홍보팀</span></dd>
+                            <dt>2020.06.29</dt>
+                            <dd>“근로자 휴가지원사업, 휴~가 주라주라 랜선 페스티벌 개최”       <span>홍보팀</span></dd>
+                            <dt>2020.06.23</dt>
+                            <dd>스마트관광도시 시범사업 후보지 ‘인천, 속초, 수원’             <span>홍보팀</span></dd>
+                            <dt>2020.06.22</dt>
+                            <dd>한국관광공사, 뉴노멀 시대 11대 선도사업 발표                 <span>홍보팀</span></dd>
+                            <dt>2020.06.22</dt>
+                            <dd>‘부산에서 즐기는 특별한 액티비티’                 
+                                <span>홍보팀</span></dd>
+                        </dl>
+                
+                </section>
+        
+            </div>
+
+            
+            
+        </article>
+    
+ 
+  
+<? include "../common/sub_foot.html" ?>
+   
+  
+        
+            
+                    
+</body>
+</html>

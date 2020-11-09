@@ -1,0 +1,67 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>한국관광공사 관광홍보지원</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e49f5d3028.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub2common.css">
+    <link rel="stylesheet" href="css/content23.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+            
+</head>
+<body>
+    
+ <? include "../common/sub_head.html" ?>  
+ <? $_GET['num']=3;
+      include "common/sub2_nav.html"; ?>
+       
+       
+       
+        
+<!-- 본문콘텐츠영역 -->       
+        <article id="content">
+            <div class="title_area">
+               <div class="line_map">
+                   <span>HOME</span> &gt; <span>사업소개</span> &gt; <strong>관광홍보지원</strong>
+               </div>
+                <h2>관광홍보지원</h2>
+            </div>
+            
+            <div class="content_area">  
+                    <ul>
+                        <li><img src="images/content3/sub331.jpg" alt="">
+                        <p><strong>1</strong><br>관광관련 비영리 목적의 게시물을 게재해드립니다. 단, 대국민 대상의 일반적인 축제/이벤트/전시 등의 행사는 대한민국 구석구석 홈페이지를 통해 홍보해 드리고 있습니다.</p></li>
+                        <li><p class="move"><strong>2</strong><br>게재신청 대상 사이트 국문사이트: 알림 > 소식 > 알림마당 &#40;이메일로는 접수 받지 않습니다.&#41; 해외사이트: 해외디지털마케팅팀 문의 &#40; Tel 033-738-3506 &#41;</p>
+                        <img src="images/content3/sub3_32.jpg" alt=""></li>
+                        <li><img src="images/content3/sub3_33.jpg" alt="">
+                        <p><strong>3</strong><br>게재신청시 주의사항 온라인 게재 신청 시 신청하신 내용에 따라 가능한 작업 일정 및 게재 가능일에 대한 내부 조정이 필요할 수 있으므로 게재를 희망하는 날로부터 최소 일주일전에 신청하여 주시기 바랍니다. 게재 신청 시 신청 내용과 관련된 자료를 파일로 첨부하여 주십시오. 단체회원만 신청 가능합니다.</p> </li>
+                    </ul>
+
+           
+            </div>
+
+        </article>
+    
+ <? include "../common/sub_foot.html" ?>
+    
+        
+            
+                    
+</body>
+</html>

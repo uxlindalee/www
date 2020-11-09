@@ -1,0 +1,30 @@
+/*국내지사 본문*/
+
+
+
+#content{width: 100%; margin: 0 auto; font-family: 'Nanum Gothic', sans-serif; overflow: hidden; margin-top: 90px}
+#content .title_area img{width: 100%}
+#content .title_area h2{text-align: center; font-size: 2.5em; padding: 50px; font-weight: 700}
+.title_area p{margin: 0 10%; text-align: center; line-height: 1.5em}
+.title_area p strong{font-family: 'Nanum Myeongjo', serif; color: #0a355c; display: block; font-size: 1.5em; line-height: 3em; text-align: center; font-weight: 700}
+
+
+
+#content .content_area{overflow: hidden; font-family: 'Nanum Gothic', sans-serif}
+
+#content .content_area .overlay{width: 100%; height: 300px; background: url(../images/sub4/hanbandologo.jpg) center no-repeat; margin-bottom: 50px}
+
+#content .content_area ul{padding: 10px; margin-bottom: 20px}
+#content .content_area ul li{overflow: hidden; line-height: 2em; width: 94%; outline: 1px dashed #ccc; padding: 0 3% 3% 3%}
+#content .content_area ul li img{float: left; width: 35%;  padding-left: 5px; background: #0a355c}
+#content .content_area ul li strong{display: block; float: left; width: 50%; font-size: 1.6em; line-height: 5em; margin: 10px 6%;font-weight: 800; text-align: center}
+#content .content_area ul li span{display: block;clear: both; font-weight: 700}
+
+
+
+
+
+/*  Animation */
+#content{animation-name: ani; animation-duration: 1s; animation-iteration-count: 1}
+@keyframes ani{from{opacity: 0; transform: translateY(-50px)}
+               to{opacity: 1;transform: translateY(0)}}

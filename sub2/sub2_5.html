@@ -1,0 +1,80 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>한국관광공사 관광컨설팅지원</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e49f5d3028.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub2common.css">
+    <link rel="stylesheet" href="css/content25.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+            
+</head>
+<body>
+    
+ <? include "../common/sub_head.html" ?>  
+ <? $_GET['num']=5;
+      include "common/sub2_nav.html"; ?>
+       
+       
+       
+        
+<!-- 본문콘텐츠영역 -->       
+        <article id="content">
+            <div class="title_area">
+               <div class="line_map">
+                   <span>HOME</span> &gt; <span>사업소개</span> &gt; <strong>관광컨설팅지원</strong>
+               </div>
+                <h2>관광컨설팅지원</h2>
+            </div>
+            
+            <div class="content_area">
+            <ul>
+                <li><span>자원발굴</span></li>
+                <li><span>상품개발</span></li>
+                <li><span>사업성분석</span></li>
+                <li><span>홍보 및 마케팅</span></li>
+                <li><span>종합계획</span></li>
+            </ul>
+            
+            <div class="consult">
+                <p><span>컨설팅 지원 대상</span>지방자치단체 등</p>
+                <p><span>지원분야</span>관광개발계획 구상 및 타당성 검토<br>
+                    관광개발 기본계획 및 설계&#40;기본 및 실시&#41;<br>
+                    관광종합개발계획 실시<br>
+                    테마형 관광자원 개발계획 수립<br>
+                    기타 무료 컨설팅 지원 등<br>
+                    사업성 분석, 홍보·마케팅 및 상품개발 등</p>
+            </div>
+            <div class="support">
+            <p>※ 공사의 전사 조직을 활용하여 관광개발, 홍보·마케팅, 상품개발 등 관광관련 통합컨설팅 지원</p>
+            </div>
+            <img src="images/content5/sub_15.jpg" alt="컨설팅하는 사람들">
+            </div>
+            
+            
+
+        </article>
+    
+ <? include "../common/sub_foot.html" ?>
+    
+        
+            
+                    
+</body>
+</html>

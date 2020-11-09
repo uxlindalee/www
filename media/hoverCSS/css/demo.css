@@ -1,0 +1,18 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+
+*, *:after, *:before {box-sizing: border-box}
+
+
+button {outline: none}
+.clearfix:before,
+.clearfix:after {content: " "; display: table}
+.clearfix:after {clear: both}
+
+
+.related {text-align: center; font-size: 1.5em}
+
+@media screen and (max-width: 25em) {
+
+
+}

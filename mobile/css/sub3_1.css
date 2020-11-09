@@ -1,0 +1,57 @@
+/* sub3_1의 내용 콘텐츠 */
+
+
+#content{width: 100%; margin: 0 auto; font-family: 'Nanum Gothic', sans-serif; overflow: hidden; margin-top: 90px}
+#content .title_area img{width: 100%}
+#content .title_area h2{text-align: center; font-size: 3em; padding: 50px; font-weight: 700}
+#content .title_area h2 span{font-size: .4em; font-weight: normal}
+
+
+#content .content_area{margin-bottom: 100px; font-family: 'Nanum Gothic', sans-serif; position: relative}
+.content_area .subNav{overflow: hidden; display: block; width: 1200px; padding: 150px 0}
+.content_area .subNav li{width: 200px; height: 200px; border-radius: 100px; background-color: #fef6df; text-align: center; float: left; margin-right: 45px;transition: all .5s}
+.content_area .subNav .current{background-color: #f7aa36}
+.content_area .subNav li:last-child{margin-right: 0}
+.content_area .subNav li:hover{background-color: #f7aa36}
+.content_area .subNav li a{display: block}
+.content_area .subNav li:hover a{color: #fff}
+.content_area .subNav li i{font-size: 50px; display: block; text-align: center;margin-bottom: 15px}
+.content_area .subNav li span{display: block; font-size: 20px; font-weight: 700; text-align: center; margin-top: 50px}
+
+.content_area h3{font-size: 2.5em; font-weight: 700; text-align: center}
+
+
+
+.content_area .faq{width: 100%;border-top: 3px solid #f7aa36;margin:50px auto}
+.content_area .faq .hgroup{position:relative; margin:0 0 10px 0}  
+.content_area .faq .hgroup .all{position:absolute; top:-50px; right:10%; color:#333; text-decoration:none; color:#f7aa36; padding: 5%}  
+
+.content_area .faq ul{margin:0;padding:0;list-style:none} 
+.content_area .faq ul li{border-bottom: 1px solid #f7aa36}
+.content_area .faq ul li:last-child{border-bottom: 3px solid #f7aa36}
+
+.content_area .faq ul li p:nth-child(2){overflow:hidden; padding-bottom:20px; margin-top:0px; margin-bottom:0px; height:auto}
+.content_area .faq .q{height: 75px; font-size: 1.25em;font-family: 'Nanum Gothic', sans-serif;  background: url(../images/sub3/sub_3_q.jpg) 20px 10px no-repeat,url(../images/sub3/q.jpg) 20px no-repeat}  
+
+.content_area .faq .q a.trigger{display:block; color:#333; text-align:left; text-decoration:none; padding: 18px 2% 18px 70px}  
+.content_area .faq .hide .q a.trigger{font-weight:normal;background:none}  
+.content_area .faq .q a.trigger:hover,  
+.content_area .faq .q a.trigger:active,  
+.content_area .faq .q a.trigger:focus{font-weight: 700}  
+.content_area .faq .a{display: none;text-align: normal;padding:0 30px 30px 70px;margin-top: 10px;line-height: 2em;background: url(../images/sub3/sub_3_a.jpg) 20px 0 no-repeat} 
+
+.content_area .faq ul li .a{border-bottom: 1px solid #f7aa36;display: block}
+
+
+.content_area .img{width: 80%; padding: 20% 0 0 20%}
+.content_area .img img{width: 100%}
+
+
+
+
+
+/*  Animation */
+#content{animation-name: ani; animation-duration: 1s; animation-iteration-count: 1}
+@keyframes ani{from{opacity: 0; transform: translateY(-50px)}
+               to{opacity: 1;transform: translateY(0)}}
+

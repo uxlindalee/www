@@ -1,0 +1,34 @@
+/* 국민참여 관광정보수정 본문 */
+
+
+#content .title_area{font-family: 'Nanum Gothic', sans-serif}
+#content .title_area .line_map{font-size: 12px; color: #999; float: right; right: 10px; top: 10px; margin: 30px 0}
+#content .title_area h2{clear: both; font-size: 50px; font-weight: 800; text-align: center ; margin: 130px 0 30px 0}
+#content .title_area p{font-size: 1.125em; text-align: center}
+#content .title_area h3{font-size: 22px; font-weight: 700; text-align: center; margin-left: 500px; margin-top: 100px; background-color: #fef6df; width: 200px; height: 200px; border-radius: 100px}
+#content .title_area h3:hover{background-color: #f7aa36}
+#content .title_area h3 span{display: block; padding-top: 85px; text-align: center}
+
+
+.content_area{font-family: 'Nanum Gothic', sans-serif; position: relative}
+.content_area .subNav{overflow: hidden; display: block; width: 1200px; padding: 150px 0}
+.content_area .subNav li{width: 200px; height: 200px; border-radius: 100px; background-color: #fef6df; text-align: center; float: left; margin-right: 45px;transition: all .5s}
+.content_area .subNav .current{background-color: #f7aa36}
+.content_area .subNav li:last-child{margin-right: 0}
+.content_area .subNav li:hover{background-color: #f7aa36}
+.content_area .subNav li a{display: block}
+.content_area .subNav li:hover a{color: #fff}
+.content_area .subNav li i{font-size: 3.125em; display: block; text-align: center; margin-bottom: 15px}
+.content_area .subNav li span{display: block; font-size: 20px; font-weight: 700; text-align: center; margin-top: 50px}
+
+.content_area h3{font-size: 1.875em; font-weight: 700; text-align: center; margin: 50px 0}
+.content_area .passage{overflow: hidden}
+.content_area .passage p{text-align: center; width: 100%; font-size: 1.125em}
+.content_area .passage ul{margin: 100px 140px}
+.content_area .passage ul li{overflow: hidden}
+.content_area .passage ul li p{float: left; width: 700px; text-align: justify; margin-left: 70px}
+.content_area .passage ul li p strong{display: block; font-size: 2em; margin-top: 50px; line-height: 2em}
+.content_area .passage ul li span{display: block;margin-top: 50px; width: 150px; height: 150px; border-radius: 75px; text-align: center; background:#0a355c; float: left}
+.content_area .passage i{color: #fff; font-size: 3em; margin-top:45px; margin-left: 10px}
+
+.content_area .passage ul li{}
