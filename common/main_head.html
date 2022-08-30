@@ -1,137 +1,134 @@
-  
-  <div id="skipNav">
-       <a href="#content">본문 바로가기</a>
-       <a href="#gnb">글로벌 네비게이션 바로가기</a>
-   </div>
-   
-      
+
+<div id="skipNav">
+  <a href="#content">본문 바로가기</a>
+  <a href="#gnb">글로벌 네비게이션 바로가기</a>
+</div>
+
 <!-- 해더공통영역 -->  
-   <div id="wrap">
-       <header id="headerArea">
-          <div class="header_inner">
-           <h1 class="logo">
-               <a href="index.html">한국관광공사</a>
-           </h1>
-           <div class="topright">
-           <div class="top_menu">
-               <ul>
-                   <li><a href="index.html"><i class="fas fa-home"></i></a></li>
-                   
+  <div id="wrap">
+      <header id="headerArea">
+        <div class="header_inner">
+          <h1 class="logo">
+              <a href="index.html">한국관광공사</a>
+          </h1>
+          <div class="topright">
+          <div class="top_menu">
+              <ul>
+                  <li><a href="index.html"><i class="fas fa-home"></i></a></li>
+                  
 <?
-    if(!$userid)  //세션변수가 생성되어 있지 않으면
-    {
+  if(!$userid)  //세션변수가 생성되어 있지 않으면
+  {
 ?>               
-                   
-                   <li><a href="login/login_form.php">로그인</a></li>
-                   <li><a href="member/join.html">회원가입</a></li>
-                   
-                   <li class="searchBox">
-                           <form name="board_form" action="news/list.php?mode=search" method="post">
-                              <label class="hidden" for="find">소식</label>
-				              <input type="hidden" id="find" name="find" value="content">
-                              
-                               <label for="search">검색 |</label>
-                               <input type="text" id="search" name="search" placeholder="검색어 입력">
-                               <button type="submit"><span class="hidden">검색</span><i class="fas fa-search"></i></button>
-                           </form>
-                   </li>
-                   
+                  <li><a href="login/login_form.php">로그인</a></li>
+                  <li><a href="member/join.html">회원가입</a></li>
+                  
+                  <li class="searchBox">
+                          <form name="board_form" action="news/list.php?mode=search" method="post">
+                            <label class="hidden" for="find">소식</label>
+                    <input type="hidden" id="find" name="find" value="content">
+                            
+                              <label for="search">검색 |</label>
+                              <input type="text" id="search" name="search" placeholder="검색어 입력">
+                              <button type="submit"><span class="hidden">검색</span><i class="fas fa-search"></i></button>
+                          </form>
+                  </li>
 <?
-	}
-	else  //세션변수가 생성되지 않으면 (로그인이 성공되었으면)
-	{
+}
+else  //세션변수가 생성되지 않으면 (로그인이 성공되었으면)
+{
 ?>                 <li><?=$username?></li>
-                   <li><a href="login/logout.php">로그아웃</a></li>
-                   <li><a href="login/member_form_modify.php">회원정보수정</a></li>
-                   
-                   <li class="searchBox">
-                           <form name="board_form" action="news/list.php?mode=search" method="post">
-                              <label class="hidden" for="find">소식</label>
-				              <input type="hidden" id="find" name="find" value="content">
-                              
-                               <label for="search">검색 |</label>
-                               <input type="text" id="search" name="search" placeholder="검색어 입력">
-                               <button type="submit"><span class="hidden">검색</span><i class="fas fa-search"></i></button>
-                           </form>
-                   </li>
+                  <li><a href="login/logout.php">로그아웃</a></li>
+                  <li><a href="login/member_form_modify.php">회원정보수정</a></li>
+                  
+                  <li class="searchBox">
+                          <form name="board_form" action="news/list.php?mode=search" method="post">
+                            <label class="hidden" for="find">소식</label>
+                    <input type="hidden" id="find" name="find" value="content">
+                            
+                              <label for="search">검색 |</label>
+                              <input type="text" id="search" name="search" placeholder="검색어 입력">
+                              <button type="submit"><span class="hidden">검색</span><i class="fas fa-search"></i></button>
+                          </form>
+                  </li>
 <?
-	}
+}
 ?>                   
-                               
-               </ul>
-           </div>
-           
-           
-           
-           
+                              
+              </ul>
+          </div>
+          
+          
+          
+          
 <!-- 네비공통영역 -->          
-           <nav id="gnb">
-               <h2 class="hidden">글로벌내비게이션영역</h2>
-                   <ul class="dropdownmenu">
-                    <li class="m1 menu">
-                        <h3><a class="depth1" href="sub1/sub1_1.html">공사안내</a></h3>
-                        <ul>
-                            <li><a href="sub1/sub1_1.html">CEO</a></li>
-                            <li><a href="sub1/sub1_2.html">연혁</a></li>
-                            <li><a href="sub1/sub1_3.html">비전</a></li>
-                            <li><a href="sub1/sub1_4.html">조직안내</a></li>
-                            <li><a href="sub1/sub1_5.html">CI</a></li>
-                            <li><a href="sub1/sub1_6.html">경영</a></li>
-                            <li></li>
-                        </ul>
-                    </li>
-                    <li class="m2 menu">
-                        <h3><a class="depth1" href="sub2/sub2_1.html">사업소개</a></h3>
-                        <ul>
-                            <li><a href="sub2/sub2_1.html">관광교육사업</a></li>
-                            <li><a href="sub2/sub2_2.html">관광마케팅지원</a></li>
-                            <li><a href="sub2/sub2_3.html">관광홍보지원</a></li>
-                            <li><a href="sub2/sub2_4.html">관광투자지원</a></li>
-                            <li><a href="sub2/sub2_5.html">관광컨설팅지원</a></li>
-                        </ul>
-                    </li>
-                    <li class="m3 menu">
-                        <h3><a class="depth1" href="sub3/sub3_1.html">국민참여</a></h3>
-                        <ul>
-                            <li><a href="sub3/sub3_2.html">자주묻는 질문</a></li>
-                            <li><a href="../mail/mail.html">똑똑한 문의</a></li>
-                            <li><a href="sub3/sub3_4.html">똑똑한 제안</a></li>
-                            <li><a href="../well/list.php">칭찬합니다</a></li>
-                            <li><a href="sub3/sub3_6.html">관광정보수정</a></li>
-                        </ul>
-                    </li>
-                    <li class="m4 menu">
-                        <h3><a class="depth1" href="../free/list.php">알림/자료</a></h3>
-                        <ul>
-                            <li><a href="../free/list.php">공지사항</a></li>
-                            <li><a href="../news/list.php">소식</a></li>
-                            <li><a href="sub4/sub4_3.html">갤러리</a></li>
-                            <li><a href="sub4/sub4_4.html">공모전</a></li>
-                            <li><a href="sub4/sub4_5.html">홍보영상</a></li>
-                        </ul>
-                    </li>
-                    <li class="m5 menu">
-                        <h3><a class="depth1" href="sub5/sub5_1.html">정보공개</a></h3>
-                        <ul>
-                            <li><a href="sub5/sub5_1.html">이용안내</a></li>
-                            <li><a href="sub5/sub5_2.html">공공데이터개방</a></li>
-                            <li><a href="sub5/sub5_3.html">정보공개청구</a></li>
-                            <li><a href="../download/list.php">정보목록</a></li>
-                        </ul>
-                    </li>
-                    <li class="m6 menu">
-                        <h3><a class="depth1" href="sub6/sub6_1.html">시설안내</a></h3>
-                        <ul>
-                            <li><a href="sub6/sub6_1.html">본사안내</a></li>
-                            <li><a href="sub6/sub6_2.html">서울센터</a></li>
-                            <li><a href="sub6/sub6_3.html">국내지사</a></li>
-                            <li><a href="sub6/sub6_4.html">해외지사</a></li>
-                        </ul>
-                    </li>
-                  </ul>
-           </nav>
-           </div>
-           </div>
-       </header>
-       
-       
+          <nav id="gnb">
+              <h2 class="hidden">글로벌내비게이션영역</h2>
+                  <ul class="dropdownmenu">
+                  <li class="m1 menu">
+                      <h3><a class="depth1" href="sub1/sub1_1.html">공사안내</a></h3>
+                      <ul>
+                          <li><a href="sub1/sub1_1.html">CEO</a></li>
+                          <li><a href="sub1/sub1_2.html">연혁</a></li>
+                          <li><a href="sub1/sub1_3.html">비전</a></li>
+                          <li><a href="sub1/sub1_4.html">조직안내</a></li>
+                          <li><a href="sub1/sub1_5.html">CI</a></li>
+                          <li><a href="sub1/sub1_6.html">경영</a></li>
+                          <li></li>
+                      </ul>
+                  </li>
+                  <li class="m2 menu">
+                      <h3><a class="depth1" href="sub2/sub2_1.html">사업소개</a></h3>
+                      <ul>
+                          <li><a href="sub2/sub2_1.html">관광교육사업</a></li>
+                          <li><a href="sub2/sub2_2.html">관광마케팅지원</a></li>
+                          <li><a href="sub2/sub2_3.html">관광홍보지원</a></li>
+                          <li><a href="sub2/sub2_4.html">관광투자지원</a></li>
+                          <li><a href="sub2/sub2_5.html">관광컨설팅지원</a></li>
+                      </ul>
+                  </li>
+                  <li class="m3 menu">
+                      <h3><a class="depth1" href="sub3/sub3_1.html">국민참여</a></h3>
+                      <ul>
+                          <li><a href="sub3/sub3_2.html">자주묻는 질문</a></li>
+                          <li><a href="../mail/mail.html">똑똑한 문의</a></li>
+                          <li><a href="sub3/sub3_4.html">똑똑한 제안</a></li>
+                          <li><a href="../well/list.php">칭찬합니다</a></li>
+                          <li><a href="sub3/sub3_6.html">관광정보수정</a></li>
+                      </ul>
+                  </li>
+                  <li class="m4 menu">
+                      <h3><a class="depth1" href="../free/list.php">알림/자료</a></h3>
+                      <ul>
+                          <li><a href="../free/list.php">공지사항</a></li>
+                          <li><a href="../news/list.php">소식</a></li>
+                          <li><a href="sub4/sub4_3.html">갤러리</a></li>
+                          <li><a href="sub4/sub4_4.html">공모전</a></li>
+                          <li><a href="sub4/sub4_5.html">홍보영상</a></li>
+                      </ul>
+                  </li>
+                  <li class="m5 menu">
+                      <h3><a class="depth1" href="sub5/sub5_1.html">정보공개</a></h3>
+                      <ul>
+                          <li><a href="sub5/sub5_1.html">이용안내</a></li>
+                          <li><a href="sub5/sub5_2.html">공공데이터개방</a></li>
+                          <li><a href="sub5/sub5_3.html">정보공개청구</a></li>
+                          <li><a href="../download/list.php">정보목록</a></li>
+                      </ul>
+                  </li>
+                  <li class="m6 menu">
+                      <h3><a class="depth1" href="sub6/sub6_1.html">시설안내</a></h3>
+                      <ul>
+                          <li><a href="sub6/sub6_1.html">본사안내</a></li>
+                          <li><a href="sub6/sub6_2.html">서울센터</a></li>
+                          <li><a href="sub6/sub6_3.html">국내지사</a></li>
+                          <li><a href="sub6/sub6_4.html">해외지사</a></li>
+                      </ul>
+                  </li>
+                </ul>
+          </nav>
+          </div>
+          </div>
+      </header>
+      
+      

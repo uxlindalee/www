@@ -1,10 +1,13 @@
 /* feature film 영역 */
 .character .inWrap {
 	position: relative;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .character .fInner {
-	margin: 0 auto;	width: 85%; overflow: hidden;
+	margin: 0 auto;	width: 75%; overflow: hidden;
 	padding-bottom: 1%;
 }
 

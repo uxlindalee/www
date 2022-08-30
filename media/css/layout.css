@@ -57,24 +57,21 @@
 #content{width:100%}
 #content .about {position: relative; height: 100%; overflow: hidden}
 #content .about>img {width: 80%; position: relative; left: 0; top: 0}
-#content .about>div {width: 40%; height: 150%; transform: rotate(20deg); background: #f5692e; position: absolute; right: -70px; top: -90px}
-#content .about .about-text{transform: rotate(-20deg); margin-top: 70%; margin-left: 20%}
-
+#content .about>div {width: 40%; height: 150%; transform: rotate(20deg); background: #f5692e; position: absolute; right: -70px; top: -90px; display: flex; flex-direction: column; justify-content: center;}
+#content .about .about-text{transform: rotate(-20deg); margin-left: 10%}
 #content .about div .about-text h3 a{display: block }
 #content .about div .about-text h3 a img{width: 80%; height: auto}
 #content .about div>p {width: 70%; font-size: 1.2em; color: #333; margin-top: 10%}
-
-
 
 
 /* CHARACTER CSS */
 
 #content .character{width: 100%; height: 2600px; margin: 0 auto; background: url(../images/contentback.jpg) bottom fixed no-repeat; background-size: cover; position: relative; font-family: "zootopia"}
 #content .character h3{color: #f5692e; font-size: 50px}
-#content .character h3 a{display: block; color: #f5692e; margin: 0 0 130px 100px; padding-top: 200px}
-#content .character .big-judy{width: 80%; margin: 0 10%; z-index: 5; overflow: hidden}
-#content .character .big-judy img{float: left; width: 40%; margin:10% 5%; background: url(../images/dot.png) center no-repeat; padding: 0 10%}
-#content .character .big-judy dl {font-family: 'Nanum Gothic'; float: right; width: 50%; margin-top: 10%; text-align: center}
+#content .character h3 a{display: block; color: #f5692e; margin-bottom: 50px; padding-top: 200px; width: auto; text-align: center;}
+#content .character .big-judy{display: flex; width: 80%; margin: 10%; z-index: 5; overflow: hidden}
+#content .character .big-judy img{width: 40%; background: url(../images/dot.png) center no-repeat; background-size:contain; padding: 0 10%}
+#content .character .big-judy dl {font-family: 'Nanum Gothic'; width: 50%; display: flex; flex-direction: column; justify-content: center; text-align: center}
 #content .character .big-judy dl dt{font-family: "zootopia"; color: #3682d6; font-size: 50px; line-height: 2em}
 #content .character .big-judy dl dd{width: 70%; font-size: 25px; margin: 0 auto}
 
@@ -91,10 +88,10 @@
 #content .ost h3{font-family: "zootopia"; font-size: 70px; text-align: center}
 #content .ost h3 a{display: block; padding: 120px 0 70px; color: #fff}
 #content .ost p{font-family: "zootopia"; font-size: 40px; color: #fff; margin-bottom: 20px; text-align: center}
-#content .ost .change img{width: 40%; margin-left: 25%; padding-bottom: 100px}
-#content .ost .change{filter: grayscale(100%); transition: .5s ease}
+#content .ost-inner{display: flex; max-width: 1024px; width: 100%; margin: 0 auto; padding-bottom: 100px; justify-content: space-evenly;}
+#content .ost .change{ display: block; filter: grayscale(100%); transition: .5s ease}
+#content .ost .change img{width: 100%;}
 #content .ost .change:hover{filter: grayscale(0%)}
-#content .ost ul{float: right; margin-right: 25%;}
 #content .ost ul li{width: 100px; height: 100px; margin-top: 10%}
 #content .ost ul li a{display: block; width: 100px; height: 100px; border-radius: 50px; padding: 5%}
 #content .ost ul li a:hover{box-shadow: 4px 4px 8px #000000; }

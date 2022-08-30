@@ -1,7 +1,10 @@
 /* Common style */
 .grid {
 	margin: 5% ;
-    padding-bottom: 5%;
+  padding-bottom: 5%;
+  width: 100%;
+  max-width: 1024px;
+  margin: 5% auto 0;
 	width: 90%;
 }
 
@@ -48,7 +51,7 @@
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-weight: 700;
-	font-size: 2em;
+	font-size: 1.4em;
 	transition: transform 0.3s;
 }
 
